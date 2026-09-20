@@ -1,4 +1,4 @@
-﻿-- Schema for RRB Technician Grade III CBT Platform
+-- Schema for RRB Technician Grade III CBT Platform
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE IF NOT EXISTS test_sets (
@@ -75,5 +75,17 @@ CREATE TABLE IF NOT EXISTS bookmarks (
     FOREIGN KEY (question_id) REFERENCES questions(id) ON DELETE CASCADE
 );
 
+CREATE TABLE IF NOT EXISTS active_sessions (
+    set_id INTEGER PRIMARY KEY,
+    candidate_id TEXT DEFAULT 'Candidate #2602',
+    current_q_index INTEGER DEFAULT 0,
+    time_remaining INTEGER DEFAULT 5400,
+    responses_json TEXT,
+    is_custom_quiz INTEGER DEFAULT 0,
+    quiz_data_json TEXT,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
 CREATE INDEX IF NOT EXISTS idx_questions_set_sec ON questions(set_id, section);
 CREATE INDEX IF NOT EXISTS idx_attempt_responses ON attempt_responses(attempt_id);
+
