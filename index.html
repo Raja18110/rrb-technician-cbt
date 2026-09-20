@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RRB Technician Grade III · Full-Stack CBT Platform (CEN 02/2025)</title>
+  <link rel="stylesheet" href="css/cbt-style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚆</text></svg>">
+</head>
+<body>
+
+  <div id="app-container">
+    <!-- Top Examination Header (TCS-iON Style) -->
+    <header class="exam-header">
+      <div class="exam-title-group">
+        <h1>RRB Technician Grade III CBT · CEN 02/2025</h1>
+        <div class="sub-title" id="exam-header-title">Personal Examination & Analytics Platform</div>
+      </div>
+
+      <div class="timer-box" id="timer-container" style="display: none;">
+        <span>⏱️ Time Left:</span>
+        <span id="timer-display">90:00</span>
+      </div>
+
+      <div class="candidate-header-info">
+        <div class="candidate-avatar">👤</div>
+        <div class="candidate-meta">
+          <div class="name">Candidate #2602</div>
+          <div style="color: #90caf9; font-size: 0.75rem;">Terminal: C-042 · CEN 02/2025</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation Hub Bar (When not in active exam) -->
+    <nav class="hub-nav" id="hub-nav">
+      <div class="hub-nav-inner">
+        <button class="hub-nav-btn active" id="nav-btn-tests" onclick="switchHubTab('tests')">
+          🚆 Shift Mock Tests (1–9)
+        </button>
+        <button class="hub-nav-btn" id="nav-btn-mistakes" onclick="switchHubTab('mistakes')">
+          📓 Mistakes Notebook <span class="nav-badge" id="mistakes-nav-badge">0</span>
+        </button>
+        <button class="hub-nav-btn" id="nav-btn-quiz" onclick="switchHubTab('quiz')">
+          🎯 Custom Quiz Builder
+        </button>
+        <button class="hub-nav-btn" id="nav-btn-analytics" onclick="switchHubTab('analytics')">
+          📊 Mastery Analytics
+        </button>
+      </div>
+    </nav>
+
+    <!-- 1. HOME / TEST SELECTOR TAB -->
+    <main id="home-view" class="home-container">
+      <div class="hero-banner">
+        <div class="hero-text">
+          <h2>Official Shift PYQ Test Series (CEN 02/2025 &amp; CEN 02/2024)</h2>
+          <p>
+            Authentic Computer Based Test (CBT) portal compiled from all 32 official shift papers across CEN 02/2025 (9 shifts) and CEN 02/2024 (23 shifts). Features real-time 90-minute timer, TCS-iON palette controls, sectional switching, official negative marking (-0.33), session auto-saving, and automated mistake tracking.
+          </p>
+          <div class="hero-badges">
+            <span class="hero-badge">⚡ 32 Full Shifts (3,200 Qs)</span>
+            <span class="hero-badge">📊 Exact 100 Qs / 90 Mins</span>
+            <span class="hero-badge">🎯 -1/3 Negative Marking</span>
+            <span class="hero-badge">📓 Auto Mistakes Notebook</span>
+          </div>
+        </div>
+        <div>
+          <button class="btn btn-clear" style="background:#fff; color:#1b365d; font-weight:700; padding:10px 18px;" onclick="openInstructions()">
+            📖 Exam Instructions
+          </button>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px;">
+        <div>
+          <h3 style="color: #1e293b; font-size: 1.3rem; margin-bottom: 4px;">Official Shift Papers</h3>
+          <span style="font-size: 0.85rem; color: #64748b;">Select any shift to launch the authentic exam simulator</span>
+        </div>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+          <button class="series-filter-btn active" id="filter-series-all" onclick="filterShiftSeries('all')">All Shifts (32)</button>
+          <button class="series-filter-btn" id="filter-series-2025" onclick="filterShiftSeries('CEN 02/2025')">CEN 02/2025 (9)</button>
+          <button class="series-filter-btn" id="filter-series-2024" onclick="filterShiftSeries('CEN 02/2024')">CEN 02/2024 (23)</button>
+        </div>
+      </div>
+
+      <div class="shifts-grid" id="shifts-grid">
+        <!-- Dynamically rendered shifts -->
+      </div>
+    </main>
+
+    <!-- 2. MISTAKES NOTEBOOK TAB -->
+    <main id="mistakes-view" class="home-container" style="display: none;">
+      <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;">
+          <div>
+            <h2 style="color: #1e293b; margin-bottom: 6px;">📓 My Mistakes Notebook</h2>
+            <p style="color: #64748b; font-size: 0.9rem;">
+              Every question answered incorrectly in any test is automatically archived here for targeted practice until mastered.
+            </p>
+          </div>
+          <button class="btn btn-save-next" style="padding: 10px 20px; font-size: 0.95rem;" onclick="startMistakesQuiz()">
+            🎯 Practice My Mistakes (Take Test)
+          </button>
+        </div>
+
+        <div style="display: flex; gap: 12px; margin-top: 20px;">
+          <button class="review-filter-btn active" onclick="filterMistakes('all')">All Errors</button>
+          <button class="review-filter-btn" onclick="filterMistakes('NEEDS_PRACTICE')">Needs Practice</button>
+          <button class="review-filter-btn" onclick="filterMistakes('MASTERED')">Mastered</button>
+        </div>
+      </div>
+
+      <div id="mistakes-list">
+        <!-- Mistakes cards injected dynamically -->
+      </div>
+    </main>
+
+    <!-- 3. CUSTOM QUIZ BUILDER TAB -->
+    <main id="quiz-view" class="home-container" style="display: none;">
+      <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 28px; max-width: 700px; margin: 0 auto;">
+        <h2 style="color: #1e293b; margin-bottom: 8px;">🎯 Adaptive Practice Quiz Generator</h2>
+        <p style="color: #64748b; font-size: 0.9rem; margin-bottom: 24px;">
+          Create customized, focused practice tests tailored to specific subjects or your past mistakes.
+        </p>
+
+        <form id="custom-quiz-form" onsubmit="handleGenerateCustomQuiz(event)">
+          <div style="margin-bottom: 18px;">
+            <label style="display: block; font-weight: 600; margin-bottom: 6px; font-size: 0.9rem;">Practice Mode:</label>
+            <select id="quiz-mode" class="form-control" onchange="toggleQuizSectionSelect()" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #cbd5e1; font-size: 0.95rem;">
+              <option value="section">Subject Specific Drill</option>
+              <option value="mistakes">Mistakes Notebook Only (Weak Spots)</option>
+              <option value="full_mix">Full Mixed PYQ Drill</option>
+            </select>
+          </div>
+
+          <div id="quiz-section-group" style="margin-bottom: 18px;">
+            <label style="display: block; font-weight: 600; margin-bottom: 6px; font-size: 0.9rem;">Target Subject:</label>
+            <select id="quiz-section" class="form-control" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #cbd5e1; font-size: 0.95rem;">
+              <option value="General Science">General Science (Physics, Chemistry, Biology)</option>
+              <option value="Mathematics">Mathematics (Arithmetic, Algebra, Mensuration)</option>
+              <option value="General Intelligence & Reasoning">General Intelligence & Reasoning</option>
+              <option value="General Awareness">General Awareness (Current Affairs & Static GK)</option>
+            </select>
+          </div>
+
+          <div style="margin-bottom: 24px;">
+            <label style="display: block; font-weight: 600; margin-bottom: 6px; font-size: 0.9rem;">Question Count:</label>
+            <div style="display: flex; gap: 14px;">
+              <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                <input type="radio" name="quiz_count" value="10" checked> 10 Questions (~9 mins)
+              </label>
+              <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                <input type="radio" name="quiz_count" value="25"> 25 Questions (~22 mins)
+              </label>
+              <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                <input type="radio" name="quiz_count" value="50"> 50 Questions (~45 mins)
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-save-next" style="width: 100%; padding: 12px; font-size: 1rem; justify-content: center;">
+            🚀 Generate & Start Custom Quiz
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <!-- 4. MASTERY ANALYTICS TAB -->
+    <main id="analytics-view" class="home-container" style="display: none;">
+      <div style="margin-bottom: 24px;">
+        <h2 style="color: #1e293b; margin-bottom: 6px;">📊 Comprehensive Mastery Analytics</h2>
+        <p style="color: #64748b; font-size: 0.9rem;">
+          Track your overall score trajectory, subject strength radar, and accuracy metrics.
+        </p>
+      </div>
+
+      <div class="score-stats-grid" style="margin-bottom: 24px;">
+        <div class="stat-card" style="background: #1e293b;">
+          <div class="stat-val" style="color: #38bdf8;" id="an-tests-taken">0</div>
+          <div class="stat-lbl">Mock Tests Taken</div>
+        </div>
+        <div class="stat-card" style="background: #1e293b;">
+          <div class="stat-val" style="color: #4ade80;" id="an-avg-score">0.00</div>
+          <div class="stat-lbl">Average Score</div>
+        </div>
+        <div class="stat-card" style="background: #1e293b;">
+          <div class="stat-val" style="color: #facc15;" id="an-best-score">0.00</div>
+          <div class="stat-lbl">Best Score</div>
+        </div>
+        <div class="stat-card" style="background: #1e293b;">
+          <div class="stat-val" style="color: #a78bfa;" id="an-avg-accuracy">0%</div>
+          <div class="stat-lbl">Average Accuracy</div>
+        </div>
+      </div>
+
+      <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; margin-bottom: 24px;">
+        <h3 style="color: #1e293b; margin-bottom: 16px; font-size: 1.1rem;">Subject-Wise Accuracy Breakdown</h3>
+        <div id="analytics-subject-bars" style="display: flex; flex-direction: column; gap: 14px;">
+          <!-- Injected dynamically -->
+        </div>
+      </div>
+
+      <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px;">
+        <h3 style="color: #1e293b; margin-bottom: 14px; font-size: 1.1rem;">Recent Attempt History</h3>
+        <table class="summary-table">
+          <thead>
+            <tr>
+              <th>Attempt ID</th>
+              <th>Test Title</th>
+              <th>Date</th>
+              <th>Score</th>
+              <th>Accuracy</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="analytics-history-tbody">
+            <!-- Injected dynamically -->
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <!-- 5. CBT EXAM VIEW (AUTHENTIC TCS-iON INTERFACE) -->
+    <div id="exam-view" style="display: none; flex-direction: column; flex: 1;">
+      <!-- Sections Subheader -->
+      <div class="sections-bar" id="sections-bar"></div>
+
+      <div class="cbt-main-view">
+        <!-- Question Viewport (Left) -->
+        <section class="question-viewport">
+          <div class="question-top-bar">
+            <div class="q-meta-left">
+              <span class="q-number-pill" id="q-number-pill">Question 1 of 100</span>
+              <span class="q-marks-pill">Marking: +1.00, -0.33</span>
+              <span style="font-size: 0.8rem; color: #64748b;" id="q-section-name">Section: General Science</span>
+            </div>
+            <div class="q-meta-right">
+              <button class="toggle-snapshot-btn" onclick="toggleSnapshotView()">
+                📷 <span id="toggle-snapshot-text">View Paper Snapshot</span>
+              </button>
+              <div style="display: flex; gap: 4px; align-items: center;">
+                <span style="font-size: 0.75rem; color: #64748b;">Font:</span>
+                <button class="font-btn" onclick="changeFontSize(-1)">A-</button>
+                <button class="font-btn" onclick="changeFontSize(0)">A</button>
+                <button class="font-btn" onclick="changeFontSize(1)">A+</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="question-scroll-content" id="question-scroll-content"></div>
+
+          <!-- Bottom Action Buttons -->
+          <footer class="question-footer-bar">
+            <div class="footer-left-actions">
+              <button class="btn btn-review" onclick="handleMarkReview()">
+                🟣 Mark for Review & Next
+              </button>
+              <button class="btn btn-clear" onclick="handleClearResponse()">
+                Clear Response
+              </button>
+            </div>
+            <div class="footer-right-actions">
+              <button class="btn btn-prev" onclick="handlePrev()">
+                &larr; Previous
+              </button>
+              <button class="btn btn-save-next" onclick="handleSaveNext()">
+                Save & Next &rarr;
+              </button>
+            </div>
+          </footer>
+        </section>
+
+        <!-- Sidebar Palette & Candidate Info (Right) -->
+        <aside class="cbt-sidebar">
+          <div class="sidebar-candidate-card">
+            <div class="user-pic">👤</div>
+            <div class="sidebar-candidate-details">
+              <h4>Candidate #2602</h4>
+              <p>Roll No: 2602025001</p>
+              <p>Exam: RRB Tech III CBT</p>
+            </div>
+          </div>
+
+          <!-- Legend Box -->
+          <div class="palette-legend">
+            <div class="legend-item">
+              <span class="legend-badge badge-answered" id="count-answered">0</span>
+              <span>Answered</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-badge badge-not-answered" id="count-not-answered">1</span>
+              <span>Not Answered</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-badge badge-not-visited" id="count-not-visited">99</span>
+              <span>Not Visited</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-badge badge-marked" id="count-marked">0</span>
+              <span>Marked for Review</span>
+            </div>
+            <div class="legend-item" style="grid-column: span 2;">
+              <span class="legend-badge badge-ans-marked" id="count-ans-marked">0</span>
+              <span>Answered & Marked for Review</span>
+            </div>
+          </div>
+
+          <!-- Question Grid -->
+          <div class="palette-container">
+            <div class="palette-filter-row">
+              <span class="palette-title" id="palette-total-title">Question Palette (100)</span>
+            </div>
+            <div class="q-grid" id="palette-grid"></div>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="sidebar-submit-container">
+            <button class="btn-submit-exam" onclick="promptSubmitExam()">
+              ✓ Submit Exam
+            </button>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!-- 6. RESULT & SCORECARD VIEW -->
+    <main id="result-view" class="result-container" style="display: none;">
+      <div class="scorecard-banner">
+        <h2>🎉 Exam Completed! Official Scorecard</h2>
+        <div class="main-score-display"><span id="res-score-val">0.00</span> <span style="font-size: 1.5rem; color:#e2e8f0;" id="res-max-marks">/ 100</span></div>
+        <p style="color: #cbd5e1; font-size: 0.95rem;">Calculated as: (Correct × 1) - (Incorrect × 0.3333)</p>
+
+        <div class="score-stats-grid">
+          <div class="stat-card">
+            <div class="stat-val" style="color: #4ade80;" id="res-correct">0</div>
+            <div class="stat-lbl">Correct (+1)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val" style="color: #f87171;" id="res-wrong">0</div>
+            <div class="stat-lbl">Incorrect (-0.33)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val" style="color: #94a3b8;" id="res-unattempted">0</div>
+            <div class="stat-lbl">Unattempted (0)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val" style="color: #60a5fa;" id="res-accuracy">0%</div>
+            <div class="stat-lbl">Accuracy Rate</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Time & Section Performance -->
+      <div style="background:#fff; border-radius:10px; padding:20px; border:1px solid #e2e8f0; margin-bottom: 24px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+          <h3 style="color:#1e293b; font-size:1.1rem;">Subject Performance Breakdown</h3>
+          <span style="font-size:0.85rem; color:#64748b;">Time Spent: <strong id="res-time-taken" style="color:#0f172a;">0m 0s</strong></span>
+        </div>
+
+        <table class="summary-table">
+          <thead>
+            <tr>
+              <th>Subject</th>
+              <th>Total Qs</th>
+              <th>Attempted</th>
+              <th>Correct</th>
+              <th>Incorrect</th>
+              <th>Net Marks</th>
+              <th>Accuracy</th>
+            </tr>
+          </thead>
+          <tbody id="res-section-table-body"></tbody>
+        </table>
+
+        <div style="display: flex; gap: 12px; margin-top: 20px;">
+          <button class="btn btn-save-next" onclick="renderHomeView()">
+            🏠 Back to Dashboard
+          </button>
+          <button class="btn btn-prev" onclick="startTest(APP_STATE.currentSetId)">
+            🔄 Re-attempt Test
+          </button>
+        </div>
+      </div>
+
+      <!-- Detailed Question by Question Solution -->
+      <div style="margin-top: 30px;">
+        <div class="review-filter-bar">
+          <h3 style="color: #1e293b; font-size: 1.2rem;">Detailed Solutions & Paper Review</h3>
+          <div style="display: flex; gap: 8px;">
+            <button class="review-filter-btn active" data-filter="all" onclick="filterReview('all')">All</button>
+            <button class="review-filter-btn" data-filter="correct" onclick="filterReview('correct')">Correct</button>
+            <button class="review-filter-btn" data-filter="wrong" onclick="filterReview('wrong')">Incorrect</button>
+            <button class="review-filter-btn" data-filter="skipped" onclick="filterReview('skipped')">Unattempted</button>
+          </div>
+        </div>
+
+        <div id="review-questions-list"></div>
+      </div>
+    </main>
+
+    <!-- SUBMIT CONFIRMATION MODAL -->
+    <div class="modal-overlay" id="submit-modal" style="display: none;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Exam Summary & Final Submission</h3>
+          <span style="cursor:pointer; font-size:1.3rem;" onclick="closeSubmitModal()">&times;</span>
+        </div>
+        <div class="modal-body">
+          <p>Please review your summary before final submission. Remaining time: <strong id="modal-time-rem" style="color:#2563eb;">--</strong></p>
+          <table class="summary-table">
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>Total</th>
+                <th>Answered</th>
+                <th>Not Answered</th>
+                <th>Marked</th>
+                <th>Not Visited</th>
+              </tr>
+            </thead>
+            <tbody id="modal-summary-body"></tbody>
+          </table>
+          <p style="font-size:0.85rem; color:#b91c1c; margin-top:10px;">
+            ⚠️ <strong>Warning:</strong> Once submitted, your score will be calculated and wrong answers synced to your Mistakes Notebook.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-clear" onclick="closeSubmitModal()">Resume Test</button>
+          <button class="btn btn-save-next" onclick="confirmSubmitExam()">Yes, Submit Exam</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- INSTRUCTIONS MODAL -->
+    <div class="modal-overlay" id="instructions-modal" style="display: none;">
+      <div class="modal-content" style="max-width: 750px;">
+        <div class="modal-header">
+          <h3>Official RRB Technician Grade III CBT Instructions</h3>
+          <span style="cursor:pointer; font-size:1.3rem;" onclick="closeInstructions()">&times;</span>
+        </div>
+        <div class="modal-body" style="line-height: 1.7; font-size: 0.9rem;">
+          <h4 style="color:#1e3a8a; margin-bottom:8px;">General Guidelines:</h4>
+          <ol style="padding-left: 20px; margin-bottom: 16px;">
+            <li>The total duration of the examination is <strong>90 minutes</strong> (120 minutes for eligible PwBD candidates).</li>
+            <li>The countdown timer in the top right corner displays the remaining time.</li>
+            <li>There are <strong>100 multiple choice objective questions</strong> across 4 sections:
+              <ul>
+                <li><strong>General Science:</strong> 40 Questions (40 Marks)</li>
+                <li><strong>Mathematics:</strong> 25 Questions (25 Marks)</li>
+                <li><strong>General Intelligence & Reasoning:</strong> 25 Questions (25 Marks)</li>
+                <li><strong>General Awareness:</strong> 10 Questions (10 Marks)</li>
+              </ul>
+            </li>
+            <li><strong>Marking Scheme:</strong> Each correct response awards <strong>+1.00 Mark</strong>. Each incorrect response incurs a deduction of <strong>1/3rd Mark (-0.33)</strong>. There is no penalty for unattempted questions.</li>
+          </ol>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-save-next" onclick="closeInstructions()">I Have Read the Instructions</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Client-side Fallback Data Scripts (for zero-dependency standalone usage) -->
+  <script src="data/sets_meta.js"></script>
+  <script src="data/set1.js"></script>
+  <script src="data/set2.js"></script>
+  <script src="data/set3.js"></script>
+  <script src="data/set4.js"></script>
+  <script src="data/set5.js"></script>
+  <script src="data/set6.js"></script>
+  <script src="data/set7.js"></script>
+  <script src="data/set8.js"></script>
+  <script src="data/set9.js"></script>
+  <script src="data/set10.js"></script>
+  <script src="data/set11.js"></script>
+  <script src="data/set12.js"></script>
+  <script src="data/set13.js"></script>
+  <script src="data/set14.js"></script>
+  <script src="data/set15.js"></script>
+  <script src="data/set16.js"></script>
+  <script src="data/set17.js"></script>
+  <script src="data/set18.js"></script>
+  <script src="data/set19.js"></script>
+  <script src="data/set20.js"></script>
+  <script src="data/set21.js"></script>
+  <script src="data/set22.js"></script>
+  <script src="data/set23.js"></script>
+  <script src="data/set24.js"></script>
+  <script src="data/set25.js"></script>
+  <script src="data/set26.js"></script>
+  <script src="data/set27.js"></script>
+  <script src="data/set28.js"></script>
+  <script src="data/set29.js"></script>
+  <script src="data/set30.js"></script>
+  <script src="data/set31.js"></script>
+  <script src="data/set32.js"></script>
+
+  <!-- Frontend Engine Script -->
+  <script src="js/cbt-app.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      window.initCBTApp();
+    });
+  </script>
+</body>
+</html>

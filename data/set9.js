@@ -1,0 +1,1502 @@
+window.SET_9_DATA = [
+  {
+    "id": 1,
+    "section": "General Science",
+    "question": "Choose a term to complete the analogy. Prokaryotic cell : Small and simple :: Eukaryotic cell : _______",
+    "options": {
+      "A": "Smaller and simple",
+      "B": "Irregular and simple",
+      "C": "Larger and complex",
+      "D": "Same size and complexity"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q1.png"
+  },
+  {
+    "id": 2,
+    "section": "General Science",
+    "question": "Two bodies A and B are travelling in uniform motion, the slope of the distance- time graph of body A is greater than the slope of the distance - time graph of body B. Which of the following statements is correct?",
+    "options": {
+      "A": "The speed of body A is equal to the speed of body B.",
+      "B": "The speed of body A is less than the speed of body B.",
+      "C": "The speed of body A is greater than speed of body B.",
+      "D": "The acceleration of body A is greater than the acceleration of body B."
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q2.png"
+  },
+  {
+    "id": 3,
+    "section": "General Science",
+    "question": "Which property do isobars share?",
+    "options": {
+      "A": "Same chemical properties",
+      "B": "Same number of protons",
+      "C": "Same mass number",
+      "D": "Same atomic number"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q3.png"
+  },
+  {
+    "id": 4,
+    "section": "General Science",
+    "question": "In the electrolytic refining of copper, which of the following acts as the anode?",
+    "options": {
+      "A": "Pure copper plate",
+      "B": "Impure copper block",
+      "C": "Carbon electrode",
+      "D": "Copper sulphate solution"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q4.png"
+  },
+  {
+    "id": 5,
+    "section": "General Science",
+    "question": "The difference in electrical conductivity between diamond and graphite arises because:",
+    "options": {
+      "A": "Diamond has tightly packed ions",
+      "B": "Both have free electrons, but in different numbers",
+      "C": "Diamond has metallic bonding, graphite does not",
+      "D": "Graphite has delocalized electrons; diamond does not"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q5.png"
+  },
+  {
+    "id": 6,
+    "section": "General Science",
+    "question": "Even though action and reaction forces are equal in size, they may not cause equal accelerations. Why?",
+    "options": {
+      "A": "Because only the larger force causes acceleration",
+      "B": "Because each force acts on a different object, and the objects may have different masses",
+      "C": "Because the forces act on the same object",
+      "D": "Because reaction forces are always weaker in effect"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q6.png"
+  },
+  {
+    "id": 7,
+    "section": "General Science",
+    "question": "A distance–time graph for uniform motion must pass through ________.",
+    "options": {
+      "A": "Any point",
+      "B": "(0, 1)",
+      "C": "(1, 1) only",
+      "D": "The origin"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q7.png"
+  },
+  {
+    "id": 8,
+    "section": "General Science",
+    "question": "The rough endoplasmic reticulum is associated with:",
+    "options": {
+      "A": "Lipid synthesis",
+      "B": "Enzyme breakdown",
+      "C": "Protein synthesis",
+      "D": "DNA replication"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q8.png"
+  },
+  {
+    "id": 9,
+    "section": "General Science",
+    "question": "A car has a mass of 120 kg. How much work must be done to raise its speed from 72 km/h to 108 km/h?",
+    "options": {
+      "A": "1.0 × 10⁴ J",
+      "B": "4.0 × 10⁴ J",
+      "C": "2.0 × 10⁴ J",
+      "D": "3.0 × 10⁴ J"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q9.png"
+  },
+  {
+    "id": 10,
+    "section": "General Science",
+    "question": "Which cropping pattern maintains soil fertility through planned crop succession?",
+    "options": {
+      "A": "Crop rotation",
+      "B": "Relay cropping",
+      "C": "Mixed cropping",
+      "D": "Monocropping"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q10.png"
+  },
+  {
+    "id": 11,
+    "section": "General Science",
+    "question": "Which of the following is correct regarding the male and female gamete?",
+    "options": {
+      "A": "Male gamete is small and motile; and female gamete is larger and non-motile.",
+      "B": "Male gamete is large and motile; and female gamete is smaller and non-motile.",
+      "C": "Male gamete is small and non-motile; and female gamete is larger and motile.",
+      "D": "Male gamete is large and non-motile; and female gamete is smaller and motile."
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q11.png"
+  },
+  {
+    "id": 12,
+    "section": "General Science",
+    "question": "Which statement most accurately describes why food webs provide greater stability to an ecosystem compared to single food chains?",
+    "options": {
+      "A": "They recycle only energy.",
+      "B": "They have fewer organisms.",
+      "C": "They allow multiple feeding relationships, ensuring balance.",
+      "D": "They involve only producers."
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q12.png"
+  },
+  {
+    "id": 13,
+    "section": "General Science",
+    "question": "What specialisation is commonly found in the epidermal cells of plant roots to aid in their primary function?",
+    "options": {
+      "A": "A thick, waxy coating of cutin",
+      "B": "Long, hair-like extensions",
+      "C": "Large air cavities (aerenchyma)",
+      "D": "Irregularly thickened corners"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q13.png"
+  },
+  {
+    "id": 14,
+    "section": "General Science",
+    "question": "If the velocity-time graph is curved (non-linear), the object is moving with _________.",
+    "options": {
+      "A": "Constant rate of change of momentum",
+      "B": "Constant speed",
+      "C": "Non-uniform acceleration",
+      "D": "Uniform acceleration"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q14.png"
+  },
+  {
+    "id": 15,
+    "section": "General Science",
+    "question": "The solubility of gases in liquids generally:",
+    "options": {
+      "A": "Decreases with increase in temperature",
+      "B": "Increases with increase in temperature",
+      "C": "Is unaffected by temperature",
+      "D": "First increases then decreases with increase in temperature"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q15.png"
+  },
+  {
+    "id": 16,
+    "section": "General Science",
+    "question": "In a chemical reaction, 5.6 g of sodium reacts with 8.0 g of chlorine to form sodium chloride. What is the mass of sodium chloride formed according to the Law of Conservation of Mass?",
+    "options": {
+      "A": "8.0 g",
+      "B": "13.6 g",
+      "C": "14.4 g",
+      "D": "12.4 g"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q16.png"
+  },
+  {
+    "id": 17,
+    "section": "General Science",
+    "question": "Which of the following is NOT attributed to Areolar connective tissues in the human body?",
+    "options": {
+      "A": "Supporting internal organs",
+      "B": "Filling the space inside organs",
+      "C": "Storing fat globules for insulation",
+      "D": "Helping in the repair of tissues"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q17.png"
+  },
+  {
+    "id": 18,
+    "section": "General Science",
+    "question": "What happens to a ray of light that either passes through the principal focus (for a convex lens) or appears to meet at the principal focus (for a concave lens) before striking the lens?",
+    "options": {
+      "A": "It bends randomly after refraction.",
+      "B": "It forms an image at the focal plane of the lens.",
+      "C": "It always converges at the optical centre.",
+      "D": "It emerges parallel to the principal axis after refraction."
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q18.png"
+  },
+  {
+    "id": 19,
+    "section": "General Science",
+    "question": "Which of the following correctly explains why veins have valves but arteries do not?",
+    "options": {
+      "A": "Arteries are located deep inside the body and are supported by muscles",
+      "B": "Veins carry blood at low pressure and need valves to prevent backflow",
+      "C": "Arteries carry oxygenated blood and do not need valves",
+      "D": "Veins carry blood under high pressure, so valves prevent it from bursting"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q19.png"
+  },
+  {
+    "id": 20,
+    "section": "General Science",
+    "question": "A device often used in electric circuits to change the resistance without changing the voltage source is the ___________.",
+    "options": {
+      "A": "Fuse",
+      "B": "Rheostat",
+      "C": "Voltmeter",
+      "D": "Ammeter"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q20.png"
+  },
+  {
+    "id": 21,
+    "section": "General Science",
+    "question": "The distance between the pole and the position of the object placed in front of a concave mirror is 120 cm. A real and inverted image is formed by this mirror on a screen at 40 cm from the pole of this mirror. What will be the focal length of this mirror?",
+    "options": {
+      "A": "+ 30 cm",
+      "B": "- 30 cm",
+      "C": "- 60 cm",
+      "D": "+ 60 cm"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q21.png"
+  },
+  {
+    "id": 22,
+    "section": "General Science",
+    "question": "Addition reactions are characteristic of which type of hydrocarbons?",
+    "options": {
+      "A": "Only alkynes",
+      "B": "Only alkenes",
+      "C": "Both alkynes and alkenes",
+      "D": "Only alkanes"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q22.png"
+  },
+  {
+    "id": 23,
+    "section": "General Science",
+    "question": "Which of the following relations is incorrect for electric power (P)?",
+    "options": {
+      "A": "P=VI",
+      "B": "P=R/V2",
+      "C": "P=I2R",
+      "D": "P=V2/R​"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q23.png"
+  },
+  {
+    "id": 24,
+    "section": "General Science",
+    "question": "Complete the analogy. Kharif : Rainy season :: Rabi :____________",
+    "options": {
+      "A": "Autumn season",
+      "B": "Summer season",
+      "C": "Spring season",
+      "D": "Winter season"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q24.png"
+  },
+  {
+    "id": 25,
+    "section": "General Science",
+    "question": "If two isotopes of an element ‘X’ are X-35 and X-37, the average atomic mass of chlorine (if X-35 = 25% and X-37 = 75%) will be:",
+    "options": {
+      "A": "34.5 u",
+      "B": "36.5 u",
+      "C": "36.0 u",
+      "D": "35.5 u"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q25.png"
+  },
+  {
+    "id": 26,
+    "section": "General Science",
+    "question": "A convex mirror produces a magnification of 1/3 when an object is placed at a distance of 30 cm from it. How much will be the image distance?",
+    "options": {
+      "A": "+ 10 cm",
+      "B": "- 90 cm",
+      "C": "- 10 cm",
+      "D": "+ 90 cm"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q26.png"
+  },
+  {
+    "id": 27,
+    "section": "General Science",
+    "question": "A convex mirror of focal length 'X' cm forms an image at a distance of 8 cm when the object is placed at a distance of 40 cm in front of the mirror. What is the value of X?",
+    "options": {
+      "A": "- 10 cm",
+      "B": "- 20/3 cm",
+      "C": "+ 10 cm",
+      "D": "+ 20/3 cm"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q27.png"
+  },
+  {
+    "id": 28,
+    "section": "General Science",
+    "question": "The location of an object is always described by specifying a point of reference known as the __________.",
+    "options": {
+      "A": "Axis",
+      "B": "Origin",
+      "C": "Final position",
+      "D": "Displacement"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q28.png"
+  },
+  {
+    "id": 29,
+    "section": "General Science",
+    "question": "Which of the following is the method used for refining metals such as copper, zinc and silver?",
+    "options": {
+      "A": "Smelting",
+      "B": "Electrolytic refining",
+      "C": "Extraction",
+      "D": "Distillation"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q29.png"
+  },
+  {
+    "id": 30,
+    "section": "General Science",
+    "question": "If an element forms an ion with a charge of −2, what does this indicate about its valency?",
+    "options": {
+      "A": "The element has gained 2 electrons.",
+      "B": "The element has 2 electrons in the nucleus.",
+      "C": "The element has lost 2 electrons.",
+      "D": "The element has gained 2 protons."
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q30.png"
+  },
+  {
+    "id": 31,
+    "section": "General Science",
+    "question": "Identify the product formed when copper metal is exposed to dilute hydrochloric acid.",
+    "options": {
+      "A": "No reaction",
+      "B": "Salt and hydrogen gas",
+      "C": "Only Salt",
+      "D": "Salt and chlorine gas"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q31.png"
+  },
+  {
+    "id": 32,
+    "section": "General Science",
+    "question": "______________ is a process in which persistent, non- degradable chemicals become progressively more concentrated at each higher trophic level in a food chain.",
+    "options": {
+      "A": "Biological magnification",
+      "B": "Ecological succession",
+      "C": "Biodegradation",
+      "D": "Bioremediation"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q32.png"
+  },
+  {
+    "id": 33,
+    "section": "General Science",
+    "question": "Which of the following is/are NOT true about action reaction forces? (i) Action reaction forces are unequal in magnitude and always act in the same direction. (ii) Action reaction forces act on different bodies. (iii) Action reaction forces act on the same body.",
+    "options": {
+      "A": "Only (iii)",
+      "B": "Only (ii)",
+      "C": "Both (i) and (ii)",
+      "D": "Both (i) and (iii)"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q33.png"
+  },
+  {
+    "id": 34,
+    "section": "General Science",
+    "question": "Which of the following pairs are correctly matched as structural isomers? A) Pentane − 2-methylbutane B) Butane − 2-methylpropane C) Benzene − cyclohexene",
+    "options": {
+      "A": "A, B and C",
+      "B": "A and C only",
+      "C": "B and C only",
+      "D": "A and B only"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q34.png"
+  },
+  {
+    "id": 35,
+    "section": "General Science",
+    "question": "What is formed when the male germ-cell from the pollen grain fuses with the female gamete in flowering plants?",
+    "options": {
+      "A": "Ovule",
+      "B": "Pollen grain",
+      "C": "Stigma",
+      "D": "Zygote"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q35.png"
+  },
+  {
+    "id": 36,
+    "section": "General Science",
+    "question": "Meristematic tissue contributes to plant growth because its cells:",
+    "options": {
+      "A": "Have thick secondary walls",
+      "B": "Are permanently differentiated",
+      "C": "Continuously divide throughout life",
+      "D": "Contain large central vacuoles"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q36.png"
+  },
+  {
+    "id": 37,
+    "section": "General Science",
+    "question": "Choose a term to complete the analogy. Apical Meristem : Length :: Lateral Meristem : _______________",
+    "options": {
+      "A": "Cell differentiation only",
+      "B": "Girth",
+      "C": "Nodes",
+      "D": "Tips of stems"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q37.png"
+  },
+  {
+    "id": 38,
+    "section": "General Science",
+    "question": "According to Bohr’s model, where are electrons found in an atom?",
+    "options": {
+      "A": "Resting outside the atom in free space",
+      "B": "Moving in fixed circular orbits around the nucleus",
+      "C": "Fixed positions inside the nucleus",
+      "D": "Randomly scattered inside the atom"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q38.png"
+  },
+  {
+    "id": 39,
+    "section": "General Science",
+    "question": "The centre of curvature (C) of a concave mirror is located ____________.",
+    "options": {
+      "A": "Behind the mirror",
+      "B": "At infinity",
+      "C": "At the pole (P)",
+      "D": "In front of the mirror"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q39.png"
+  },
+  {
+    "id": 40,
+    "section": "General Science",
+    "question": "If the pH of a solution is 3, what is the concentration of hydrogen ions in the solution?",
+    "options": {
+      "A": "3×10−2M",
+      "B": "1×10−3 M",
+      "C": "1×10−2 M",
+      "D": "3×10−3 M"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q40.png"
+  },
+  {
+    "id": 41,
+    "section": "Mathematics",
+    "question": "Find the third proportional to a3 − b3 and a2 + b2 + ab, when a = 16 and b = 12.",
+    "options": {
+      "A": "160",
+      "B": "158",
+      "C": "150",
+      "D": "148"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q41.png"
+  },
+  {
+    "id": 42,
+    "section": "Mathematics",
+    "question": "Which of the following numbers is divisible by both 17 and 13?",
+    "options": {
+      "A": "22372",
+      "B": "21658",
+      "C": "21401",
+      "D": "20049"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q42.png"
+  },
+  {
+    "id": 43,
+    "section": "Mathematics",
+    "question": "What is the mode of the following data? 50, 43, 40, 51, 44, 46, 40, 43, 41, 45, 46, 40, 45, 47, 45, 49, 47, 40",
+    "options": {
+      "A": "40",
+      "B": "45",
+      "C": "46",
+      "D": "43"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q43.png"
+  },
+  {
+    "id": 44,
+    "section": "Mathematics",
+    "question": "Simplify: (3.6 × 2.5) − (4.8 ÷ 1.6) + (3.2 × 0.5)",
+    "options": {
+      "A": "7.4",
+      "B": "7.6",
+      "C": "7.2",
+      "D": "7.8"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q44.png"
+  },
+  {
+    "id": 45,
+    "section": "Mathematics",
+    "question": "A dealer buys two articles X and Y for ₹3,400 each. He marks each of them at the same price. He sells X by giving two successive discounts of 10% and 50% and still earns ₹323 as profit. If he sells Y at a single discount of 28%, then what is the profit percentage on Y?",
+    "options": {
+      "A": "74%",
+      "B": "75%",
+      "C": "74.2%",
+      "D": "75.2%"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q45.png"
+  },
+  {
+    "id": 46,
+    "section": "Mathematics",
+    "question": "A, B, and C invested money in the ratio of 2 : 3 : 4 for periods in the ratio of 6 : 4 : 3, respectively. If the total profit is ₹1,32,000, what is the share of C?",
+    "options": {
+      "A": "₹44,000",
+      "B": "₹45,000",
+      "C": "₹42,000",
+      "D": "₹43,000"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q46.png"
+  },
+  {
+    "id": 47,
+    "section": "Mathematics",
+    "question": "Given that 740.45 = x, 740.12 = y and xz = y2, then the value of z is close to:",
+    "options": {
+      "A": "2.52",
+      "B": "3.99",
+      "C": "1.45",
+      "D": "0.53"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q47.png"
+  },
+  {
+    "id": 48,
+    "section": "Mathematics",
+    "question": "The price of a laptop increased by 20% in the first month, then decreased by 10% in the second month, and increased again by 15% in the third month. If the original price of the laptop was ₹1,20,000, what is the final price after these three changes?7 360",
+    "options": {
+      "A": "₹1,42,800",
+      "B": "₹1,38,000",
+      "C": "₹1,49,040",
+      "D": "₹1,41,000"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q48.png"
+  },
+  {
+    "id": 49,
+    "section": "Mathematics",
+    "question": "Two persons A and B start from the same point. A walks at 5 km/h. After 't' hours B starts and catches A after 2 hours of his own walking. If B’s speed is 8 km/h, what is the value of 't'?",
+    "options": {
+      "A": "1.4",
+      "B": "1.5",
+      "C": "1.3",
+      "D": "1.2"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q49.png"
+  },
+  {
+    "id": 50,
+    "section": "Mathematics",
+    "question": "In a class, there are 36 boys and 24 girls. By what percentage should the number of girls be increased so that it becomes equal to the number of boys?",
+    "options": {
+      "A": "50%",
+      "B": "40%",
+      "C": "30%",
+      "D": "60%"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q50.png"
+  },
+  {
+    "id": 51,
+    "section": "Mathematics",
+    "question": "In a family, the sum of the ages of a father and son is 50 years. 10 years from now, the difference in their ages will be 20 years. Find the ratio of the son's age to the father's age.",
+    "options": {
+      "A": "3:7",
+      "B": "2:7",
+      "C": "4:7",
+      "D": "5:8"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q51.png"
+  },
+  {
+    "id": 52,
+    "section": "Mathematics",
+    "question": "What sum of money (in ₹) will yield ₹700 as simple interest in 2 years at 8% per annum?",
+    "options": {
+      "A": "4575",
+      "B": "3875",
+      "C": "4775",
+      "D": "4375"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q52.png"
+  },
+  {
+    "id": 53,
+    "section": "Mathematics",
+    "question": "When one-third of a number is increased by 10, the result is 65. Find the sum of the digits of the original number.",
+    "options": {
+      "A": "14",
+      "B": "9",
+      "C": "12",
+      "D": "11"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q53.png"
+  },
+  {
+    "id": 54,
+    "section": "Mathematics",
+    "question": "If 40 pages are printed in 5 minutes by a printer, how many pages will be printed in 3 hours?",
+    "options": {
+      "A": "1810",
+      "B": "1560",
+      "C": "1620",
+      "D": "1440"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q54.png"
+  },
+  {
+    "id": 55,
+    "section": "Mathematics",
+    "question": "A can do a piece of work in 63 hours; B and C together can do it in 48 hours, while A and C together can do it in 36 hours. How long (in hours) will B alone take to do it?4047",
+    "options": {
+      "A": "112",
+      "B": "113",
+      "C": "114",
+      "D": "111"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q55.png"
+  },
+  {
+    "id": 56,
+    "section": "Mathematics",
+    "question": "The average age of six girls increases by four months, if a 12 - year old girl is replaced by a new girl. The age of the new girl is:",
+    "options": {
+      "A": "14 years",
+      "B": "13 years",
+      "C": "15 years",
+      "D": "16 years"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q56.png"
+  },
+  {
+    "id": 57,
+    "section": "Mathematics",
+    "question": "During a sale, 44% of the goods are sold at a profit of 47%. Of the remaining goods, 25% are sold at a profit of 22%, and the rest are sold at a loss of 38%. If the overall profit is x%, what is the value of x?",
+    "options": {
+      "A": "18.5",
+      "B": "18",
+      "C": "7.8",
+      "D": "12.4"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q57.png"
+  },
+  {
+    "id": 58,
+    "section": "Mathematics",
+    "question": "A can complete a piece of work in 10 days and B can complete the same work in 15 days, when each works individually. Both A and B work together for 3 days. After that, B leaves the work, and A alone completes the remaining work. How many days will A take to finish the remaining work alone?",
+    "options": {
+      "A": "10 days",
+      "B": "5 days",
+      "C": "6 days",
+      "D": "8 days"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q58.png"
+  },
+  {
+    "id": 59,
+    "section": "Mathematics",
+    "question": "A trapezium has parallel sides of lengths 17 cm and 29 cm, and the distance between them is 15 cm. What is the area of the trapezium?",
+    "options": {
+      "A": "325 cm2",
+      "B": "315 cm2",
+      "C": "335 cm2",
+      "D": "345 cm2"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q59.png"
+  },
+  {
+    "id": 60,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "16",
+      "B": "20",
+      "C": "14",
+      "D": "12"
+    },
+    "correct": "A",
+    "has_diagram": true,
+    "diagram_img": "cards/diag_s9_q60_686.png",
+    "card_img": "cards/set9_q60.png"
+  },
+  {
+    "id": 61,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "D",
+    "has_diagram": true,
+    "diagram_img": "cards/diag_s9_q61_689.png",
+    "card_img": "cards/set9_q61.png"
+  },
+  {
+    "id": 62,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "25",
+      "B": "15",
+      "C": "12",
+      "D": "20"
+    },
+    "correct": "B",
+    "has_diagram": true,
+    "diagram_img": "cards/diag_s9_q62_693.png",
+    "card_img": "cards/set9_q62.png"
+  },
+  {
+    "id": 63,
+    "section": "Mathematics",
+    "question": "A cylindrical rod has an outer curved surface area of 7900 cm2. If the length of the rod is 3 cm, then the outer radius (in cm) of the rod, correct to two places of decimal, is:",
+    "options": {
+      "A": "418.94",
+      "B": "417.52",
+      "C": "420.85",
+      "D": "419.12"
+    },
+    "correct": "A",
+    "has_diagram": true,
+    "diagram_img": "cards/diag_s9_q63_344.png",
+    "card_img": "cards/set9_q63.png"
+  },
+  {
+    "id": 64,
+    "section": "Mathematics",
+    "question": "G is the centroid of the equilateral triangle ABC. If AB = 36 cm, then length (in cm) of AG is:",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": true,
+    "diagram_img": "cards/diag_s9_q64_695.png",
+    "card_img": "cards/set9_q64.png"
+  },
+  {
+    "id": 65,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "24",
+      "B": "25",
+      "C": "22",
+      "D": "26"
+    },
+    "correct": "D",
+    "has_diagram": true,
+    "diagram_img": "cards/diag_s9_q65_705.png",
+    "card_img": "cards/set9_q65.png"
+  },
+  {
+    "id": 66,
+    "section": "General Intelligence & Reasoning",
+    "question": "What should come in place of ? in the given series based on the English alphabetical order? GXK OFS WNA EVI ?",
+    "options": {
+      "A": "MDQ",
+      "B": "MDO",
+      "C": "MDR",
+      "D": "MRF"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q66.png"
+  },
+  {
+    "id": 67,
+    "section": "General Intelligence & Reasoning",
+    "question": "In a certain code language, ‘never fear life’ is coded as ‘ro sb kp’ and ‘now or never’ is coded as ‘sb tg ct’. How is ‘never’ coded in the given language? (All the codes are two-letter codes only.)",
+    "options": {
+      "A": "kp",
+      "B": "sb",
+      "C": "tg",
+      "D": "ct"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q67.png"
+  },
+  {
+    "id": 68,
+    "section": "General Intelligence & Reasoning",
+    "question": "Seven people, A, K, Q, D, E, F and N, are sitting in a row, facing north. D sits sixth from the right end of the row. Only three people sit between F and D. E is the immediate neighbour of Q and N. K sits second to the left of N. Who sits third to the left of A?",
+    "options": {
+      "A": "K",
+      "B": "Q",
+      "C": "D",
+      "D": "E"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q68.png"
+  },
+  {
+    "id": 69,
+    "section": "General Intelligence & Reasoning",
+    "question": "All the individual letters in the word PICKLED are arranged in alphabetical order. How many letters are there in the English alphabetical order between the letter which is second from the left and the one which is fourth from the right in the new letter cluster thus formed?6537",
+    "options": {
+      "A": "Two",
+      "B": "One",
+      "C": "Four",
+      "D": "Three"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q69.png"
+  },
+  {
+    "id": 70,
+    "section": "General Intelligence & Reasoning",
+    "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which is the one that does not belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)4496",
+    "options": {
+      "A": "JO – HM",
+      "B": "PU – MR",
+      "C": "CH – AF",
+      "D": "FK – DI"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q70.png"
+  },
+  {
+    "id": 71,
+    "section": "General Intelligence & Reasoning",
+    "question": "Ap, Bx, Cu, Dk, Ey, Fn and Gm are sitting around a circular table facing the centre. Dk sits to the immediate right of Bx. Cu is the immediate neighbour of Ey and Dk. Fn sits second to the right of Ap. What is the position of Gm with respect to Ey?",
+    "options": {
+      "A": "Second to the left",
+      "B": "Immediate left",
+      "C": "Third to the right",
+      "D": "Second to the right"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q71.png"
+  },
+  {
+    "id": 72,
+    "section": "General Intelligence & Reasoning",
+    "question": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right. (Left) S I C X Z O A K L N T E W A Q D F H G U K O (Right) How many such consonants are there, each of which is immediately preceded by a vowel and also immediately followed by a vowel?",
+    "options": {
+      "A": "Two",
+      "B": "One",
+      "C": "Three",
+      "D": "None"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q72.png"
+  },
+  {
+    "id": 73,
+    "section": "General Intelligence & Reasoning",
+    "question": "In a certain code language, A + B means ‘A is the sister of B’ A – B means ‘A is the brother of B’ A x B means ‘A is the wife of B’ A ÷ B means ‘A is the father of B’ Based on the above, how is T related to K if ‘T ÷ G – D + M x K’?",
+    "options": {
+      "A": "Father",
+      "B": "Wife's brother",
+      "C": "Wife's father",
+      "D": "Brother"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q73.png"
+  },
+  {
+    "id": 74,
+    "section": "General Intelligence & Reasoning",
+    "question": "Shreya is the wife of Govind. Govind is the brother of Harshit. Harshit is the father of Mahak. Mahak is the sister of Aditya. How is Shreya related to Aditya?",
+    "options": {
+      "A": "Mother's brother's wife",
+      "B": "Mother's brother's daughter",
+      "C": "Father's brother's daughter",
+      "D": "Father's brother's wife"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q74.png"
+  },
+  {
+    "id": 75,
+    "section": "General Intelligence & Reasoning",
+    "question": "Keval starts from point Y and drives 77 km towards North. He then takes a right turn, drives 34 km, turns right and drives 36 km. He then takes a right turn and drives 65 km. He then turns left, drives 41 km to stop at point Z. How far (shortest distance) and towards which direction should he drive in order to reach point Y again? (All turns are 90- degree turns only unless specified.)",
+    "options": {
+      "A": "33 km towards north",
+      "B": "30 km towards east",
+      "C": "29 km towards west",
+      "D": "31 km towards east"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q75.png"
+  },
+  {
+    "id": 76,
+    "section": "General Intelligence & Reasoning",
+    "question": "What will come in the place of ‘?’ in the following equation, if ‘+’ and ‘-’ are interchanged and ‘x’ and ‘÷’ are interchanged? 8 ÷ 2 + 14 x 7 - 7 = ?",
+    "options": {
+      "A": "18",
+      "B": "14",
+      "C": "12",
+      "D": "21"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q76.png"
+  },
+  {
+    "id": 77,
+    "section": "General Intelligence & Reasoning",
+    "question": "Mr. Ok starts from Point O and drives 7 km towards the west. He then takes a right turn, drives 7 km, turns right and drives 2 km. He then takes a left turn and drives 6 km. He then takes a right turn and drives 19 km. He then takes a right turn and drives 16 km. He then takes a final right turn, drives 14 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point O again? (All turns are 90 degrees turns only unless specified.)",
+    "options": {
+      "A": "3 km towards North",
+      "B": "4 km towards South",
+      "C": "4 km towards East",
+      "D": "3 km towards West"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q77.png"
+  },
+  {
+    "id": 78,
+    "section": "General Intelligence & Reasoning",
+    "question": "If ‘P’ stands for ‘×’, ‘Q’ stands for ‘÷’, ‘R’ stands for ‘−’ and ‘S’ stands for ‘+’, then what will come in place of the question mark (?) in the following equation? 53 R 61 S 96 P 3 Q 2 S 28 P 6 R 99 Q 3 S 32 = ?",
+    "options": {
+      "A": "365",
+      "B": "303",
+      "C": "328",
+      "D": "348"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q78.png"
+  },
+  {
+    "id": 79,
+    "section": "General Intelligence & Reasoning",
+    "question": "In a row of 47 people facing north, Kamu sits 12th from the left end. If only 12 people sit to the right of Tara, then how many people sit between Kamu and Tara?",
+    "options": {
+      "A": "19",
+      "B": "20",
+      "C": "21",
+      "D": "22"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q79.png"
+  },
+  {
+    "id": 80,
+    "section": "General Intelligence & Reasoning",
+    "question": "GDFH is related to JGIK in a certain way based on the English alphabetical order. In the same way, OLNP is related to ROQS. To which of the given options is TQSU related, following the same logic?",
+    "options": {
+      "A": "VTWY",
+      "B": "WTVX",
+      "C": "WUTX",
+      "D": "WTUX"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q80.png"
+  },
+  {
+    "id": 81,
+    "section": "General Intelligence & Reasoning",
+    "question": "What should come in place of ? in the given series based on the English alphabetical order? CHM FKK INI LQG ?",
+    "options": {
+      "A": "OTE",
+      "B": "OLI",
+      "C": "HGY",
+      "D": "NHG"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q81.png"
+  },
+  {
+    "id": 82,
+    "section": "General Intelligence & Reasoning",
+    "question": "The position(s) of how many letters will remain unchanged if each letter in the word EDUCATORS is arranged in English alphabetical order?",
+    "options": {
+      "A": "Four",
+      "B": "None",
+      "C": "One",
+      "D": "Two"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q82.png"
+  },
+  {
+    "id": 83,
+    "section": "General Intelligence & Reasoning",
+    "question": "What should come in place of ‘?’ in the given series? 29 35 46 52 63 ?",
+    "options": {
+      "A": "71",
+      "B": "69",
+      "C": "67",
+      "D": "70"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q83.png"
+  },
+  {
+    "id": 84,
+    "section": "General Intelligence & Reasoning",
+    "question": "Select the pair which follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern. GAU : JDX REF : UHI",
+    "options": {
+      "A": "QEW : SGY",
+      "B": "SYI : UZL",
+      "C": "ZTD : CWH",
+      "D": "CNH : FQK"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q84.png"
+  },
+  {
+    "id": 85,
+    "section": "General Intelligence & Reasoning",
+    "question": "What should come in place of ‘?’ in the given series? 7 21 63 189 567 ?",
+    "options": {
+      "A": "1700",
+      "B": "1703",
+      "C": "1701",
+      "D": "1702"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q85.png"
+  },
+  {
+    "id": 86,
+    "section": "General Intelligence & Reasoning",
+    "question": "AD 24 is related to BE 12 in a certain way. In the same way, KN 68 is related to LO 34. To which of the following is HK 42 related, following the same logic?",
+    "options": {
+      "A": "JL 31",
+      "B": "JM 33",
+      "C": "IM 21",
+      "D": "IL 21"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q86.png"
+  },
+  {
+    "id": 87,
+    "section": "General Intelligence & Reasoning",
+    "question": "Refer to the following number series and answer the question that follows. (All numbers are single-digit numbers only. Counting to be done from left to right only.) (Left) 3 5 4 3 6 7 8 9 9 6 6 3 3 7 8 8 1 7 5 3 (Right) How many such odd numbers are there, each of which is immediately preceded by an even number and also immediately followed by an odd number?",
+    "options": {
+      "A": "ONE",
+      "B": "NONE",
+      "C": "THREE",
+      "D": "TWO"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q87.png"
+  },
+  {
+    "id": 88,
+    "section": "General Intelligence & Reasoning",
+    "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+    "options": {
+      "A": "DF−BD",
+      "B": "UW−SU",
+      "C": "IK−FK",
+      "D": "OQ−MO"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q88.png"
+  },
+  {
+    "id": 89,
+    "section": "General Intelligence & Reasoning",
+    "question": "Seven boxes A, B, C, D, E, F and G are kept one over the other but not necessarily in the same order. C is not kept below G. Only five boxes are kept below E. Only one box is kept between C and E. B is kept above A but below G. F is not the topmost box. Which box is kept immediately below F?",
+    "options": {
+      "A": "E",
+      "B": "",
+      "C": "C",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q89.png"
+  },
+  {
+    "id": 90,
+    "section": "General Intelligence & Reasoning",
+    "question": "In a certain code language, ‘mind your business’ is coded as ‘gv tr fy’ and ‘your turn now’ is coded as ‘cb gv kq’. How is ‘your’ coded in the given language? (All the codes are two-letter codes only.)",
+    "options": {
+      "A": "tr",
+      "B": "gv",
+      "C": "fy",
+      "D": "kq"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q90.png"
+  },
+  {
+    "id": 91,
+    "section": "General Awareness",
+    "question": "Which Indian classical dance form originated in the southern state of Tamil Nadu and is traditionally performed in temples as a devotional offering?",
+    "options": {
+      "A": "Odissi",
+      "B": "Bharatanatyam",
+      "C": "Kathak",
+      "D": "Mohiniyattam"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q91.png"
+  },
+  {
+    "id": 92,
+    "section": "General Awareness",
+    "question": "Who among the following appoints the members of the State Public Service Commission (SPSC) under Article 316 of the Constitution of India?",
+    "options": {
+      "A": "Governor of the State",
+      "B": "Chief Justice of the High Court",
+      "C": "Prime Minister of India",
+      "D": "President of India"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q92.png"
+  },
+  {
+    "id": 93,
+    "section": "General Awareness",
+    "question": "In which year did India completely eliminate Quantitative Restrictions (QRs) on imports as part of trade liberalization?",
+    "options": {
+      "A": "1998",
+      "B": "1996",
+      "C": "2001",
+      "D": "2005"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q93.png"
+  },
+  {
+    "id": 94,
+    "section": "General Awareness",
+    "question": "According to the Ministry of Defence, what was India’s highest‑ever defence production in 2024–25?",
+    "options": {
+      "A": "₹1.54 Lakh Crore",
+      "B": "₹3.14 Lakh Crore",
+      "C": "₹2.54 Lakh Crore",
+      "D": "₹2.94 Lakh Crore"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q94.png"
+  },
+  {
+    "id": 95,
+    "section": "General Awareness",
+    "question": "What is the focus of the 6G research project at IIIT-Naya Raipur funded under DST’s TTDF scheme?",
+    "options": {
+      "A": "Creating an AI-driven telecom cloud platform",
+      "B": "Developing a prototype for 6G cell-free communication",
+      "C": "Expanding smartphone production facilities",
+      "D": "Building a 50-qubit quantum computer"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q95.png"
+  },
+  {
+    "id": 96,
+    "section": "General Awareness",
+    "question": "PM Modi unveils how many Global Initiatives at the G20 Johannesburg Summit 2025?",
+    "options": {
+      "A": "Four",
+      "B": "Six",
+      "C": "Five",
+      "D": "Seven"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q96.png"
+  },
+  {
+    "id": 97,
+    "section": "General Awareness",
+    "question": "India shares a maritime boundary (sea boundary) with which one of the following countries across the Arabian Sea or the Indian Ocean?",
+    "options": {
+      "A": "Mongolia",
+      "B": "Afghanistan",
+      "C": "Maldives",
+      "D": "Russia"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q97.png"
+  },
+  {
+    "id": 98,
+    "section": "General Awareness",
+    "question": "Provincial autonomy in provinces in place of dyarchy was introduced by which of the following British Indian government legislations?",
+    "options": {
+      "A": "Indian Councils Act of 1892",
+      "B": "Government of India Act of 1935",
+      "C": "Government of India Act of 1919",
+      "D": "Indian Councils Act of 1909"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q98.png"
+  },
+  {
+    "id": 99,
+    "section": "General Awareness",
+    "question": "Which among the following battles in 1757 marked the beginning of British political control in India?",
+    "options": {
+      "A": "Battle of Seringapatam",
+      "B": "Battle of Buxar",
+      "C": "Battle of Colachel",
+      "D": "Battle of Plassey"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q99.png"
+  },
+  {
+    "id": 100,
+    "section": "General Awareness",
+    "question": "The Henley Passport Index 2025 ranks India at which rank globally?",
+    "options": {
+      "A": "86",
+      "B": "83",
+      "C": "84",
+      "D": "85"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set9_q100.png"
+  }
+];

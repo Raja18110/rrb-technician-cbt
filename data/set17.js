@@ -1,0 +1,1502 @@
+window.SET_17_DATA = [
+  {
+    "id": 1,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEXAMR"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q1.png"
+  },
+  {
+    "id": 2,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "MREVIEW.COM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q2.png"
+  },
+  {
+    "id": 3,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "OM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q3.png"
+  },
+  {
+    "id": 4,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q4.png"
+  },
+  {
+    "id": 5,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q5.png"
+  },
+  {
+    "id": 6,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q6.png"
+  },
+  {
+    "id": 7,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW A"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q7.png"
+  },
+  {
+    "id": 8,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W.ALLEXAMREVI"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q8.png"
+  },
+  {
+    "id": 9,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "VIEW.COM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q9.png"
+  },
+  {
+    "id": 10,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q10.png"
+  },
+  {
+    "id": 11,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q11.png"
+  },
+  {
+    "id": 12,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q12.png"
+  },
+  {
+    "id": 13,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q13.png"
+  },
+  {
+    "id": 14,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEXAM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q14.png"
+  },
+  {
+    "id": 15,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "AMREVIEW.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q15.png"
+  },
+  {
+    "id": 16,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q16.png"
+  },
+  {
+    "id": 17,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q17.png"
+  },
+  {
+    "id": 18,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q18.png"
+  },
+  {
+    "id": 19,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLE"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q19.png"
+  },
+  {
+    "id": 20,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "LLEXAMREVIEW"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q20.png"
+  },
+  {
+    "id": 21,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W.COM"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q21.png"
+  },
+  {
+    "id": 22,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q22.png"
+  },
+  {
+    "id": 23,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q23.png"
+  },
+  {
+    "id": 24,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q24.png"
+  },
+  {
+    "id": 25,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALL"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q25.png"
+  },
+  {
+    "id": 26,
+    "section": "General Science",
+    "question": "The Carriage of Goods by Sea Bill, 2024, was introduced in the Lok Sabha on _____.",
+    "options": {
+      "A": "6 August 2024",
+      "B": "9 August 2024",
+      "C": "7 August 2024",
+      "D": "8 August 2024 LLEXAMREV"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q26.png"
+  },
+  {
+    "id": 27,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EVIEW.COM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q27.png"
+  },
+  {
+    "id": 28,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q28.png"
+  },
+  {
+    "id": 29,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q29.png"
+  },
+  {
+    "id": 30,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q30.png"
+  },
+  {
+    "id": 31,
+    "section": "General Science",
+    "question": "The Reserve Bank of India (RBI) announced its monetary policy on 9th October 2024, maintaining the repo rate at ____________.",
+    "options": {
+      "A": "6.5%",
+      "B": "6.25%",
+      "C": "7.5%",
+      "D": "6.75% WWW.AL"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q31.png"
+  },
+  {
+    "id": 32,
+    "section": "General Science",
+    "question": "Which organisation has partnered with Sagar Defence to develop India’s first underwater-launched unmanned aerial vehicles (UAVs)?",
+    "options": {
+      "A": "DRDO",
+      "B": "Bharat Electronics Limited (BEL)",
+      "C": "ISRO",
+      "D": "Indian Navy ALLEXAMREVI"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q32.png"
+  },
+  {
+    "id": 33,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "VIEW.COM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q33.png"
+  },
+  {
+    "id": 34,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q34.png"
+  },
+  {
+    "id": 35,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q35.png"
+  },
+  {
+    "id": 36,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q36.png"
+  },
+  {
+    "id": 37,
+    "section": "General Science",
+    "question": "Who is the current Directorate General of National Cadet Corps of India as of October 2024?",
+    "options": {
+      "A": "Bikram Singh",
+      "B": "Manoj Pande",
+      "C": "Dalbir Singh Suhag",
+      "D": "Gurbirpal Singh"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q37.png"
+  },
+  {
+    "id": 38,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLE"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q38.png"
+  },
+  {
+    "id": 39,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "LEXAMREVIEW"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q39.png"
+  },
+  {
+    "id": 40,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EW.COM"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q40.png"
+  },
+  {
+    "id": 41,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q41.png"
+  },
+  {
+    "id": 42,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q42.png"
+  },
+  {
+    "id": 43,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q43.png"
+  },
+  {
+    "id": 44,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.AL"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q44.png"
+  },
+  {
+    "id": 45,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "ALLEXAMREVIEW.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q45.png"
+  },
+  {
+    "id": 46,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "OM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q46.png"
+  },
+  {
+    "id": 47,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q47.png"
+  },
+  {
+    "id": 48,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEXAMR"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q48.png"
+  },
+  {
+    "id": 49,
+    "section": "Mathematics",
+    "question": "_______ became the first Indian to win a race at FIA Motorsport Games in October 2024.",
+    "options": {
+      "A": "Narain Karthikeyan",
+      "B": "Rivaan Dev Preetham",
+      "C": "Sundaram Karivaradhan",
+      "D": "Jehan Devan Daruvala MREVIEW.CO"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q49.png"
+  },
+  {
+    "id": 50,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q50.png"
+  },
+  {
+    "id": 51,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q51.png"
+  },
+  {
+    "id": 52,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q52.png"
+  },
+  {
+    "id": 53,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q53.png"
+  },
+  {
+    "id": 54,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEXAMR"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q54.png"
+  },
+  {
+    "id": 55,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "MREVIEW.COM"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q55.png"
+  },
+  {
+    "id": 56,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "OM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q56.png"
+  },
+  {
+    "id": 57,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q57.png"
+  },
+  {
+    "id": 58,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q58.png"
+  },
+  {
+    "id": 59,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q59.png"
+  },
+  {
+    "id": 60,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLE"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q60.png"
+  },
+  {
+    "id": 61,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "LEXAMREVIEW"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q61.png"
+  },
+  {
+    "id": 62,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EW.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q62.png"
+  },
+  {
+    "id": 63,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q63.png"
+  },
+  {
+    "id": 64,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q64.png"
+  },
+  {
+    "id": 65,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q65.png"
+  },
+  {
+    "id": 66,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALL"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q66.png"
+  },
+  {
+    "id": 67,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "LLEXAMREVIEW.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q67.png"
+  },
+  {
+    "id": 68,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q68.png"
+  },
+  {
+    "id": 69,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q69.png"
+  },
+  {
+    "id": 70,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q70.png"
+  },
+  {
+    "id": 71,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q71.png"
+  },
+  {
+    "id": 72,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEX"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q72.png"
+  },
+  {
+    "id": 73,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EXAMREVIEW"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q73.png"
+  },
+  {
+    "id": 74,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EW.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q74.png"
+  },
+  {
+    "id": 75,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q75.png"
+  },
+  {
+    "id": 76,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q76.png"
+  },
+  {
+    "id": 77,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q77.png"
+  },
+  {
+    "id": 78,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEXAM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q78.png"
+  },
+  {
+    "id": 79,
+    "section": "General Intelligence & Reasoning",
+    "question": "The Indian government has allocated ₹_____ for the National Film Development Corporation in the 2024-25 budget.",
+    "options": {
+      "A": "23 crore",
+      "B": "16 crore",
+      "C": "46 crore",
+      "D": "36 crore AMREVIEW.C"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q79.png"
+  },
+  {
+    "id": 80,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ".COM"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q80.png"
+  },
+  {
+    "id": 81,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q81.png"
+  },
+  {
+    "id": 82,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q82.png"
+  },
+  {
+    "id": 83,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q83.png"
+  },
+  {
+    "id": 84,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALL"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q84.png"
+  },
+  {
+    "id": 85,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "LLEXAMREVIEW.COM"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q85.png"
+  },
+  {
+    "id": 86,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q86.png"
+  },
+  {
+    "id": 87,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q87.png"
+  },
+  {
+    "id": 88,
+    "section": "General Intelligence & Reasoning",
+    "question": "The Moidams-the Mound-Burial System of the Ahom Dynasty in ______ was added to the list of UNESCO World Heritage Sites in 2024.",
+    "options": {
+      "A": "Mizoram",
+      "B": "Manipur",
+      "C": "Assam",
+      "D": "Meghalaya"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q88.png"
+  },
+  {
+    "id": 89,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW A"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q89.png"
+  },
+  {
+    "id": 90,
+    "section": "General Intelligence & Reasoning",
+    "question": "_______ has become the first Indian track-and-field athlete to win medals at consecutive Olympics.",
+    "options": {
+      "A": "Neeraj Chopra",
+      "B": "Manu Bhaker",
+      "C": "Swapnil Kusale",
+      "D": "Aman Sehrawat W.ALLEXAMRE"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q90.png"
+  },
+  {
+    "id": 91,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "REVIEW.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q91.png"
+  },
+  {
+    "id": 92,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q92.png"
+  },
+  {
+    "id": 93,
+    "section": "General Awareness",
+    "question": "By whom was the 'Ek Ped Maa Ke Naam' tree plantation campaign launched throughout the country on the World Environment Day (5th June 2024)?",
+    "options": {
+      "A": "Dr. Jitendra Singh",
+      "B": "Shri Narendra Modi",
+      "C": "Shri Bhupender Yadav",
+      "D": "Shri Amit Shah WWW.ALLE"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q93.png"
+  },
+  {
+    "id": 94,
+    "section": "General Awareness",
+    "question": "_____ on 9 September 2024 emphasised that safety and social audits of cities and institutions should be carried out to get a better idea about the lags and issues that currently exist in terms of ensuring women’s safety in India.",
+    "options": {
+      "A": "The Prajnya Trust for Women (PTW)",
+      "B": "The Self-Employed Women's Association (SEWA)",
+      "C": "The National Human Rights Commission (NHRC)",
+      "D": "The All India Federation of Women Lawyers (AIFWL) LEXAMREVIEW"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q94.png"
+  },
+  {
+    "id": 95,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EW.COM"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q95.png"
+  },
+  {
+    "id": 96,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q96.png"
+  },
+  {
+    "id": 97,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q97.png"
+  },
+  {
+    "id": 98,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q98.png"
+  },
+  {
+    "id": 99,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.AL"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q99.png"
+  },
+  {
+    "id": 100,
+    "section": "General Awareness",
+    "question": "2024/12/26-23:29:11 Q.100",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "ALLEXAMREVIEW.COM"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set17_q100.png"
+  }
+];

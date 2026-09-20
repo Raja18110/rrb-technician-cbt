@@ -1,0 +1,1502 @@
+window.SET_29_DATA = [
+  {
+    "id": 1,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEXAMRE"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q1.png"
+  },
+  {
+    "id": 2,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "REVIEW.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q2.png"
+  },
+  {
+    "id": 3,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q3.png"
+  },
+  {
+    "id": 4,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q4.png"
+  },
+  {
+    "id": 5,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q5.png"
+  },
+  {
+    "id": 6,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q6.png"
+  },
+  {
+    "id": 7,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALL"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q7.png"
+  },
+  {
+    "id": 8,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "LLEXAMREVIEW.COM"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q8.png"
+  },
+  {
+    "id": 9,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q9.png"
+  },
+  {
+    "id": 10,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q10.png"
+  },
+  {
+    "id": 11,
+    "section": "General Science",
+    "question": "Who among the following won the first 'MTArt Agency x India Art Fair Artist Prize' during the 15th India Art Fair held in February 2024?",
+    "options": {
+      "A": "Asha Parekh",
+      "B": "Devika Rani",
+      "C": "Sajid Wajid Sheikh",
+      "D": "Birendranath Sircar"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q11.png"
+  },
+  {
+    "id": 12,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLE"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q12.png"
+  },
+  {
+    "id": 13,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "LEXAMREVIEW"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q13.png"
+  },
+  {
+    "id": 14,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W.COM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q14.png"
+  },
+  {
+    "id": 15,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q15.png"
+  },
+  {
+    "id": 16,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q16.png"
+  },
+  {
+    "id": 17,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q17.png"
+  },
+  {
+    "id": 18,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEXA"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q18.png"
+  },
+  {
+    "id": 19,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EXAMREVIEW C"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q19.png"
+  },
+  {
+    "id": 20,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q20.png"
+  },
+  {
+    "id": 21,
+    "section": "General Science",
+    "question": "Who among the following concluded his tenure as the 50th Chief Justice of India in November 2024?",
+    "options": {
+      "A": "Justice Abhay S Oka",
+      "B": "Justice Sanjeev Khanna",
+      "C": "Justice DY Chandrachud",
+      "D": "Justice Surya Kant"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q21.png"
+  },
+  {
+    "id": 22,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q22.png"
+  },
+  {
+    "id": 23,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q23.png"
+  },
+  {
+    "id": 24,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLE"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q24.png"
+  },
+  {
+    "id": 25,
+    "section": "General Science",
+    "question": "The Finance Minister, in the Union Budget 2024-25, announced the increased loan limit to ₹20 lakhs from the existing ₹10 lakhs of which of the following schemes?",
+    "options": {
+      "A": "Stand-Up India Scheme",
+      "B": "Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE)",
+      "C": "Prime Minister’s Employment Generation Programme (PMEGP)",
+      "D": "Pradhan Mantri MUDRA Yojana (PMMY) LEXAMREVIEW"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q25.png"
+  },
+  {
+    "id": 26,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EW.COM"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q26.png"
+  },
+  {
+    "id": 27,
+    "section": "General Science",
+    "question": "A and B complete a work in 2 days. If A alone can do it in 4 days then, B alone can do 19-times of the same work in ______________(days).",
+    "options": {
+      "A": "77",
+      "B": "4",
+      "C": "76",
+      "D": "5"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q27.png"
+  },
+  {
+    "id": 28,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q28.png"
+  },
+  {
+    "id": 29,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q29.png"
+  },
+  {
+    "id": 30,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEX"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q30.png"
+  },
+  {
+    "id": 31,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EXAMREVIEW"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q31.png"
+  },
+  {
+    "id": 32,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W.COM"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q32.png"
+  },
+  {
+    "id": 33,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q33.png"
+  },
+  {
+    "id": 34,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q34.png"
+  },
+  {
+    "id": 35,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q35.png"
+  },
+  {
+    "id": 36,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEXAMR"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q36.png"
+  },
+  {
+    "id": 37,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "REVIEW.COM"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q37.png"
+  },
+  {
+    "id": 38,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "OM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q38.png"
+  },
+  {
+    "id": 39,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q39.png"
+  },
+  {
+    "id": 40,
+    "section": "General Science",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q40.png"
+  },
+  {
+    "id": 41,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q41.png"
+  },
+  {
+    "id": 42,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLE"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q42.png"
+  },
+  {
+    "id": 43,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "LEXAMREVIEW"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q43.png"
+  },
+  {
+    "id": 44,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q44.png"
+  },
+  {
+    "id": 45,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q45.png"
+  },
+  {
+    "id": 46,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q46.png"
+  },
+  {
+    "id": 47,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEX"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q47.png"
+  },
+  {
+    "id": 48,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "LEXAMREVIEW C"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q48.png"
+  },
+  {
+    "id": 49,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W.COM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q49.png"
+  },
+  {
+    "id": 50,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q50.png"
+  },
+  {
+    "id": 51,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q51.png"
+  },
+  {
+    "id": 52,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q52.png"
+  },
+  {
+    "id": 53,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLE"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q53.png"
+  },
+  {
+    "id": 54,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "LEXAMREVIEW"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q54.png"
+  },
+  {
+    "id": 55,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W.COM"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q55.png"
+  },
+  {
+    "id": 56,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q56.png"
+  },
+  {
+    "id": 57,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q57.png"
+  },
+  {
+    "id": 58,
+    "section": "Mathematics",
+    "question": "Which city won the UN-Shanghai Global Award for its sustainable urban development initiatives in 2024?",
+    "options": {
+      "A": "Agadir",
+      "B": "Doha",
+      "C": "Thiruvananthapuram",
+      "D": "Melbourne"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q58.png"
+  },
+  {
+    "id": 59,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q59.png"
+  },
+  {
+    "id": 60,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEX"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q60.png"
+  },
+  {
+    "id": 61,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EXAMREVIEW"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q61.png"
+  },
+  {
+    "id": 62,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EW.COM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q62.png"
+  },
+  {
+    "id": 63,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q63.png"
+  },
+  {
+    "id": 64,
+    "section": "Mathematics",
+    "question": "What was the key defense procurement, approved in September 2024, to enhance India’s naval defense capabilities?",
+    "options": {
+      "A": "Launch of a new aircraft carrier for the Indian Navy",
+      "B": "Acquisition of advanced naval radar systems",
+      "C": "Approval of seven Project 17B stealth frigates for the Indian Navy",
+      "D": "Procurement of multi-role submarines"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q64.png"
+  },
+  {
+    "id": 65,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q65.png"
+  },
+  {
+    "id": 66,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW A"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q66.png"
+  },
+  {
+    "id": 67,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W.ALLEXAMREV"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q67.png"
+  },
+  {
+    "id": 68,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EVIEW.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q68.png"
+  },
+  {
+    "id": 69,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q69.png"
+  },
+  {
+    "id": 70,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q70.png"
+  },
+  {
+    "id": 71,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q71.png"
+  },
+  {
+    "id": 72,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q72.png"
+  },
+  {
+    "id": 73,
+    "section": "General Intelligence & Reasoning",
+    "question": "What was the theme of ‘Vigilance Awareness Week’ observed from 28th October to 3rd November 2024, which is an initiatives of the Central Vigilance Commission in the fight against corruption?",
+    "options": {
+      "A": "Say No to Corruption; Commit to the Nation",
+      "B": "Corruption Free India for a Developed National",
+      "C": "Satark Bharat, Samriddh Bharat",
+      "D": "Culture of Integrity for Nation's Prosperity WWW.AL"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q73.png"
+  },
+  {
+    "id": 74,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "ALLEXAMREVIEW"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q74.png"
+  },
+  {
+    "id": 75,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EW.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q75.png"
+  },
+  {
+    "id": 76,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q76.png"
+  },
+  {
+    "id": 77,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q77.png"
+  },
+  {
+    "id": 78,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLE"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q78.png"
+  },
+  {
+    "id": 79,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "LEXAMREVIEW.COM"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q79.png"
+  },
+  {
+    "id": 80,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q80.png"
+  },
+  {
+    "id": 81,
+    "section": "General Intelligence & Reasoning",
+    "question": "Which of the following sportspersons was one of the India's flagbearers for the Paris 2024 Olympics?",
+    "options": {
+      "A": "MC Mary Kom",
+      "B": "Neeraj Chopra",
+      "C": "Vinesh Phogat",
+      "D": "A Sharath Kamal"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q81.png"
+  },
+  {
+    "id": 82,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q82.png"
+  },
+  {
+    "id": 83,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW A"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q83.png"
+  },
+  {
+    "id": 84,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "W.ALLEXAMREV"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q84.png"
+  },
+  {
+    "id": 85,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "REVIEW.COM"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q85.png"
+  },
+  {
+    "id": 86,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q86.png"
+  },
+  {
+    "id": 87,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q87.png"
+  },
+  {
+    "id": 88,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.AL"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q88.png"
+  },
+  {
+    "id": 89,
+    "section": "General Intelligence & Reasoning",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "ALLEXAMREVIE"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q89.png"
+  },
+  {
+    "id": 90,
+    "section": "General Intelligence & Reasoning",
+    "question": "Which of the following Union ministries presented a special festival series titled ‘Amrit Parampara’ in November 2024?",
+    "options": {
+      "A": "Ministry of Culture",
+      "B": "Ministry of External Affairs",
+      "C": "Ministry of Textiles",
+      "D": "Ministry of Tourism VIEW.COM"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q90.png"
+  },
+  {
+    "id": 91,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q91.png"
+  },
+  {
+    "id": 92,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q92.png"
+  },
+  {
+    "id": 93,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q93.png"
+  },
+  {
+    "id": 94,
+    "section": "General Awareness",
+    "question": "Which group of companies was named the principal sponsor for Team India at the Paris Olympics 2024?",
+    "options": {
+      "A": "Aditya Birla",
+      "B": "Adani",
+      "C": "Reliance",
+      "D": "Puma"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q94.png"
+  },
+  {
+    "id": 95,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "WWW.ALLEXAMREV"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q95.png"
+  },
+  {
+    "id": 96,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "EVIEW.COM"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q96.png"
+  },
+  {
+    "id": 97,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q97.png"
+  },
+  {
+    "id": 98,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q98.png"
+  },
+  {
+    "id": 99,
+    "section": "General Awareness",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q99.png"
+  },
+  {
+    "id": 100,
+    "section": "General Awareness",
+    "question": "2024/12/30-13:32:44 Q.100 Dr. Avesh Kumar Tyagi, the recipient of Vigyan Shri Award 2024 in the field of Atomic Energy, is associated with which of the following institutes as of 01 November 2024?",
+    "options": {
+      "A": "Variable Energy Cyclotron Centre (VECC), Kolkata",
+      "B": "Bhabha Atomic Research Centre (BARC), Mumbai",
+      "C": "Raja Ramanna Centre for Advanced Technology (RRCAT), Indore",
+      "D": "Indira Gandhi Centre for Atomic Research (IGCAR), Kalpakkam"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set29_q100.png"
+  }
+];

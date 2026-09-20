@@ -1,0 +1,1502 @@
+window.SET_8_DATA = [
+  {
+    "id": 1,
+    "section": "General Science",
+    "question": "Read the given statements carefully and select the correct option. Statement-I: Most carbon compounds are poor conductors of electricity. Statement-II: Carbon compounds have low melting and boiling points as compared to ionic compounds.",
+    "options": {
+      "A": "Both the statements are false.",
+      "B": "Both the statements are true.",
+      "C": "Statement-I is false but statement-II is true.",
+      "D": "Statement-I is true but statement-II is false."
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q1.png"
+  },
+  {
+    "id": 2,
+    "section": "General Science",
+    "question": "Why are xylem and phloem called “complex permanent tissues”?",
+    "options": {
+      "A": "Their cells can divide and form new tissues.",
+      "B": "They consist of only one type of cell for performing a single function.",
+      "C": "They are temporary in function and disappear after growth.",
+      "D": "They contain different types of cells working together for transport."
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q2.png"
+  },
+  {
+    "id": 3,
+    "section": "General Science",
+    "question": "If a conductor has a potential difference of 1 V across its ends and a current of 1 A flows through it, what is the resistance of the conductor?",
+    "options": {
+      "A": "1 Ω",
+      "B": "2 Ω",
+      "C": "10 Ω",
+      "D": "0.5 Ω"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q3.png"
+  },
+  {
+    "id": 4,
+    "section": "General Science",
+    "question": "Which of the following statements is correct regarding molecules of an element?",
+    "options": {
+      "A": "Molecules of an element always contain two or more different types of atoms.",
+      "B": "A molecule of an element consists of only one type of atom bonded together.",
+      "C": "All elements exist as monoatomic molecules in their natural state.",
+      "D": "Elements do not form molecules, only compounds do."
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q4.png"
+  },
+  {
+    "id": 5,
+    "section": "General Science",
+    "question": "Ethanol and ethanoic acid react in the presence of concentrated sulphuric acid to form a sweet-smelling compound. Which of the following correctly identifies the reaction type and the role of concentrated H₂SO₄?",
+    "options": {
+      "A": "It is an oxidation reaction; H₂SO₄ acts as an oxidizing agent.",
+      "B": "It is a substitution reaction; H₂SO₄ acts as a dehydrating agent to remove water molecules.",
+      "C": "It is an esterification reaction; H₂SO₄ acts as a catalyst and a dehydrating agent.",
+      "D": "It is a neutralization reaction; H₂SO₄ acts as an acid to neutralize the base."
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q5.png"
+  },
+  {
+    "id": 6,
+    "section": "General Science",
+    "question": "A train starting from rest reaches a speed of 40 km/h in 10 minutes. What is its final speed in m/s?",
+    "options": {
+      "A": "11.11 m/s",
+      "B": "4 m/s",
+      "C": "400 m/s",
+      "D": "6.67 m/s"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q6.png"
+  },
+  {
+    "id": 7,
+    "section": "General Science",
+    "question": "If A displaces B, and C displaces A, then the order of reactivity is:",
+    "options": {
+      "A": "B > A > C",
+      "B": "C > B > A",
+      "C": "C > A > B",
+      "D": "A > B > C"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q7.png"
+  },
+  {
+    "id": 8,
+    "section": "General Science",
+    "question": "The M shell can take a maximum of ____ electrons, but in Ca it has _____ electrons. [Atomic Number of Ca = 20]",
+    "options": {
+      "A": "8, 10",
+      "B": "18, 10",
+      "C": "8, 8",
+      "D": "18, 8"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q8.png"
+  },
+  {
+    "id": 9,
+    "section": "General Science",
+    "question": "Which of the following best explains why anaerobic respiration releases less energy than aerobic respiration?",
+    "options": {
+      "A": "It partially breaks down glucose.",
+      "B": "It uses less glucose.",
+      "C": "It does not require enzymes.",
+      "D": "It occurs slower than aerobic respiration."
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q9.png"
+  },
+  {
+    "id": 10,
+    "section": "General Science",
+    "question": "A girl weighing 420 N climbs a rope to a height of 6 m and takes 20 seconds to do it. What is her power output?",
+    "options": {
+      "A": "105 W",
+      "B": "155 W",
+      "C": "90 W",
+      "D": "126 W"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q10.png"
+  },
+  {
+    "id": 11,
+    "section": "General Science",
+    "question": "In Fleming’s Left Hand Rule, which finger represents the direction of the magnetic field?",
+    "options": {
+      "A": "Little finger",
+      "B": "Middle finger",
+      "C": "First (index) finger",
+      "D": "Thumb"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q11.png"
+  },
+  {
+    "id": 12,
+    "section": "General Science",
+    "question": "Which of the following movements is controlled by unstriated and involuntary smooth muscle tissue?",
+    "options": {
+      "A": "Waving the hand",
+      "B": "Moving the legs to walk",
+      "C": "Movement of food in the alimentary canal",
+      "D": "Rhythmic contraction of the heart"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q12.png"
+  },
+  {
+    "id": 13,
+    "section": "General Science",
+    "question": "Which of the following statement(s) is/are true when a beam of white light is incident on a glass prism? (i) The white light undergoes dispersion. (ii) The speed of light remains constant when it goes from air into the prism. (iii) The speed of light decreases as the light goes from air into the prism.",
+    "options": {
+      "A": "Only (ii)",
+      "B": "Both (i) and (iii)",
+      "C": "Both (ii) and (iii)",
+      "D": "Only (i)"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q13.png"
+  },
+  {
+    "id": 14,
+    "section": "General Science",
+    "question": "Food chains generally do not extend beyond four trophic levels because:",
+    "options": {
+      "A": "decomposers outnumber consumers",
+      "B": "carnivores feed only on producers",
+      "C": "of large loss of energy at each level",
+      "D": "of limited number of producers"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q14.png"
+  },
+  {
+    "id": 15,
+    "section": "General Science",
+    "question": "A strong magnetic field produced inside a solenoid can be used to magnetise a piece of soft iron placed inside the coil. The resulting magnet is called a/an __________.",
+    "options": {
+      "A": "Natural magnet",
+      "B": "Toroid",
+      "C": "Electromagnet",
+      "D": "Permanent magnet"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q15.png"
+  },
+  {
+    "id": 16,
+    "section": "General Science",
+    "question": "Why does the sky appear dark to passengers flying at very high altitudes?",
+    "options": {
+      "A": "The path of light is scattered back towards the sun.",
+      "B": "Scattering of light is not prominent at such heights.",
+      "C": "They are above the atmosphere.",
+      "D": "The air molecules absorb all blue light at that altitude."
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q16.png"
+  },
+  {
+    "id": 17,
+    "section": "General Science",
+    "question": "If the radius of the Earth were to double while mass remains the same, the new value of g would be ___________the original value.",
+    "options": {
+      "A": "4 times",
+      "B": "One-fourth",
+      "C": "2 times",
+      "D": "Half"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q17.png"
+  },
+  {
+    "id": 18,
+    "section": "General Science",
+    "question": "Which of the following statements correctly describes the difference between mass and weight?",
+    "options": {
+      "A": "Mass stays the same everywhere, but weight changes with location.",
+      "B": "Mass changes from one planet to another, but weight stays the same.",
+      "C": "Both mass and weight change with location.",
+      "D": "Weight and mass both remain constant everywhere."
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q18.png"
+  },
+  {
+    "id": 19,
+    "section": "General Science",
+    "question": "Which of the following are properties of ionic compounds?",
+    "options": {
+      "A": "Only (A) and (B)",
+      "B": "Only (A) and (D)",
+      "C": "Only (C) and (B)",
+      "D": "Only (C) and (D)"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q19.png"
+  },
+  {
+    "id": 20,
+    "section": "General Science",
+    "question": "Reshma swims back and forth in a 120 m long pool, covering a total distance of 240 m in 1 minute. What is her average velocity?",
+    "options": {
+      "A": "0 m/s",
+      "B": "5 m/s",
+      "C": "2 m/s",
+      "D": "4 m/s"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q20.png"
+  },
+  {
+    "id": 21,
+    "section": "General Science",
+    "question": "In a dug well, water is collected from:",
+    "options": {
+      "A": "Impervious strata",
+      "B": "Deep strata",
+      "C": "Water-bearing strata",
+      "D": "Neighbouring strata"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q21.png"
+  },
+  {
+    "id": 22,
+    "section": "General Science",
+    "question": "Which of the following pairs must represent the same element?",
+    "options": {
+      "A": "Same number of neutrons, different atomic numbers",
+      "B": "Same atomic number, different mass numbers",
+      "C": "Different number of protons, same number of neutrons",
+      "D": "Same mass number, different atomic numbers"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q22.png"
+  },
+  {
+    "id": 23,
+    "section": "General Science",
+    "question": "The alpha particles that passed straight through the gold foil showed that:",
+    "options": {
+      "A": "the atom has a positive charge",
+      "B": "the nucleus is negatively charged",
+      "C": "the atom is mostly empty space",
+      "D": "the nucleus is huge"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q23.png"
+  },
+  {
+    "id": 24,
+    "section": "General Science",
+    "question": "Which part of a plant cell helps it stay intact and prevents bursting in a hypotonic environment?",
+    "options": {
+      "A": "Cytoplasm",
+      "B": "Vacuole",
+      "C": "Cell membrane",
+      "D": "Cell wall made of cellulose"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q24.png"
+  },
+  {
+    "id": 25,
+    "section": "General Science",
+    "question": "A sound wave has a frequency of 2 kHz and a wavelength of 45 cm. How much time will it take to cover a distance of 1.8 km?",
+    "options": {
+      "A": "0.5 seconds",
+      "B": "2 seconds",
+      "C": "4 seconds",
+      "D": "1 second"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q25.png"
+  },
+  {
+    "id": 26,
+    "section": "General Science",
+    "question": "What is the main purpose of hybridisation in crop improvement programmes?",
+    "options": {
+      "A": "To produce genetically identical plants through cloning",
+      "B": "To grow crops without using fertilizers or irrigation",
+      "C": "To increase the natural mutation rate in crop plants",
+      "D": "To combine desirable traits by crossing genetically dissimilar plants"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q26.png"
+  },
+  {
+    "id": 27,
+    "section": "General Science",
+    "question": "The SI unit of the universal gravitation constant is ____________.",
+    "options": {
+      "A": "Nm-2kg-1",
+      "B": "Nm2kg-2",
+      "C": "Nm2kg-1",
+      "D": "Nm-2kg2"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q27.png"
+  },
+  {
+    "id": 28,
+    "section": "General Science",
+    "question": "What is the formula unit mass of ammonium sulphate (NH4)2SO4?",
+    "options": {
+      "A": "114 u",
+      "B": "98 u",
+      "C": "146 u",
+      "D": "132 u"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q28.png"
+  },
+  {
+    "id": 29,
+    "section": "General Science",
+    "question": "What is the primary function of the axon in a neuron?",
+    "options": {
+      "A": "Transmit electrical impulses to other neurons or target organs.",
+      "B": "Supply nutrients to the cell body.",
+      "C": "Store neurotransmitters for later use.",
+      "D": "Provide structural support to the neuron."
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q29.png"
+  },
+  {
+    "id": 30,
+    "section": "General Science",
+    "question": "What is produced when an acid reacts with a metal hydrogen carbonate?",
+    "options": {
+      "A": "Salt, carbon dioxide and water",
+      "B": "Salt, ammonia and water",
+      "C": "Salt, oxygen and water",
+      "D": "Salt, hydrogen gas and water"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q30.png"
+  },
+  {
+    "id": 31,
+    "section": "General Science",
+    "question": "In a school canteen, students notice that many plastic cups and plates are thrown away daily. To solve this problem, they suggest switching to steel plates and reusable water bottles. This action mainly promotes ________.",
+    "options": {
+      "A": "Better packaging design",
+      "B": "Reduction and reuse of waste",
+      "C": "More plastic recycling",
+      "D": "Faster waste collection"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q31.png"
+  },
+  {
+    "id": 32,
+    "section": "General Science",
+    "question": "The female reproductive part of the flower is known as:",
+    "options": {
+      "A": "pistil",
+      "B": "sepals",
+      "C": "petals",
+      "D": "stamens"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q32.png"
+  },
+  {
+    "id": 33,
+    "section": "General Science",
+    "question": "Read the given statements carefully. Select which statement(s) is/are correct. Statement-I: There are some substances whose odour changes in acidic or basic media. These are called olfactory indicators. Statement-II: Vanilla extract and onion can be used as olfactory indicators.",
+    "options": {
+      "A": "Both statements I and II are true.",
+      "B": "Statement-I is false but statement-II is true.",
+      "C": "Both statements I and II are false.",
+      "D": "Statement-I is true but statement-II is false."
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q33.png"
+  },
+  {
+    "id": 34,
+    "section": "General Science",
+    "question": "The principal role of the large central vacuole in mature plant cells is to:",
+    "options": {
+      "A": "Control cell division and heredity.",
+      "B": "Carry out cellular respiration to produce energy.",
+      "C": "Store cell sap and help maintain turgor pressure.",
+      "D": "Synthesize proteins for export."
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q34.png"
+  },
+  {
+    "id": 35,
+    "section": "General Science",
+    "question": "Two beakers contain sugar solution of different concentrations. A semipermeable membrane separates them. After some time, the level of solution in one beaker rises while in the other, it falls. Which property of solutions does this experiment best demonstrate, and why?",
+    "options": {
+      "A": "Sedimentation – because sugar crystals settle at the bottom due to gravity",
+      "B": "Osmosis – because solvent molecules move from the dilute solution to the concentrated solution through the semipermeable membrane",
+      "C": "Diffusion – because sugar molecules move freely across the membrane until equilibrium is reached",
+      "D": "Evaporation – because water molecules escape from the surface of the solution causing a level difference"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q35.png"
+  },
+  {
+    "id": 36,
+    "section": "General Science",
+    "question": "Which of the following observations best confirms that a neutralisation reaction has occurred?",
+    "options": {
+      "A": "A gas with a pungent smell is evolved.",
+      "B": "The pH of the solution becomes close to 7.",
+      "C": "The solution changes from blue to red.",
+      "D": "The temperature of the solution drops drastically."
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q36.png"
+  },
+  {
+    "id": 37,
+    "section": "General Science",
+    "question": "Epithelial tissue primarily functions in:",
+    "options": {
+      "A": "Muscle contraction",
+      "B": "Secretion and protection",
+      "C": "Coordination",
+      "D": "Support"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q37.png"
+  },
+  {
+    "id": 38,
+    "section": "General Science",
+    "question": "A body of mass 10 kg is thrown vertically upwards with a velocity of 10 m/s. How much potential energy will be possessed by the body when it reaches the maximum height? (Take g = 10 m/s2)",
+    "options": {
+      "A": "25 J",
+      "B": "500 J",
+      "C": "2.5 J",
+      "D": "250 J"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q38.png"
+  },
+  {
+    "id": 39,
+    "section": "General Science",
+    "question": "Why is the use of condoms during sexual intercourse recommended?",
+    "options": {
+      "A": "Condoms help prevent the transmission of sexually transmitted diseases to some extent",
+      "B": "Condoms are used to increase fertility in both males and females",
+      "C": "Condoms completely eliminate the risk of pregnancy and infections",
+      "D": "Condoms are required by law to maintain the population balance"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q39.png"
+  },
+  {
+    "id": 40,
+    "section": "General Science",
+    "question": "A 2.0 cm tall object is placed 20 cm from a convex lens of focal length 15 cm. What is the magnification produced by the lens?",
+    "options": {
+      "A": "- 1",
+      "B": "+3",
+      "C": "+1",
+      "D": "-3"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q40.png"
+  },
+  {
+    "id": 41,
+    "section": "Mathematics",
+    "question": "If the product of two numbers is 98,304 and their HCF is 128, then find the LCM of the numbers.",
+    "options": {
+      "A": "768",
+      "B": "789",
+      "C": "786",
+      "D": "766"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q41.png"
+  },
+  {
+    "id": 42,
+    "section": "Mathematics",
+    "question": "The length of a diagonal of a rectangular park is 25 meters, and that of one of its sides is 15 meters. Find the perimeter of the park.",
+    "options": {
+      "A": "40 meters",
+      "B": "70 meters",
+      "C": "50 meters",
+      "D": "60 meters"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q42.png"
+  },
+  {
+    "id": 43,
+    "section": "Mathematics",
+    "question": "A trader claims to sell spice at a profit of 15% but also dishonestly uses a weight which is 14% less than what is mentioned on it. Find the total percentage of profit earned by the trader. (Round the answer to the nearest whole number)1691",
+    "options": {
+      "A": "31%",
+      "B": "36%",
+      "C": "34%",
+      "D": "39%"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q43.png"
+  },
+  {
+    "id": 44,
+    "section": "Mathematics",
+    "question": "What is the mode of the following data? 43, 44, 43, 53, 42, 44, 46, 47, 55, 50, 52, 55, 40, 45, 44, 53, 48, 48",
+    "options": {
+      "A": "43",
+      "B": "55",
+      "C": "53",
+      "D": "44"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q44.png"
+  },
+  {
+    "id": 45,
+    "section": "Mathematics",
+    "question": "Which of the following numbers is NOT divisible by both 6 and 9?",
+    "options": {
+      "A": "45",
+      "B": "90",
+      "C": "54",
+      "D": "72"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q45.png"
+  },
+  {
+    "id": 46,
+    "section": "Mathematics",
+    "question": "Mr.John spent 20% of his monthly income on food and 20% on children's education. 40% of the remaining income, he spent on shopping and transport together and 20% of the rest was spent on medical expenses. If he is left with ₹23,040, after all these expenditures, what is his monthly income?7296",
+    "options": {
+      "A": "₹86,000",
+      "B": "₹96,000",
+      "C": "₹92,000",
+      "D": "₹80,000"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q46.png"
+  },
+  {
+    "id": 47,
+    "section": "Mathematics",
+    "question": "If a + b + c = 13 and ab + bc + ca = 4, then what is the value of ab(a + b) + bc(b + c) + ca(c + a) + 3abc?",
+    "options": {
+      "A": "17",
+      "B": "38",
+      "C": "9",
+      "D": "52"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q47.png"
+  },
+  {
+    "id": 48,
+    "section": "Mathematics",
+    "question": "If the fourth proportional to 2x, 3x, and 12 is y, find y.",
+    "options": {
+      "A": "16",
+      "B": "20",
+      "C": "18",
+      "D": "24"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q48.png"
+  },
+  {
+    "id": 49,
+    "section": "Mathematics",
+    "question": "The mean of a data is 47 and its median is 61. The mode (using empirical relation) of the data is:",
+    "options": {
+      "A": "148",
+      "B": "111",
+      "C": "23",
+      "D": "89"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q49.png"
+  },
+  {
+    "id": 50,
+    "section": "Mathematics",
+    "question": "The difference between two parallel sides of a trapezium is 9 cm. The perpendicular distance between them is 52 cm. If the area of the trapezium is 988 cm 2, find the lengths of the parallel sides (in cm).",
+    "options": {
+      "A": "29.5, 20.5",
+      "B": "35.5, 20.5",
+      "C": "18.5, 12.5",
+      "D": "23.5, 14.5"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q50.png"
+  },
+  {
+    "id": 51,
+    "section": "Mathematics",
+    "question": "When one-third of a number is increased by 25, the result is 100. Find the sum of the digits of the original number.",
+    "options": {
+      "A": "10",
+      "B": "9",
+      "C": "7",
+      "D": "12"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q51.png"
+  },
+  {
+    "id": 52,
+    "section": "Mathematics",
+    "question": "What sum of money (in ₹) will yield ₹720 as simple interest in 3 years at 8% per annum?",
+    "options": {
+      "A": "2500",
+      "B": "3200",
+      "C": "3000",
+      "D": "3400"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q52.png"
+  },
+  {
+    "id": 53,
+    "section": "Mathematics",
+    "question": "If 9A7B is divisible by 55, find A + B.",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "11",
+      "D": "16"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q53.png"
+  },
+  {
+    "id": 54,
+    "section": "Mathematics",
+    "question": "Lalit deposits ₹42,000 in his account that pays an annual interest rate of 20% compounded half yearly. Calculate the total amount in his account after one year.",
+    "options": {
+      "A": "₹50,650",
+      "B": "₹50,820",
+      "C": "₹50,680",
+      "D": "₹50,880"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q54.png"
+  },
+  {
+    "id": 55,
+    "section": "Mathematics",
+    "question": "The difference between the present ages of Ayushi and Nidhi is 21 years. Five years ago from now, the sum of their ages was 83 years. If Ayushi is older than Nidhi, find Nidhi's present age (in years).",
+    "options": {
+      "A": "36",
+      "B": "38",
+      "C": "33",
+      "D": "31"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q55.png"
+  },
+  {
+    "id": 56,
+    "section": "Mathematics",
+    "question": "A 180-meter-long train passes a pole in 12 seconds. A second 120-meter-long train is moving in the same direction as of the first train and crosses the first train in 15 seconds. What is the speed of the second train?",
+    "options": {
+      "A": "115 km/h",
+      "B": "120 km/h",
+      "C": "110 km/h",
+      "D": "126 km/h"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q56.png"
+  },
+  {
+    "id": 57,
+    "section": "Mathematics",
+    "question": "Three pipes X, Y, and Z can fill a tank in 12, 15, and 20 hours, respectively. All three pipes are opened together but pipe Z is closed 3 hours before the tank is completely filled. In how many hours will the tank be filled?",
+    "options": {
+      "A": "5 hours 45 minutes",
+      "B": "6 hours 15 minutes",
+      "C": "6 hours 45 minutes",
+      "D": "5 hours 15 minutes"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q57.png"
+  },
+  {
+    "id": 58,
+    "section": "Mathematics",
+    "question": "A dealer buys two articles X and Y for ₹800 each. He marks each of them at the same price. He sells X by giving two successive discounts of 73% and 37% and still earns ₹901 as profit. If he sells Y at a single discount of 89%, then what is the profit percentage on Y?",
+    "options": {
+      "A": "36.5%",
+      "B": "37%",
+      "C": "37.5%",
+      "D": "36%"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q58.png"
+  },
+  {
+    "id": 59,
+    "section": "Mathematics",
+    "question": "The sum of the present ages of a father and his son is 60 years. Five years ago from now, the product of numerical values of their ages was 525. Find the present age (in years) of the father.",
+    "options": {
+      "A": "50",
+      "B": "45",
+      "C": "55",
+      "D": "40"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q59.png"
+  },
+  {
+    "id": 60,
+    "section": "Mathematics",
+    "question": "One pipe can fill the tank in 14 min, while another pipe can empty the completely filled tank in 63 min. If both the pipes are operated together on empty tank, how long (in min) will it take to fill one-third of the tank?3939",
+    "options": {
+      "A": "6",
+      "B": "12",
+      "C": "18",
+      "D": "24"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q60.png"
+  },
+  {
+    "id": 61,
+    "section": "Mathematics",
+    "question": "A number when increased by 110%, gives 3570. The number is:6138",
+    "options": {
+      "A": "5100",
+      "B": "3400",
+      "C": "1700",
+      "D": "850"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q61.png"
+  },
+  {
+    "id": 62,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "D",
+    "has_diagram": true,
+    "diagram_img": "cards/diag_s8_q62_262.png",
+    "card_img": "cards/set8_q62.png"
+  },
+  {
+    "id": 63,
+    "section": "Mathematics",
+    "question": "If the area of an equilateral triangle is given as 900 m2, then what is its perimeter?",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "B",
+    "has_diagram": true,
+    "diagram_img": "cards/diag_s8_q63_642.png",
+    "card_img": "cards/set8_q63.png"
+  },
+  {
+    "id": 64,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "4",
+      "B": "10",
+      "C": "20",
+      "D": "16"
+    },
+    "correct": "B",
+    "has_diagram": true,
+    "diagram_img": "cards/diag_s8_q64_646.png",
+    "card_img": "cards/set8_q64.png"
+  },
+  {
+    "id": 65,
+    "section": "Mathematics",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": "C",
+    "has_diagram": true,
+    "diagram_img": "cards/diag_s8_q65_262.png",
+    "card_img": "cards/set8_q65.png"
+  },
+  {
+    "id": 66,
+    "section": "General Intelligence & Reasoning",
+    "question": "What should come in place of ‘?’ in the given series? 5 20 80 320 1280 ?",
+    "options": {
+      "A": "5134",
+      "B": "5130",
+      "C": "5128",
+      "D": "5120"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q66.png"
+  },
+  {
+    "id": 67,
+    "section": "General Intelligence & Reasoning",
+    "question": "In a certain code language, A # B means ‘A is the mother of B’, A + B means ‘A is the daughter of B’, A ÷ B means ‘A is the wife of B’, and A @ B means ‘A is the father of B’. How is A related to T if ‘A + B @ H # K ÷ T’?",
+    "options": {
+      "A": "Wife's mother's sister",
+      "B": "Wife's mother's mother",
+      "C": "Wife's sister",
+      "D": "Wife's mother"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q67.png"
+  },
+  {
+    "id": 68,
+    "section": "General Intelligence & Reasoning",
+    "question": "Sanjay starts from point Y and drives 32 km towards West. He then takes a left turn, drives 51 km, turns right and drives 66 km. He then takes a right turn and drives 14 km. He takes a right turn, drives 45 km. He then turns left, drives 37 km to stop at point Z. How far (shortest distance) and towards which direction should he drive in order to reach point Y again? (All turns are 90-degree turns only unless specified.)",
+    "options": {
+      "A": "49 km towards east",
+      "B": "53 km towards east",
+      "C": "51 km towards west",
+      "D": "55 km towards north"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q68.png"
+  },
+  {
+    "id": 69,
+    "section": "General Intelligence & Reasoning",
+    "question": "FG 151 is related to EH 101 in a certain way. In the same way, MN 262 is related to LO 212. To which of the following is UV 379 related, following the same logic?",
+    "options": {
+      "A": "SW 349",
+      "B": "SX 339",
+      "C": "TX 329",
+      "D": "TW 329"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q69.png"
+  },
+  {
+    "id": 70,
+    "section": "General Intelligence & Reasoning",
+    "question": "Chandan starts from Point A and drives 11 km towards east. He then takes a left turn, drives 8 km, turns left and drives 13 km. He then takes a left turn and drives 13 km. He takes a final left turn, drives 2 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90° turns only unless specified.)",
+    "options": {
+      "A": "3 km to the west",
+      "B": "5 km to the north",
+      "C": "5 km to the south",
+      "D": "3 km to the east"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q70.png"
+  },
+  {
+    "id": 71,
+    "section": "General Intelligence & Reasoning",
+    "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+    "options": {
+      "A": "PSQ",
+      "B": "DGE",
+      "C": "JMK",
+      "D": "GFT"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q71.png"
+  },
+  {
+    "id": 72,
+    "section": "General Intelligence & Reasoning",
+    "question": "Based on the alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group? (Note: The odd man out is not based on the number of consonants/vowels or their position in the letter cluster.)4778",
+    "options": {
+      "A": "CYZ",
+      "B": "DZA",
+      "C": "MJK",
+      "D": "EAB"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q72.png"
+  },
+  {
+    "id": 73,
+    "section": "General Intelligence & Reasoning",
+    "question": "Each vowel in the word LARKISH is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. How many letters will appear exactly twice in the group of letters thus formed?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "0"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q73.png"
+  },
+  {
+    "id": 74,
+    "section": "General Intelligence & Reasoning",
+    "question": "What should come in place of ‘?’ in the given series? 13 26 52 104 208 ?",
+    "options": {
+      "A": "416",
+      "B": "417",
+      "C": "415",
+      "D": "414"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q74.png"
+  },
+  {
+    "id": 75,
+    "section": "General Intelligence & Reasoning",
+    "question": "Six friends D, E, F, G, J and K are sitting around a circular table facing the center of the table. E sits third to the left of F. F sits second to the left of D. Only J sits between F and G. K is not an immediate neighbor of E. How many people sit between K and G when counted from the right of G?",
+    "options": {
+      "A": "One",
+      "B": "Three",
+      "C": "Two",
+      "D": "None"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q75.png"
+  },
+  {
+    "id": 76,
+    "section": "General Intelligence & Reasoning",
+    "question": "Refer to the following series and answer the question. (All numbers are single-digit numbers only. Counting to be done from left to right.) (Left) 7 3 2 5 1 4 6 8 3 4 9 7 5 4 2 6 1 7 9 (Right) How many such digits are there, each of which is immediately preceded by an even digit and immediately followed by an odd digit?",
+    "options": {
+      "A": "Two",
+      "B": "Three",
+      "C": "Four",
+      "D": "Five"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q76.png"
+  },
+  {
+    "id": 77,
+    "section": "General Intelligence & Reasoning",
+    "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, what will come in place of the question mark ‘?’ in the following equation? 4 B 5 D 20 A 2 C 17 = ? D 3",
+    "options": {
+      "A": "35",
+      "B": "50",
+      "C": "20",
+      "D": "30"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q77.png"
+  },
+  {
+    "id": 78,
+    "section": "General Intelligence & Reasoning",
+    "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−‘, what will come in place of the question mark ‘?’ in the following equation? 5 B 2 D 10 A 2 C 12 = ? D 3",
+    "options": {
+      "A": "20",
+      "B": "30",
+      "C": "15",
+      "D": "12"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q78.png"
+  },
+  {
+    "id": 79,
+    "section": "General Intelligence & Reasoning",
+    "question": "Sunny starts from Point A and drives 5 km towards the north. He then takes a left turn, drives 6 km, turns left and drives 7 km. He then takes a left turn and drives 8 km. He takes a final left turn, drives 2 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90- degree turns only unless specified.)",
+    "options": {
+      "A": "2 km to the west",
+      "B": "1 km to the east",
+      "C": "3 km to the North",
+      "D": "4 km to the South"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q79.png"
+  },
+  {
+    "id": 80,
+    "section": "General Intelligence & Reasoning",
+    "question": "E, R, U, T, Y, W and Q are sitting around a circular table, facing the centre of the table. U sits third to the left of Q. W sits second to the left of R. Q is the immediate neighbour of both T and W. E is not an immediate neighbour of U. How many people sit between W and Y when counted from the right of Y?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "1",
+      "D": "3"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q80.png"
+  },
+  {
+    "id": 81,
+    "section": "General Intelligence & Reasoning",
+    "question": "Select the pair which follows the same pattern as that followed by the two set of pairs given below. Both pairs follow the same pattern. GDA−WTQ URO−KHE7071",
+    "options": {
+      "A": "AWS−PMJ",
+      "B": "AXU−QNK",
+      "C": "AWS−QNK",
+      "D": "AXU−PNJ"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q81.png"
+  },
+  {
+    "id": 82,
+    "section": "General Intelligence & Reasoning",
+    "question": "In a certain code language, ‘CURL’ is coded as ‘4386’ and ‘LURE’ is coded as ‘5846’. What is the code for ‘E’ in that language?",
+    "options": {
+      "A": "6",
+      "B": "3",
+      "C": "5",
+      "D": "8"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q82.png"
+  },
+  {
+    "id": 83,
+    "section": "General Intelligence & Reasoning",
+    "question": "In a certain code language, ‘KIDS’ is coded as ‘1248’ and ‘SILK’ is coded as ‘2941’. What is the code for ‘L’ in that language?",
+    "options": {
+      "A": "1",
+      "B": "8",
+      "C": "2",
+      "D": "9"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q83.png"
+  },
+  {
+    "id": 84,
+    "section": "General Intelligence & Reasoning",
+    "question": "Each letter in the word BESWARM is changed to the letter immediately following it in the English alphabetical order and then all the letters thus formed are arranged in the English alphabetical order. Which of the following letters will be fourth from the right in the new group of letters thus formed?",
+    "options": {
+      "A": "S",
+      "B": "X",
+      "C": "N",
+      "D": "F"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q84.png"
+  },
+  {
+    "id": 85,
+    "section": "General Intelligence & Reasoning",
+    "question": "Nehal ranked 22nd from the top and 10th from the bottom in his class. How many students are there in his class?",
+    "options": {
+      "A": "31",
+      "B": "32",
+      "C": "33",
+      "D": "30"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q85.png"
+  },
+  {
+    "id": 86,
+    "section": "General Intelligence & Reasoning",
+    "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+    "options": {
+      "A": "RUS",
+      "B": "NQO",
+      "C": "MHG",
+      "D": "KNL"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q86.png"
+  },
+  {
+    "id": 87,
+    "section": "General Intelligence & Reasoning",
+    "question": "Seven boxes, G, H, I, J, O, K, and L, are kept one over the other, but not necessarily in the same order. J is kept second from the bottom. Only three boxes are kept between J and I. K is kept at one of the positions below J. Only G is kept between I and L. H is kept at one of the positions above I. How many boxes are kept between O and K?",
+    "options": {
+      "A": "One",
+      "B": "Three",
+      "C": "Two",
+      "D": "Four"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q87.png"
+  },
+  {
+    "id": 88,
+    "section": "General Intelligence & Reasoning",
+    "question": "Select the pair which follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern. ZRD : WPC WET : TCS",
+    "options": {
+      "A": "YDG : VBF",
+      "B": "VYA : UWX",
+      "C": "XAP : UYN",
+      "D": "RKF : OID"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q88.png"
+  },
+  {
+    "id": 89,
+    "section": "General Intelligence & Reasoning",
+    "question": "Refer to the following series and answer the question. (All numbers are single-digit numbers only. Counting to be done from left to right.) (Left) 2 4 9 6 7 1 4 6 3 9 5 2 4 8 6 1 3 2 7 6 2 5 8 1 (Right) How many such odd digits are there, each of the which is immediately preceded by an odd digit and immediately followed by an even digit?",
+    "options": {
+      "A": "One",
+      "B": "Four",
+      "C": "Three",
+      "D": "Two"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q89.png"
+  },
+  {
+    "id": 90,
+    "section": "General Intelligence & Reasoning",
+    "question": "Based on the alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group? (Note: The odd man out is not based on the number of consonants/vowels or their position in the letter cluster.)4779",
+    "options": {
+      "A": "JNK",
+      "B": "INJ",
+      "C": "QUR",
+      "D": "GKH"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q90.png"
+  },
+  {
+    "id": 91,
+    "section": "General Awareness",
+    "question": "Who took the oath as Bihar's Chief Minister for the record 10th time in 2025?",
+    "options": {
+      "A": "Lalu Prasad Yadav",
+      "B": "Tejashwi Prasad Yadav",
+      "C": "Shri Nitish Kumar",
+      "D": "Shri Nishant Kumar"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q91.png"
+  },
+  {
+    "id": 92,
+    "section": "General Awareness",
+    "question": "Which of the following Directive Principles was NOT added to the Indian Constitution as part of the 42nd Amendment Act of 1976?",
+    "options": {
+      "A": "Article 48A: To protect and improve the environment and safeguard forests and wildlife",
+      "B": "Article 39: To secure opportunities for healthy development of children",
+      "C": "Article 39A: To promote equal justice and to provide free legal aid to the poor",
+      "D": "Article 38: State to minimise inequalities in income, status, facilities and opportunities"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q92.png"
+  },
+  {
+    "id": 93,
+    "section": "General Awareness",
+    "question": "Which of the following committees, in its 2009 report, is known for introducing a widely used method to estimate poverty levels in India?",
+    "options": {
+      "A": "A.V. Subramanian Committee",
+      "B": "B.N. Yugandhar Committee",
+      "C": "Suresh Tendulkar Committee",
+      "D": "Rangarajan Expert Group"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q93.png"
+  },
+  {
+    "id": 94,
+    "section": "General Awareness",
+    "question": "Which of the following is the primary objective of Mission Sudarshan Chakra, launched by India in August 2025?",
+    "options": {
+      "A": "Support agricultural innovation",
+      "B": "Promote economic reform",
+      "C": "Strengthen civil aviation",
+      "D": "Create a powerful defence weapon system"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q94.png"
+  },
+  {
+    "id": 95,
+    "section": "General Awareness",
+    "question": "Which of the following successfully conducted user trials of the Akash-NG missile?",
+    "options": {
+      "A": "Bharat Electronics (BEL)",
+      "B": "Defence Research and Development Organisation (DRDO)",
+      "C": "Mazagon Dock Shipbuilders",
+      "D": "Hindustan Aeronautics (HAL)"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q95.png"
+  },
+  {
+    "id": 96,
+    "section": "General Awareness",
+    "question": "Who became the first Indian senior world champion in speed skating by winning the 1,000 m sprint at the World Championships in September 2025?",
+    "options": {
+      "A": "Dhanush Babu",
+      "B": "Krish Sharma",
+      "C": "Anandkumar Velkumar",
+      "D": "Anish Raj"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q96.png"
+  },
+  {
+    "id": 97,
+    "section": "General Awareness",
+    "question": "Which of the following renowned Indian musicians performed at the Red Fort on the occasion of India’s independence in 1947?",
+    "options": {
+      "A": "Pandit Ravi Shankar",
+      "B": "Pandit Hariprasad Chaurasia",
+      "C": "Pandit Bhimsen Joshi",
+      "D": "Ustad Bismillah Khan"
+    },
+    "correct": "D",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q97.png"
+  },
+  {
+    "id": 98,
+    "section": "General Awareness",
+    "question": "Which policy of Lord Dalhousie was a significant political cause of the 1857 Revolt?",
+    "options": {
+      "A": "Vernacular Press Act",
+      "B": "Doctrine of Lapse",
+      "C": "Ryotwari System",
+      "D": "Dual Government"
+    },
+    "correct": "B",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q98.png"
+  },
+  {
+    "id": 99,
+    "section": "General Awareness",
+    "question": "Cherrapunji and Mawsynram, two places that generally receive the maximum rainfall in India, are located in:",
+    "options": {
+      "A": "Aravalli Hills",
+      "B": "Nilgiri Hills",
+      "C": "Khasi Hills",
+      "D": "Satpura Hills"
+    },
+    "correct": "C",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q99.png"
+  },
+  {
+    "id": 100,
+    "section": "General Awareness",
+    "question": "Allocation of seats to States and Union Territories in the Rajya Sabha is provided under which of the following Schedules of the Constitution of India?​",
+    "options": {
+      "A": "Fourth Schedule",
+      "B": "Eighth Schedule",
+      "C": "Tenth Schedule",
+      "D": "Sixth Schedule"
+    },
+    "correct": "A",
+    "has_diagram": false,
+    "diagram_img": null,
+    "card_img": "cards/set8_q100.png"
+  }
+];

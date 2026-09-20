@@ -1,0 +1,20 @@
+{
+  "name": "rrb-technician-cbt",
+  "version": "1.0.0",
+  "description": "Full-Stack CBT Examination & Analytics Platform for RRB Technician Grade III",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js",
+    "seed": "node backend/db/seed.js",
+    "test": "node tests/api.test.js"
+  },
+  "keywords": ["cbt", "rrb", "exam-engine", "fullstack", "sqlite"],
+  "author": "RRB Aspirant",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
