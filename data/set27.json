@@ -4,13 +4,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXAM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q1.png"
   },
@@ -19,13 +19,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "AMREVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q2.png"
   },
@@ -34,13 +34,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "OM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q3.png"
   },
@@ -49,13 +49,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q4.png"
   },
@@ -64,13 +64,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q5.png"
   },
@@ -79,13 +79,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q6.png"
   },
@@ -94,13 +94,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXAM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q7.png"
   },
@@ -109,13 +109,13 @@
     "section": "General Science",
     "question": "A pipe can fill a tank in 12 hours. Another pipe can empty the filled tank in 28 hours. If both the pipes are opened simultaneously, then the time (in hours) in which the tank will be one-third filled, is:",
     "options": {
-      "A": "14",
-      "B": "21",
-      "C": "28",
-      "D": "7 AMREVIEW.CO"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q8.png"
   },
@@ -124,13 +124,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q9.png"
   },
@@ -139,13 +139,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q10.png"
   },
@@ -154,13 +154,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q11.png"
   },
@@ -169,13 +169,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q12.png"
   },
@@ -184,13 +184,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.ALLEXAMREVIEW C"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q13.png"
   },
@@ -199,13 +199,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q14.png"
   },
@@ -214,13 +214,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q15.png"
   },
@@ -229,13 +229,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q16.png"
   },
@@ -244,13 +244,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q17.png"
   },
@@ -259,13 +259,13 @@
     "section": "General Science",
     "question": "What was India’s rank out of 127 countries in the 2024 Global Hunger Index released in October 2024?",
     "options": {
-      "A": "99",
-      "B": "111",
-      "C": "97",
-      "D": "105 LEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q18.png"
   },
@@ -274,13 +274,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q19.png"
   },
@@ -289,13 +289,13 @@
     "section": "General Science",
     "question": "To promote the dialogue of traditions, national values and cultures, India participated in the BRICS Literature Forum 2024 in ______.",
     "options": {
-      "A": "Bhutan",
-      "B": "Russia",
-      "C": "China",
-      "D": "Nepal"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q20.png"
   },
@@ -304,13 +304,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q21.png"
   },
@@ -319,13 +319,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q22.png"
   },
@@ -334,13 +334,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.ALLEXAMRE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q23.png"
   },
@@ -349,13 +349,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "REVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q24.png"
   },
@@ -364,13 +364,13 @@
     "section": "General Science",
     "question": "In January 2024, what significant milestone did the Indian Air Force (IAF) achieve in terms of landing operations?",
     "options": {
-      "A": "First successful night landing at the Kargil airfield with a C-130J Super Hercules",
-      "B": "First deployment of the Garud Special Forces using a C-130J Super Hercules",
-      "C": "First operation of a C-130J Super Hercules at the world's highest airstrip",
-      "D": "First landing of a C-130J Super Hercules aircraft at Daulat Beg Oldie"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q25.png"
   },
@@ -379,13 +379,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q26.png"
   },
@@ -394,13 +394,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.AL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q27.png"
   },
@@ -409,13 +409,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "ALLEXAMREVI"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q28.png"
   },
@@ -424,13 +424,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "VIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q29.png"
   },
@@ -439,13 +439,13 @@
     "section": "General Science",
     "question": "Which team of Indian Space Research Organisation (ISRO) won the Vigyan Team award in 2024?",
     "options": {
-      "A": "Chandrayaan-3 Team",
-      "B": "Chandrayaan-2 Team",
-      "C": "Aditya-L1 Team",
-      "D": "XPoSat Team"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q30.png"
   },
@@ -454,13 +454,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q31.png"
   },
@@ -469,13 +469,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q32.png"
   },
@@ -484,13 +484,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q33.png"
   },
@@ -499,13 +499,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW A"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q34.png"
   },
@@ -514,13 +514,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.ALLEXAMRE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q35.png"
   },
@@ -529,13 +529,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "REVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q36.png"
   },
@@ -544,13 +544,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "OM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q37.png"
   },
@@ -559,13 +559,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q38.png"
   },
@@ -574,13 +574,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q39.png"
   },
@@ -589,13 +589,13 @@
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.AL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q40.png"
   },
@@ -604,13 +604,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "ALLEXAMREVIE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q41.png"
   },
@@ -619,13 +619,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "VIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q42.png"
   },
@@ -634,13 +634,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q43.png"
   },
@@ -649,13 +649,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q44.png"
   },
@@ -664,13 +664,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q45.png"
   },
@@ -679,13 +679,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q46.png"
   },
@@ -694,13 +694,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.AL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q47.png"
   },
@@ -709,13 +709,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "ALLEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q48.png"
   },
@@ -724,13 +724,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q49.png"
   },
@@ -739,13 +739,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q50.png"
   },
@@ -754,13 +754,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q51.png"
   },
@@ -769,13 +769,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q52.png"
   },
@@ -784,13 +784,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXA"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q53.png"
   },
@@ -799,13 +799,13 @@
     "section": "Mathematics",
     "question": "Who among the following has been appointed as the chairperson of the Lokpal in February 2024?",
     "options": {
-      "A": "Justice Rajiv Shakdher",
-      "B": "Justice Manmohan",
-      "C": "Justice Ajay Manikrao Khanwilkar",
-      "D": "Justice Suresh Kumar Kait XAMREVIEW C"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q54.png"
   },
@@ -814,13 +814,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q55.png"
   },
@@ -829,13 +829,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q56.png"
   },
@@ -844,13 +844,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q57.png"
   },
@@ -859,13 +859,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q58.png"
   },
@@ -874,13 +874,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW A"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q59.png"
   },
@@ -889,13 +889,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.ALLEXAMREV"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q60.png"
   },
@@ -904,13 +904,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q61.png"
   },
@@ -919,13 +919,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q62.png"
   },
@@ -934,13 +934,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q63.png"
   },
@@ -949,13 +949,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q64.png"
   },
@@ -964,13 +964,13 @@
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q65.png"
   },
@@ -979,13 +979,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q66.png"
   },
@@ -994,13 +994,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "LEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q67.png"
   },
@@ -1009,13 +1009,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q68.png"
   },
@@ -1024,13 +1024,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q69.png"
   },
@@ -1039,13 +1039,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "The Union Finance Minister, on 9 November 2024, inaugurated Nari Shakti Branches of which of the following banks in Bengaluru, Chennai, Visakhapatnam, and Jaipur?",
     "options": {
-      "A": "Canara Bank",
-      "B": "Union Bank of India",
-      "C": "State Bank of India",
-      "D": "Bank of Baroda"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q70.png"
   },
@@ -1054,13 +1054,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "How much prize money was announced by the BCCI for the men’s T20 cricket World Cup 2024 winner team?",
     "options": {
-      "A": "₹100 crore",
-      "B": "₹50 crore",
-      "C": "₹150 crore",
-      "D": "₹125 crore"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q71.png"
   },
@@ -1069,13 +1069,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q72.png"
   },
@@ -1084,13 +1084,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q73.png"
   },
@@ -1099,13 +1099,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.ALLEXAMRE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q74.png"
   },
@@ -1114,13 +1114,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "REVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q75.png"
   },
@@ -1129,13 +1129,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q76.png"
   },
@@ -1144,13 +1144,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q77.png"
   },
@@ -1159,13 +1159,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q78.png"
   },
@@ -1174,13 +1174,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "LEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q79.png"
   },
@@ -1189,13 +1189,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q80.png"
   },
@@ -1204,13 +1204,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q81.png"
   },
@@ -1219,13 +1219,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q82.png"
   },
@@ -1234,13 +1234,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q83.png"
   },
@@ -1249,13 +1249,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q84.png"
   },
@@ -1264,13 +1264,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q85.png"
   },
@@ -1279,13 +1279,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "Which of the following is NOT a role played by NITI Aayog in the localisation of SDGs in India?",
     "options": {
-      "A": "Benchmarking states based on SDG performance metrics",
-      "B": "Preparing the National Indicator Framework (NIF)",
-      "C": "Serving as a platform for collaboration among states",
-      "D": "Fostering competitive federalism among states and UTs LLEXAMREVIE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q86.png"
   },
@@ -1294,13 +1294,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "VIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q87.png"
   },
@@ -1309,13 +1309,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q88.png"
   },
@@ -1324,13 +1324,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q89.png"
   },
@@ -1339,13 +1339,13 @@
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q90.png"
   },
@@ -1354,13 +1354,13 @@
     "section": "General Awareness",
     "question": "Who among the following was appointed Indian men’s cricket team’s full time T20 international captain in July 2024?",
     "options": {
-      "A": "Ravindra Jadeja",
-      "B": "Shubman Gill",
-      "C": "Suryakumar Yadav",
-      "D": "Hardik Pandya WWW.ALL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q91.png"
   },
@@ -1369,13 +1369,13 @@
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "ALLEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q92.png"
   },
@@ -1384,13 +1384,13 @@
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q93.png"
   },
@@ -1399,13 +1399,13 @@
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q94.png"
   },
@@ -1414,13 +1414,13 @@
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q95.png"
   },
@@ -1429,13 +1429,13 @@
     "section": "General Awareness",
     "question": "Read the given statements and select the correct option. Statement I: Sarvepalli Radhakrishnan and C Rajagopalachari were the first recipients of the Bharat Ratna. Statements II: Sachin Tendulkar was the first and only cricketer awarded with Bharat Ratna till 2024.",
     "options": {
-      "A": "Both statement I and statement II are correct.",
-      "B": "Statement I is incorrect, while statement II is correct.",
-      "C": "Both statement I and statement II are incorrect.",
-      "D": "Statement I is correct, while statement II is incorrect."
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q96.png"
   },
@@ -1444,13 +1444,13 @@
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEX"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q97.png"
   },
@@ -1459,13 +1459,13 @@
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q98.png"
   },
@@ -1474,25 +1474,25 @@
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set27_q99.png"
   },
   {
     "id": 100,
     "section": "General Awareness",
-    "question": "2024/12/30-09:29:07 Q.100",
+    "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
     "has_diagram": false,

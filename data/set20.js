@@ -4,13 +4,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXA"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q1.png"
   },
@@ -19,13 +19,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "XAMREVIEW.CO"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q2.png"
   },
@@ -34,13 +34,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q3.png"
   },
@@ -49,13 +49,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q4.png"
   },
@@ -64,13 +64,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q5.png"
   },
@@ -79,13 +79,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXAMR"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q6.png"
   },
@@ -94,13 +94,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "MREVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q7.png"
   },
@@ -109,13 +109,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q8.png"
   },
@@ -124,13 +124,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q9.png"
   },
@@ -139,13 +139,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "If each vowel in the word FLOWING is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order, then how many vowels are there in the group of letters thus formed?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q10.png"
   },
@@ -154,13 +154,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q11.png"
   },
@@ -169,13 +169,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q12.png"
   },
@@ -184,13 +184,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "LEXAMREVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q13.png"
   },
@@ -199,13 +199,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "M"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q14.png"
   },
@@ -214,13 +214,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q15.png"
   },
@@ -229,13 +229,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q16.png"
   },
@@ -244,13 +244,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q17.png"
   },
@@ -259,13 +259,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WW.ALLEXAMR"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q18.png"
   },
@@ -274,13 +274,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "MREVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q19.png"
   },
@@ -289,13 +289,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "OM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q20.png"
   },
@@ -304,13 +304,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q21.png"
   },
@@ -319,13 +319,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q22.png"
   },
@@ -334,13 +334,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q23.png"
   },
@@ -349,13 +349,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "LEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q24.png"
   },
@@ -364,13 +364,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q25.png"
   },
@@ -379,13 +379,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q26.png"
   },
@@ -394,13 +394,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q27.png"
   },
@@ -409,13 +409,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q28.png"
   },
@@ -424,13 +424,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.AL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q29.png"
   },
@@ -439,13 +439,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "What was the theme of the ‘GST & Customs Pavilion’ inaugurated at the India International Trade Fair (IITF) 2024 in November 2024?",
     "options": {
-      "A": "Supporting trade, facilitating economy",
-      "B": "Facilitating trade, strengthening economy",
-      "C": "Facilitating economy, fostering trade",
-      "D": "Facilitating trade, fostering economy ALLEXAMREV"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q30.png"
   },
@@ -454,13 +454,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q31.png"
   },
@@ -469,13 +469,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q32.png"
   },
@@ -484,13 +484,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q33.png"
   },
@@ -499,13 +499,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXAM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q34.png"
   },
@@ -514,13 +514,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "AMREVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q35.png"
   },
@@ -529,13 +529,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "In November 2024, the Indian Computer Emergency Response Team (CERT-In) signed a Memorandum of Understanding (MoU) with which of the following international cybersecurity companies, specializing in networking and security, to launch joint initiatives aimed at advancing cyber awareness and cybersecurity skills in academia?",
     "options": {
-      "A": "Fortinet",
-      "B": "Palo Alto Networks",
-      "C": "Cisco",
-      "D": "CrowdStrike OM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q36.png"
   },
@@ -544,13 +544,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "Which team won the Khelo India Winter Games 2024 title, winning ten gold, five silver and six bronze?",
     "options": {
-      "A": "Ladakh",
-      "B": "Maharashtra",
-      "C": "Karnataka",
-      "D": "The Indian Army"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q37.png"
   },
@@ -559,13 +559,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q38.png"
   },
@@ -574,13 +574,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q39.png"
   },
@@ -589,13 +589,13 @@ window.SET_20_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW A"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q40.png"
   },
@@ -604,13 +604,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.ALLEXAMRE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q41.png"
   },
@@ -619,13 +619,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "Which edition of Rashtriya Poshan Maah was celebrated nationwide in September 2024, promoted by Ministry of Women and Child Development focusing on advancing nutritional outcomes for children, adolescent girls, pregnant women and lactating mothers holistically?",
     "options": {
-      "A": "5th",
-      "B": "6th",
-      "C": "8th",
-      "D": "7th REVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q42.png"
   },
@@ -634,13 +634,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q43.png"
   },
@@ -649,13 +649,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "A and B complete a work in 2 days. If A alone can do it in 4 days then, B alone can do 20-times of the same work in ______________(days).",
     "options": {
-      "A": "5",
-      "B": "4",
-      "C": "80",
-      "D": "81"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q44.png"
   },
@@ -664,13 +664,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q45.png"
   },
@@ -679,13 +679,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q46.png"
   },
@@ -694,13 +694,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXAMR"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q47.png"
   },
@@ -709,13 +709,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "Which of the following jointly organised the ‘Kaveri Meets Ganga festival series', in November 2024? (1) Sangeet Natak Akademi (2) Kalakshetra (3) Centre for Cultural Resources and Training (CCRT)",
     "options": {
-      "A": "Only 2 and 3",
-      "B": "Only 1 and 3",
-      "C": "Only 1 and 2",
-      "D": "1, 2 and 3 MREVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q48.png"
   },
@@ -724,13 +724,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q49.png"
   },
@@ -739,13 +739,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q50.png"
   },
@@ -754,13 +754,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q51.png"
   },
@@ -769,13 +769,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "How many seats did the Bharatiya Janata Party win in Lok Sabha election 2024?",
     "options": {
-      "A": "240",
-      "B": "37",
-      "C": "140",
-      "D": "99 WW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q52.png"
   },
@@ -784,13 +784,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXAM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q53.png"
   },
@@ -799,13 +799,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "AMREVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q54.png"
   },
@@ -814,13 +814,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "OM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q55.png"
   },
@@ -829,13 +829,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q56.png"
   },
@@ -844,13 +844,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q57.png"
   },
@@ -859,13 +859,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q58.png"
   },
@@ -874,13 +874,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "ALLEXAMREVI"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q59.png"
   },
@@ -889,13 +889,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "Which organization released the SDG India Index 2023-24, the fourth edition for measuring progress on the Sustainable Development Goals?",
     "options": {
-      "A": "Reserve Bank of India (RBI)",
-      "B": "Indian Statistical Institute",
-      "C": "NITI Aayog",
-      "D": "Ministry of Environment VIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q60.png"
   },
@@ -904,13 +904,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q61.png"
   },
@@ -919,13 +919,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q62.png"
   },
@@ -934,13 +934,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q63.png"
   },
@@ -949,13 +949,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q64.png"
   },
@@ -964,13 +964,13 @@ window.SET_20_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q65.png"
   },
@@ -979,13 +979,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "ALLEXAMREVIE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q66.png"
   },
@@ -994,13 +994,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "IEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q67.png"
   },
@@ -1009,13 +1009,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "Which Indian achieved a significant milestone by winning his first Formula 2 Sprint Race at the Hungarian Grand Prix in July 2024?",
     "options": {
-      "A": "Jehan Daruvala",
-      "B": "Kush Maini",
-      "C": "Yash Aradhya",
-      "D": "Arjun Maini"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q68.png"
   },
@@ -1024,13 +1024,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q69.png"
   },
@@ -1039,13 +1039,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q70.png"
   },
@@ -1054,13 +1054,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q71.png"
   },
@@ -1069,13 +1069,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q72.png"
   },
@@ -1084,13 +1084,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "ALLEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q73.png"
   },
@@ -1099,13 +1099,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q74.png"
   },
@@ -1114,13 +1114,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q75.png"
   },
@@ -1129,13 +1129,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q76.png"
   },
@@ -1144,13 +1144,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q77.png"
   },
@@ -1159,13 +1159,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q78.png"
   },
@@ -1174,13 +1174,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.A"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q79.png"
   },
@@ -1189,13 +1189,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.ALLEXAMREVIEW.CO"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q80.png"
   },
@@ -1204,13 +1204,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q81.png"
   },
@@ -1219,13 +1219,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "The remarkable journey of Indian cinema began in 1913 with the release of which of the following first indigenous films?",
     "options": {
-      "A": "Keechaka Vadham",
-      "B": "Raja Harishchandra",
-      "C": "Mohini Bhasmasur",
-      "D": "Lanka Dahan"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q82.png"
   },
@@ -1234,13 +1234,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q83.png"
   },
@@ -1249,13 +1249,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q84.png"
   },
@@ -1264,13 +1264,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW A"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q85.png"
   },
@@ -1279,13 +1279,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.ALLEXAMREV"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q86.png"
   },
@@ -1294,13 +1294,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q87.png"
   },
@@ -1309,13 +1309,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q88.png"
   },
@@ -1324,13 +1324,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q89.png"
   },
@@ -1339,13 +1339,13 @@ window.SET_20_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q90.png"
   },
@@ -1354,13 +1354,13 @@ window.SET_20_DATA = [
     "section": "General Awareness",
     "question": "Which of the following aircrafts was NOT a part of the Indian Air Force's participation in Exercise Cobra Warrior 2023?",
     "options": {
-      "A": "C-17 Globemaster III",
-      "B": "F-16 Fighting Falcon",
-      "C": "Mirage 2000",
-      "D": "IL-78 Mid Air Refueller WWW.ALL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q91.png"
   },
@@ -1369,13 +1369,13 @@ window.SET_20_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "LLEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q92.png"
   },
@@ -1384,13 +1384,13 @@ window.SET_20_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q93.png"
   },
@@ -1399,13 +1399,13 @@ window.SET_20_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q94.png"
   },
@@ -1414,13 +1414,13 @@ window.SET_20_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q95.png"
   },
@@ -1429,13 +1429,13 @@ window.SET_20_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q96.png"
   },
@@ -1444,13 +1444,13 @@ window.SET_20_DATA = [
     "section": "General Awareness",
     "question": "Seven people, A, B, C, L, X, Y and Z are sitting in a row, facing north. No one sits to the left of B. Only four people sit between B and Y. Only three people sit to the right of C. A sits to the immediate left of L. Z is not an immediate neighbour of C. Who sits at the rightmost end of the row?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q97.png"
   },
@@ -1459,13 +1459,13 @@ window.SET_20_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "LEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q98.png"
   },
@@ -1474,28 +1474,28 @@ window.SET_20_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q99.png"
   },
   {
     "id": 100,
     "section": "General Awareness",
-    "question": "2024/12/30-15:59:48 Q.100",
+    "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set20_q100.png"
   }

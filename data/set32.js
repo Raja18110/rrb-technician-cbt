@@ -4,13 +4,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXA"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q1.png"
   },
@@ -19,13 +19,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "XAMREVIEW.C"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q2.png"
   },
@@ -34,13 +34,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q3.png"
   },
@@ -49,13 +49,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q4.png"
   },
@@ -64,13 +64,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q5.png"
   },
@@ -79,13 +79,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q6.png"
   },
@@ -94,13 +94,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXAM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q7.png"
   },
@@ -109,13 +109,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "Who took oath as Chief Minister for the second time and the first to assume office after the scrapping of Article 370 in Jammu and Kashmir?",
     "options": {
-      "A": "Mehbooba Mufti",
-      "B": "Shri Farooq Abdullah",
-      "C": "Shri Manoj Sinha",
-      "D": "Shri Omar Abdullah AMREVIEW.CO"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q8.png"
   },
@@ -124,13 +124,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q9.png"
   },
@@ -139,13 +139,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q10.png"
   },
@@ -154,13 +154,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q11.png"
   },
@@ -169,13 +169,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q12.png"
   },
@@ -184,13 +184,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.AL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q13.png"
   },
@@ -199,13 +199,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "ALLEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q14.png"
   },
@@ -214,13 +214,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q15.png"
   },
@@ -229,13 +229,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q16.png"
   },
@@ -244,13 +244,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q17.png"
   },
@@ -259,13 +259,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.A"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q18.png"
   },
@@ -274,13 +274,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ".ALLEXAMREV"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q19.png"
   },
@@ -289,13 +289,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "What is the title of the book by Nandan Kamath that won the Sports Book of the Year award in 2024?",
     "options": {
-      "A": "Playing It My Way",
-      "B": "Boundary Lab",
-      "C": "Spirit of Sports",
-      "D": "The Winning Mindset EVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q20.png"
   },
@@ -304,13 +304,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "What was India’s rank in the 2024 Global Hunger Index (GHI), a tool used to measure and track hunger at the global, regional and national levels?",
     "options": {
-      "A": "105",
-      "B": "119",
-      "C": "111",
-      "D": "110"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q21.png"
   },
@@ -319,13 +319,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q22.png"
   },
@@ -334,13 +334,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q23.png"
   },
@@ -349,13 +349,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXA"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q24.png"
   },
@@ -364,13 +364,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EXAMREVIEW C"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q25.png"
   },
@@ -379,13 +379,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q26.png"
   },
@@ -394,13 +394,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "Which new initiative was launched by the government on National Sports Day 2024?",
     "options": {
-      "A": "Retired Sportsperson Empowerment Training (RESET) Programme",
-      "B": "National Fitness Challenge",
-      "C": "Fit India Movement",
-      "D": "National Sports Scholarship Scheme"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q27.png"
   },
@@ -409,13 +409,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q28.png"
   },
@@ -424,13 +424,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q29.png"
   },
@@ -439,13 +439,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q30.png"
   },
@@ -454,13 +454,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WW.ALLEXAMRE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q31.png"
   },
@@ -469,13 +469,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "REVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q32.png"
   },
@@ -484,13 +484,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q33.png"
   },
@@ -499,13 +499,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q34.png"
   },
@@ -514,13 +514,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q35.png"
   },
@@ -529,13 +529,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WW.ALLEXAMREVIEW.C"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q36.png"
   },
@@ -544,13 +544,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ".COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q37.png"
   },
@@ -559,13 +559,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q38.png"
   },
@@ -574,13 +574,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q39.png"
   },
@@ -589,13 +589,13 @@ window.SET_32_DATA = [
     "section": "General Science",
     "question": "At which event was Ram Charan awarded the title of Ambassador for Indian Art and Culture?",
     "options": {
-      "A": "Cannes Film Festival 2024",
-      "B": "Toronto International Film Festival 2024",
-      "C": "Indian Film Festival of Melbourne (IFFM) 2024",
-      "D": "International Film Festival of India 2024 WW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q40.png"
   },
@@ -604,13 +604,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXAMR"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q41.png"
   },
@@ -619,13 +619,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "MREVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q42.png"
   },
@@ -634,13 +634,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q43.png"
   },
@@ -649,13 +649,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q44.png"
   },
@@ -664,13 +664,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q45.png"
   },
@@ -679,13 +679,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q46.png"
   },
@@ -694,13 +694,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.AL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q47.png"
   },
@@ -709,13 +709,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "ALLEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q48.png"
   },
@@ -724,13 +724,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q49.png"
   },
@@ -739,13 +739,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q50.png"
   },
@@ -754,13 +754,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q51.png"
   },
@@ -769,13 +769,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q52.png"
   },
@@ -784,13 +784,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q53.png"
   },
@@ -799,13 +799,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "Parbati Baruah was awarded the Padma Shri-2024. For which achievement is she known?",
     "options": {
-      "A": "Lion conservation",
-      "B": "Rhino conservation",
-      "C": "First woman mahout",
-      "D": "Tiger conservation WWW A"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q54.png"
   },
@@ -814,13 +814,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.ALLEXAMRE"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q55.png"
   },
@@ -829,13 +829,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "Nayab Singh Saini was appointed the Chief Minister of _____ in October 2024.",
     "options": {
-      "A": "Himachal Pradesh",
-      "B": "Haryana",
-      "C": "Jharkhand",
-      "D": "Punjab REVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q56.png"
   },
@@ -844,13 +844,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "OM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q57.png"
   },
@@ -859,13 +859,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q58.png"
   },
@@ -874,13 +874,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q59.png"
   },
@@ -889,13 +889,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q60.png"
   },
@@ -904,13 +904,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEX"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q61.png"
   },
@@ -919,13 +919,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EXAMREVIEW C"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q62.png"
   },
@@ -934,13 +934,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q63.png"
   },
@@ -949,13 +949,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q64.png"
   },
@@ -964,13 +964,13 @@ window.SET_32_DATA = [
     "section": "Mathematics",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q65.png"
   },
@@ -979,13 +979,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "Which of the following banks launched a special debit card for visually impaired customers in October 2024?",
     "options": {
-      "A": "State Bank of India",
-      "B": "Punjab National Bank",
-      "C": "HDFC Bank",
-      "D": "Canara Bank"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q66.png"
   },
@@ -994,13 +994,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.A"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q67.png"
   },
@@ -1009,13 +1009,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ".ALLEXAMREV"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q68.png"
   },
@@ -1024,13 +1024,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q69.png"
   },
@@ -1039,13 +1039,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q70.png"
   },
@@ -1054,13 +1054,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q71.png"
   },
@@ -1069,13 +1069,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q72.png"
   },
@@ -1084,13 +1084,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEX"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q73.png"
   },
@@ -1099,13 +1099,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "LEXAMREVIEW"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q74.png"
   },
@@ -1114,13 +1114,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q75.png"
   },
@@ -1129,13 +1129,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q76.png"
   },
@@ -1144,13 +1144,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q77.png"
   },
@@ -1159,13 +1159,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "W"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q78.png"
   },
@@ -1174,13 +1174,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEXAM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q79.png"
   },
@@ -1189,13 +1189,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "AMREVIEW.CO"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q80.png"
   },
@@ -1204,13 +1204,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "On 30th September 2024, Union Minister for Information and Broadcasting Ashwini Vaishnaw announced that the jury had selected veteran film actor ______________ as the recipient of the prestigious Dadasaheb Phalke Lifetime Achievement Award for 2022.",
     "options": {
-      "A": "Rajinikanth",
-      "B": "Mithun Chakraborty",
-      "C": "Shah Rukh Khan",
-      "D": "Asha Bhosle COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q81.png"
   },
@@ -1219,13 +1219,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q82.png"
   },
@@ -1234,13 +1234,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.AL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q83.png"
   },
@@ -1249,13 +1249,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "ALLEXAMREV"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q84.png"
   },
@@ -1264,13 +1264,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q85.png"
   },
@@ -1279,13 +1279,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q86.png"
   },
@@ -1294,13 +1294,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q87.png"
   },
@@ -1309,13 +1309,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q88.png"
   },
@@ -1324,13 +1324,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q89.png"
   },
@@ -1339,13 +1339,13 @@ window.SET_32_DATA = [
     "section": "General Intelligence & Reasoning",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALLEX"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q90.png"
   },
@@ -1354,13 +1354,13 @@ window.SET_32_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "EXAMREVIEW.C"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q91.png"
   },
@@ -1369,13 +1369,13 @@ window.SET_32_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ".COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q92.png"
   },
@@ -1384,13 +1384,13 @@ window.SET_32_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q93.png"
   },
@@ -1399,13 +1399,13 @@ window.SET_32_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q94.png"
   },
@@ -1414,13 +1414,13 @@ window.SET_32_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "WWW.ALL"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q95.png"
   },
@@ -1429,13 +1429,13 @@ window.SET_32_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "ALLEXAMREVIEW.COM"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "D",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q96.png"
   },
@@ -1444,13 +1444,13 @@ window.SET_32_DATA = [
     "section": "General Awareness",
     "question": "TakeMe2Space (TM2Space), an innovative space technology firm, is based in which city of India?",
     "options": {
-      "A": "New Delhi",
-      "B": "Kolkata",
-      "C": "Hyderabad",
-      "D": "Chennai M"
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q97.png"
   },
@@ -1459,13 +1459,13 @@ window.SET_32_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "B",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q98.png"
   },
@@ -1474,28 +1474,28 @@ window.SET_32_DATA = [
     "section": "General Awareness",
     "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
-    "correct": "C",
-    "has_diagram": false,
+    "correct": "A",
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q99.png"
   },
   {
     "id": 100,
     "section": "General Awareness",
-    "question": "2024/12/31-10:57:00 Q.100",
+    "question": "",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Option 1",
+      "B": "Option 2",
+      "C": "Option 3",
+      "D": "Option 4"
     },
     "correct": "A",
-    "has_diagram": false,
+    "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set32_q100.png"
   }

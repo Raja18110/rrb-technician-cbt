@@ -36,12 +36,12 @@ function request(method, path, body = null) {
 }
 
 async function runTests() {
-  console.log('🧪 Running Comprehensive API & Backend Integration Tests (32 Shifts)...\n');
+  console.log('🧪 Running Comprehensive API & Backend Integration Tests (All 32 Shifts)...\n');
 
   await new Promise(res => server.listen(PORT, res));
 
   try {
-    // 1. Test GET /api/tests - verify all 32 sets
+    // 1. Test GET /api/tests - verify 32 sets
     const resTests = await request('GET', '/api/tests');
     console.log(`[PASS] GET /api/tests -> Status ${resTests.status}, Count: ${resTests.body.data.length}`);
     if (resTests.body.data.length !== 32) throw new Error(`Expected 32 sets, got ${resTests.body.data.length}`);
@@ -51,30 +51,40 @@ async function runTests() {
     console.log(`[PASS] GET /api/tests/1 -> Status ${resSet1.status}, Questions: ${resSet1.body.data.questions.length}, Title: ${resSet1.body.data.test.title}`);
     if (resSet1.body.data.questions.length !== 100) throw new Error('Expected 100 questions in Set 1');
 
-    // 3. Test GET /api/tests/15 (CEN 02/2024)
+    // 3. Test GET /api/tests/15 (CEN 02/2024 Part 1)
     const resSet15 = await request('GET', '/api/tests/15');
     console.log(`[PASS] GET /api/tests/15 -> Status ${resSet15.status}, Questions: ${resSet15.body.data.questions.length}, Title: ${resSet15.body.data.test.title}`);
     if (resSet15.body.data.questions.length !== 100) throw new Error('Expected 100 questions in Set 15');
-    if (!resSet15.body.data.questions[0].card_img) throw new Error('Expected card_img in Set 15 question');
 
-    // 4. Test Session Auto-saving & Restoration on Set 15
+    // 4. Test GET /api/tests/27 (CEN 02/2024 Part 3)
+    const resSet27 = await request('GET', '/api/tests/27');
+    console.log(`[PASS] GET /api/tests/27 -> Status ${resSet27.status}, Questions: ${resSet27.body.data.questions.length}, Title: ${resSet27.body.data.test.title}`);
+    if (resSet27.body.data.questions.length !== 100) throw new Error('Expected 100 questions in Set 27');
+
+    // 5. Test GET /api/tests/32 (CEN 02/2024 Final Part 4)
+    const resSet32 = await request('GET', '/api/tests/32');
+    console.log(`[PASS] GET /api/tests/32 -> Status ${resSet32.status}, Questions: ${resSet32.body.data.questions.length}, Title: ${resSet32.body.data.test.title}`);
+    if (resSet32.body.data.questions.length !== 100) throw new Error('Expected 100 questions in Set 32');
+    if (!resSet32.body.data.questions[0].card_img) throw new Error('Expected card_img in Set 32 question');
+
+    // 6. Test Session Auto-saving & Restoration on Set 32
     const sessionPayload = {
-      currentQIndex: 5,
-      timeRemaining: 5200,
+      currentQIndex: 12,
+      timeRemaining: 4500,
       responses: {
-        1: { option: 'B', status: 'answered', timeSpent: 20 },
-        2: { option: null, status: 'review-later', timeSpent: 15 }
+        1: { option: 'A', status: 'answered', timeSpent: 25 },
+        2: { option: 'B', status: 'answered', timeSpent: 19 }
       }
     };
-    const resSaveSession = await request('POST', '/api/tests/15/session', sessionPayload);
-    console.log(`[PASS] POST /api/tests/15/session -> Status ${resSaveSession.status}, Saved: ${resSaveSession.body.success}`);
+    const resSaveSession = await request('POST', '/api/tests/32/session', sessionPayload);
+    console.log(`[PASS] POST /api/tests/32/session -> Status ${resSaveSession.status}, Saved: ${resSaveSession.body.success}`);
     if (!resSaveSession.body.success) throw new Error('Failed to save session');
 
-    const resGetSession = await request('GET', '/api/tests/15/session');
-    console.log(`[PASS] GET /api/tests/15/session -> Restored timer: ${resGetSession.body.data.time_remaining}s, Current Q: ${resGetSession.body.data.current_q_index}`);
-    if (resGetSession.body.data.time_remaining !== 5200) throw new Error('Session timer mismatch');
+    const resGetSession = await request('GET', '/api/tests/32/session');
+    console.log(`[PASS] GET /api/tests/32/session -> Restored timer: ${resGetSession.body.data.time_remaining}s, Current Q: ${resGetSession.body.data.current_q_index}`);
+    if (resGetSession.body.data.time_remaining !== 4500) throw new Error('Session timer mismatch');
 
-    // 5. Test POST /api/tests/1/submit (Marking: +1, -1/3)
+    // 7. Test POST /api/tests/1/submit (Marking: +1, -1/3)
     const mockResponses = {
       1: { option: 'C', status: 'answered', timeSpent: 25 }, // correct (+1.0)
       2: { option: 'A', status: 'answered', timeSpent: 30 }, // correct (+1.0)
@@ -93,25 +103,25 @@ async function runTests() {
       throw new Error(`Expected score ${expectedScore}, got ${resSubmit.body.data.score}`);
     }
 
-    // 6. Test GET /api/analytics/summary
+    // 8. Test GET /api/analytics/summary
     const resAnalytics = await request('GET', '/api/analytics/summary');
     console.log(`[PASS] GET /api/analytics/summary -> Total Tests Taken: ${resAnalytics.body.data.overall.total_tests_taken}`);
 
-    // 7. Test GET /api/mistakes
+    // 9. Test GET /api/mistakes
     const resMistakes = await request('GET', '/api/mistakes');
     console.log(`[PASS] GET /api/mistakes -> Mistake Count: ${resMistakes.body.count}`);
     if (resMistakes.body.count < 1) throw new Error('Expected mistake logged');
 
-    // 8. Test POST /api/quiz/custom across the 3,200 questions pool
+    // 10. Test POST /api/quiz/custom across the 3,200 questions pool
     const resQuiz = await request('POST', '/api/quiz/custom', {
       mode: 'section',
       section: 'Mathematics',
-      count: 15
+      count: 25
     });
     console.log(`[PASS] POST /api/quiz/custom -> Generated ${resQuiz.body.data.questions.length} questions from 3,200 question pool`);
-    if (resQuiz.body.data.questions.length !== 15) throw new Error('Expected 15 custom questions');
+    if (resQuiz.body.data.questions.length !== 25) throw new Error('Expected 25 custom questions');
 
-    console.log('\n🎉 ALL 8 BACKEND & SERVICE INTEGRATION TESTS PASSED SUCCESSFULLY!');
+    console.log('\n🎉 ALL 10 BACKEND & SERVICE INTEGRATION TESTS PASSED SUCCESSFULLY!');
   } finally {
     server.close();
   }

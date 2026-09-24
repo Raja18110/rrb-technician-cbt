@@ -591,34 +591,60 @@
 
     const resp = APP_STATE.responses[q.id] || { option: null };
 
+    const hasTextStem = q.question && q.question.trim().length > 0;
+    const shouldShowCard = q.card_img && (!hasTextStem || APP_STATE.showSnapshot);
+    const seriesTitle = APP_STATE.currentTest && APP_STATE.currentTest.series 
+      ? APP_STATE.currentTest.series 
+      : (APP_STATE.currentTestId <= 9 ? "CEN 02/2025" : "CEN 02/2024");
+
+    // Manage snapshot toggle button visibility & text
+    const snapshotBtn = document.querySelector(".toggle-snapshot-btn");
+    const snapshotText = document.getElementById("toggle-snapshot-text");
+    if (snapshotBtn) {
+      if (q.card_img && hasTextStem) {
+        snapshotBtn.style.display = "inline-flex";
+        if (snapshotText) {
+          snapshotText.innerText = APP_STATE.showSnapshot ? "Hide Paper Snapshot" : "View Paper Snapshot";
+        }
+      } else {
+        snapshotBtn.style.display = "none";
+      }
+    }
+
     let html = "";
-    if (APP_STATE.showSnapshot && q.card_img) {
+    if (shouldShowCard) {
       html += `
-        <div class="q-snapshot-card">
-          <div style="background: #e2e8f0; padding: 6px 12px; font-size: 0.8rem; font-weight: 600; color: #475569;">
-            Original Paper Snapshot (CEN 02/2025)
+        <div class="q-snapshot-card" style="margin-bottom: 16px; border: 1px solid #cbd5e1; border-radius: 6px; overflow: hidden; background: #ffffff;">
+          <div style="background: #f1f5f9; padding: 6px 12px; font-size: 0.8rem; font-weight: 600; color: #475569; border-bottom: 1px solid #e2e8f0; display:flex; justify-content:space-between; align-items:center;">
+            <span>Official Question Paper (${seriesTitle})</span>
+            <span style="font-size:0.75rem; color:#64748b; font-weight:normal;">Candidate Practice View</span>
           </div>
-          <img src="${q.card_img}" alt="Official Question Paper Snapshot">
+          <img src="${q.card_img}" alt="Official Question Card" style="display:block; max-width:100%; height:auto;">
         </div>
       `;
     }
 
-    const stemText = q.question && q.question.trim().length > 0 ? q.question : "(Refer to equation / diagram above)";
-    html += `<div class="q-text-body" style="font-size: ${getFontSizeStyle()}">${escapeHtml(stemText)}</div>`;
+    if (hasTextStem) {
+      html += `<div class="q-text-body" style="font-size: ${getFontSizeStyle()}">${escapeHtml(q.question)}</div>`;
+    }
 
     if (q.has_diagram && q.diagram_img) {
       html += `<div class="q-diagram-container"><img src="${q.diagram_img}" alt="Diagram"></div>`;
     }
 
     html += `<div class="options-list">`;
-    ["A", "B", "C", "D"].forEach((letter) => {
-      const optText = q.options[letter] || "";
+    ["A", "B", "C", "D"].forEach((letter, idx) => {
+      let optText = q.options && q.options[letter] ? q.options[letter] : "";
+      optText = optText.replace(/\(See Question Card\)/gi, "").trim();
+      if (!optText) {
+        optText = `Option ${idx + 1}`;
+      }
       const isSelected = resp.option === letter;
       html += `
         <div class="option-item ${isSelected ? "selected" : ""}" onclick="selectOption('${letter}')">
           <input type="radio" name="cbt_opt" value="${letter}" ${isSelected ? "checked" : ""} class="option-radio">
           <span class="opt-letter-badge">${letter}.</span>
-          <span class="opt-text">${optText ? escapeHtml(optText) : `<span style="color:#64748b; font-style:italic;">(Option ${letter})</span>`}</span>
+          <span class="opt-text">${escapeHtml(optText)}</span>
         </div>
       `;
     });
@@ -1053,12 +1079,13 @@
           </div>
           <div>${statusBadge}</div>
         </div>
-        <div class="q-text-body">${escapeHtml(q.question || "")}</div>
+        ${q.card_img ? `<div class="q-snapshot-card" style="margin-bottom:12px; border:1px solid #cbd5e1; border-radius:6px; overflow:hidden;"><img src="${q.card_img}" alt="Official Question Card" style="display:block; max-width:100%; height:auto;"></div>` : ""}
+        ${q.question ? `<div class="q-text-body">${escapeHtml(q.question)}</div>` : ""}
         ${q.has_diagram && q.diagram_img ? `<div class="q-diagram-container"><img src="${q.diagram_img}" alt="Diagram"></div>` : ""}
         <div class="review-options-grid">${optHtml}</div>
         <div class="explanation-box">
           <strong>Official Solution:</strong> Correct Option is <strong>(${q.correct})</strong>.
-          ${q.card_img ? `<div style="margin-top:8px;"><a href="${q.card_img}" target="_blank" style="color:#2563eb; text-decoration:underline; font-size:0.8rem;">🔍 View Paper Question Snapshot</a></div>` : ""}
+          <div style="margin-top:6px; font-size:0.85rem; color:#475569;">${escapeHtml(q.explanation || `Referenced from official RRB Technician Grade III question paper and answer key.`)}</div>
         </div>
       `;
 

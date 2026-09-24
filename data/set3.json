@@ -12,7 +12,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q1.png"
+    "card_img": null
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q2.png"
+    "card_img": null
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q3.png"
+    "card_img": null
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q4.png"
+    "card_img": null
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q5.png"
+    "card_img": null
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q6.png"
+    "card_img": null
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q7.png"
+    "card_img": null
   },
   {
     "id": 8,
@@ -117,7 +117,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q8.png"
+    "card_img": null
   },
   {
     "id": 9,
@@ -132,7 +132,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q9.png"
+    "card_img": null
   },
   {
     "id": 10,
@@ -147,7 +147,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q10.png"
+    "card_img": null
   },
   {
     "id": 11,
@@ -162,7 +162,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q11.png"
+    "card_img": null
   },
   {
     "id": 12,
@@ -177,7 +177,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q12.png"
+    "card_img": null
   },
   {
     "id": 13,
@@ -192,7 +192,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q13.png"
+    "card_img": null
   },
   {
     "id": 14,
@@ -207,7 +207,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q14.png"
+    "card_img": null
   },
   {
     "id": 15,
@@ -222,7 +222,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q15.png"
+    "card_img": null
   },
   {
     "id": 16,
@@ -237,7 +237,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q16.png"
+    "card_img": null
   },
   {
     "id": 17,
@@ -252,7 +252,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q17.png"
+    "card_img": null
   },
   {
     "id": 18,
@@ -267,7 +267,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q18.png"
+    "card_img": null
   },
   {
     "id": 19,
@@ -282,7 +282,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q19.png"
+    "card_img": null
   },
   {
     "id": 20,
@@ -297,7 +297,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q20.png"
+    "card_img": null
   },
   {
     "id": 21,
@@ -312,7 +312,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q21.png"
+    "card_img": null
   },
   {
     "id": 22,
@@ -327,7 +327,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q22.png"
+    "card_img": null
   },
   {
     "id": 23,
@@ -342,7 +342,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q23.png"
+    "card_img": null
   },
   {
     "id": 24,
@@ -357,7 +357,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q24.png"
+    "card_img": null
   },
   {
     "id": 25,
@@ -372,7 +372,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q25.png"
+    "card_img": null
   },
   {
     "id": 26,
@@ -387,7 +387,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q26.png"
+    "card_img": null
   },
   {
     "id": 27,
@@ -402,7 +402,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q27.png"
+    "card_img": null
   },
   {
     "id": 28,
@@ -417,7 +417,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q28.png"
+    "card_img": null
   },
   {
     "id": 29,
@@ -432,7 +432,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q29.png"
+    "card_img": null
   },
   {
     "id": 30,
@@ -447,7 +447,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q30.png"
+    "card_img": null
   },
   {
     "id": 31,
@@ -462,7 +462,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q31.png"
+    "card_img": null
   },
   {
     "id": 32,
@@ -477,7 +477,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q32.png"
+    "card_img": null
   },
   {
     "id": 33,
@@ -492,7 +492,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q33.png"
+    "card_img": null
   },
   {
     "id": 34,
@@ -507,7 +507,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q34.png"
+    "card_img": null
   },
   {
     "id": 35,
@@ -522,7 +522,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q35.png"
+    "card_img": null
   },
   {
     "id": 36,
@@ -537,7 +537,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q36.png"
+    "card_img": null
   },
   {
     "id": 37,
@@ -552,7 +552,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q37.png"
+    "card_img": null
   },
   {
     "id": 38,
@@ -567,7 +567,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q38.png"
+    "card_img": null
   },
   {
     "id": 39,
@@ -582,7 +582,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q39.png"
+    "card_img": null
   },
   {
     "id": 40,
@@ -597,7 +597,7 @@
     "correct": "A",
     "has_diagram": true,
     "diagram_img": "cards/diag_s3_q40_301.png",
-    "card_img": "cards/set3_q40.png"
+    "card_img": null
   },
   {
     "id": 41,
@@ -612,7 +612,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q41.png"
+    "card_img": null
   },
   {
     "id": 42,
@@ -627,7 +627,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q42.png"
+    "card_img": null
   },
   {
     "id": 43,
@@ -642,7 +642,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q43.png"
+    "card_img": null
   },
   {
     "id": 44,
@@ -657,7 +657,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q44.png"
+    "card_img": null
   },
   {
     "id": 45,
@@ -672,7 +672,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q45.png"
+    "card_img": null
   },
   {
     "id": 46,
@@ -687,7 +687,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q46.png"
+    "card_img": null
   },
   {
     "id": 47,
@@ -702,7 +702,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q47.png"
+    "card_img": null
   },
   {
     "id": 48,
@@ -717,7 +717,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q48.png"
+    "card_img": null
   },
   {
     "id": 49,
@@ -732,7 +732,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q49.png"
+    "card_img": null
   },
   {
     "id": 50,
@@ -747,7 +747,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q50.png"
+    "card_img": null
   },
   {
     "id": 51,
@@ -762,7 +762,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q51.png"
+    "card_img": null
   },
   {
     "id": 52,
@@ -777,7 +777,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q52.png"
+    "card_img": null
   },
   {
     "id": 53,
@@ -792,7 +792,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q53.png"
+    "card_img": null
   },
   {
     "id": 54,
@@ -807,7 +807,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q54.png"
+    "card_img": null
   },
   {
     "id": 55,
@@ -822,7 +822,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q55.png"
+    "card_img": null
   },
   {
     "id": 56,
@@ -837,7 +837,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q56.png"
+    "card_img": null
   },
   {
     "id": 57,
@@ -852,7 +852,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q57.png"
+    "card_img": null
   },
   {
     "id": 58,
@@ -867,7 +867,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q58.png"
+    "card_img": null
   },
   {
     "id": 59,
@@ -882,7 +882,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q59.png"
+    "card_img": null
   },
   {
     "id": 60,
@@ -897,7 +897,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q60.png"
+    "card_img": null
   },
   {
     "id": 61,
@@ -912,7 +912,7 @@
     "correct": "B",
     "has_diagram": true,
     "diagram_img": "cards/diag_s3_q61_318.png",
-    "card_img": "cards/set3_q61.png"
+    "card_img": null
   },
   {
     "id": 62,
@@ -927,7 +927,7 @@
     "correct": "D",
     "has_diagram": true,
     "diagram_img": "cards/diag_s3_q62_328.png",
-    "card_img": "cards/set3_q62.png"
+    "card_img": null
   },
   {
     "id": 63,
@@ -942,7 +942,7 @@
     "correct": "C",
     "has_diagram": true,
     "diagram_img": "cards/diag_s3_q63_330.png",
-    "card_img": "cards/set3_q63.png"
+    "card_img": null
   },
   {
     "id": 64,
@@ -957,7 +957,7 @@
     "correct": "C",
     "has_diagram": true,
     "diagram_img": "cards/diag_s3_q64_332.png",
-    "card_img": "cards/set3_q64.png"
+    "card_img": null
   },
   {
     "id": 65,
@@ -972,7 +972,7 @@
     "correct": "B",
     "has_diagram": true,
     "diagram_img": "cards/diag_s3_q65_344.png",
-    "card_img": "cards/set3_q65.png"
+    "card_img": null
   },
   {
     "id": 66,
@@ -987,7 +987,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q66.png"
+    "card_img": null
   },
   {
     "id": 67,
@@ -1002,7 +1002,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q67.png"
+    "card_img": null
   },
   {
     "id": 68,
@@ -1017,7 +1017,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q68.png"
+    "card_img": null
   },
   {
     "id": 69,
@@ -1032,7 +1032,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q69.png"
+    "card_img": null
   },
   {
     "id": 70,
@@ -1047,7 +1047,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q70.png"
+    "card_img": null
   },
   {
     "id": 71,
@@ -1062,7 +1062,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q71.png"
+    "card_img": null
   },
   {
     "id": 72,
@@ -1077,7 +1077,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q72.png"
+    "card_img": null
   },
   {
     "id": 73,
@@ -1092,7 +1092,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q73.png"
+    "card_img": null
   },
   {
     "id": 74,
@@ -1107,7 +1107,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q74.png"
+    "card_img": null
   },
   {
     "id": 75,
@@ -1122,7 +1122,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q75.png"
+    "card_img": null
   },
   {
     "id": 76,
@@ -1137,7 +1137,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q76.png"
+    "card_img": null
   },
   {
     "id": 77,
@@ -1152,7 +1152,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q77.png"
+    "card_img": null
   },
   {
     "id": 78,
@@ -1167,7 +1167,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q78.png"
+    "card_img": null
   },
   {
     "id": 79,
@@ -1182,7 +1182,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q79.png"
+    "card_img": null
   },
   {
     "id": 80,
@@ -1197,7 +1197,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q80.png"
+    "card_img": null
   },
   {
     "id": 81,
@@ -1212,7 +1212,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q81.png"
+    "card_img": null
   },
   {
     "id": 82,
@@ -1227,7 +1227,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q82.png"
+    "card_img": null
   },
   {
     "id": 83,
@@ -1242,7 +1242,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q83.png"
+    "card_img": null
   },
   {
     "id": 84,
@@ -1257,7 +1257,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q84.png"
+    "card_img": null
   },
   {
     "id": 85,
@@ -1272,7 +1272,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q85.png"
+    "card_img": null
   },
   {
     "id": 86,
@@ -1287,7 +1287,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q86.png"
+    "card_img": null
   },
   {
     "id": 87,
@@ -1302,7 +1302,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q87.png"
+    "card_img": null
   },
   {
     "id": 88,
@@ -1317,7 +1317,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q88.png"
+    "card_img": null
   },
   {
     "id": 89,
@@ -1332,7 +1332,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q89.png"
+    "card_img": null
   },
   {
     "id": 90,
@@ -1347,7 +1347,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q90.png"
+    "card_img": null
   },
   {
     "id": 91,
@@ -1362,7 +1362,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q91.png"
+    "card_img": null
   },
   {
     "id": 92,
@@ -1377,7 +1377,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q92.png"
+    "card_img": null
   },
   {
     "id": 93,
@@ -1392,7 +1392,7 @@
     "correct": "C",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q93.png"
+    "card_img": null
   },
   {
     "id": 94,
@@ -1407,7 +1407,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q94.png"
+    "card_img": null
   },
   {
     "id": 95,
@@ -1422,7 +1422,7 @@
     "correct": "D",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q95.png"
+    "card_img": null
   },
   {
     "id": 96,
@@ -1437,7 +1437,7 @@
     "correct": "A",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q96.png"
+    "card_img": null
   },
   {
     "id": 97,
@@ -1452,7 +1452,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q97.png"
+    "card_img": null
   },
   {
     "id": 98,
@@ -1467,7 +1467,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q98.png"
+    "card_img": null
   },
   {
     "id": 99,
@@ -1482,7 +1482,7 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q99.png"
+    "card_img": null
   },
   {
     "id": 100,
@@ -1497,6 +1497,6 @@
     "correct": "B",
     "has_diagram": false,
     "diagram_img": null,
-    "card_img": "cards/set3_q100.png"
+    "card_img": null
   }
 ]
