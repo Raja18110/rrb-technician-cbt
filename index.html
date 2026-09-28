@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RRB Technician Grade III · CBT Platform (32 Real Shifts · 3,200 Qs)</title>
+  <title>RRB Technician Grade III · Full-Stack CBT Platform (CEN 02/2025)</title>
   <link rel="stylesheet" href="css/cbt-style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚆</text></svg>">
 </head>
@@ -13,8 +13,8 @@
     <!-- Top Examination Header (TCS-iON Style) -->
     <header class="exam-header">
       <div class="exam-title-group">
-        <h1>RRB Technician Grade III CBT · 32 Real Shifts (CEN 02/2024 &amp; 02/2025)</h1>
-        <div class="sub-title" id="exam-header-title">Personal Examination &amp; Analytics Platform</div>
+        <h1>RRB Technician Grade III CBT · CEN 02/2025</h1>
+        <div class="sub-title" id="exam-header-title">Personal Examination & Analytics Platform</div>
       </div>
 
       <div class="timer-box" id="timer-container" style="display: none;">
@@ -22,11 +22,11 @@
         <span id="timer-display">90:00</span>
       </div>
 
-      <div class="candidate-header-info">
+      <div class="candidate-header-info" onclick="openProfileModal()" style="cursor: pointer;" title="Personalized Candidate Profile (Click to view/edit)">
         <div class="candidate-avatar">👤</div>
         <div class="candidate-meta">
-          <div class="name">Candidate #2602</div>
-          <div style="color: #90caf9; font-size: 0.75rem;">Terminal: C-042 · CEN 02/2025</div>
+          <div class="name" id="top-candidate-name">Candidate</div>
+          <div style="color: #90caf9; font-size: 0.75rem;" id="top-candidate-meta">Roll: 2602025001 · RRB Mumbai ⚙️</div>
         </div>
       </div>
     </header>
@@ -235,14 +235,14 @@
               <span style="font-size: 0.8rem; color: #64748b;" id="q-section-name">Section: General Science</span>
             </div>
             <div class="q-meta-right">
-              <button class="toggle-snapshot-btn" onclick="toggleSnapshotView()">
-                📷 <span id="toggle-snapshot-text">View Paper Snapshot</span>
+              <button class="btn btn-clear" style="padding: 4px 10px; font-size: 0.75rem; border: 1px solid #cbd5e1; background: #f8fafc;" onclick="exitExamToHub()" title="Pause and auto-save exam in real time">
+                ⏸ Pause & Save
               </button>
               <div style="display: flex; gap: 4px; align-items: center;">
-                <span style="font-size: 0.75rem; color: #64748b;">Font:</span>
-                <button class="font-btn" onclick="changeFontSize(-1)">A-</button>
-                <button class="font-btn" onclick="changeFontSize(0)">A</button>
-                <button class="font-btn" onclick="changeFontSize(1)">A+</button>
+                <span style="font-size: 0.75rem; color: #64748b; font-weight: 500;">Font:</span>
+                <button class="font-btn" onclick="changeFontSize(-1)" title="Decrease font size">A-</button>
+                <button class="font-btn" onclick="changeFontSize(0)" title="Reset font size">A</button>
+                <button class="font-btn" onclick="changeFontSize(1)" title="Increase font size">A+</button>
               </div>
             </div>
           </div>
@@ -272,12 +272,12 @@
 
         <!-- Sidebar Palette & Candidate Info (Right) -->
         <aside class="cbt-sidebar">
-          <div class="sidebar-candidate-card">
+          <div class="sidebar-candidate-card" onclick="openProfileModal()" style="cursor: pointer;" title="Personalized Candidate Profile (Click to edit)">
             <div class="user-pic">👤</div>
             <div class="sidebar-candidate-details">
-              <h4>Candidate #2602</h4>
-              <p>Roll No: 2602025001</p>
-              <p>Exam: RRB Tech III CBT</p>
+              <h4 id="side-candidate-name">Candidate</h4>
+              <p id="side-candidate-roll">Roll No: 2602025001</p>
+              <p id="side-candidate-zone" style="color: #2563eb; font-weight: 600;">Zone: RRB Mumbai</p>
             </div>
           </div>
 
@@ -456,6 +456,63 @@
         </div>
         <div class="modal-footer">
           <button class="btn btn-save-next" onclick="closeInstructions()">I Have Read the Instructions</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CANDIDATE PROFILE MODAL -->
+    <div class="modal-overlay" id="profile-modal" style="display: none;">
+      <div class="modal-content" style="max-width: 500px;">
+        <div class="modal-header">
+          <h3>👤 Candidate Profile &amp; Preferences</h3>
+          <span style="cursor:pointer; font-size:1.3rem;" onclick="closeProfileModal()">&times;</span>
+        </div>
+        <div class="modal-body" style="line-height: 1.6; font-size: 0.9rem;">
+          <p style="color: #64748b; font-size: 0.85rem; margin-bottom: 16px;">
+            Personalize your CBT platform. Your test attempts, live in-progress timers, auto-saved responses, mistakes notebook, and analytics will be exclusively tracked for this candidate profile.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            <div>
+              <label style="font-size: 0.8rem; font-weight: 700; color: #334155; display: block; margin-bottom: 4px;">Candidate Name</label>
+              <input type="text" id="prof-input-name" style="width: 100%; padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.95rem;" placeholder="e.g. Rohit Kumar">
+            </div>
+            <div>
+              <label style="font-size: 0.8rem; font-weight: 700; color: #334155; display: block; margin-bottom: 4px;">Roll Number / Registration No.</label>
+              <input type="text" id="prof-input-roll" style="width: 100%; padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.95rem;" placeholder="e.g. 2602025001">
+            </div>
+            <div>
+              <label style="font-size: 0.8rem; font-weight: 700; color: #334155; display: block; margin-bottom: 4px;">Target RRB Railway Zone</label>
+              <select id="prof-input-zone" style="width: 100%; padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.95rem; background: #fff;">
+                <option value="RRB Mumbai">RRB Mumbai (Western &amp; Central Railway)</option>
+                <option value="RRB Kolkata">RRB Kolkata (Eastern &amp; South Eastern Railway)</option>
+                <option value="RRB Allahabad (Prayagraj)">RRB Allahabad (NCR/NR)</option>
+                <option value="RRB Secunderabad">RRB Secunderabad (SCR)</option>
+                <option value="RRB Chennai">RRB Chennai (Southern Railway)</option>
+                <option value="RRB Chandigarh">RRB Chandigarh (Northern Railway)</option>
+                <option value="RRB Patna">RRB Patna (East Central Railway)</option>
+                <option value="RRB Bangalore">RRB Bangalore (South Western Railway)</option>
+                <option value="RRB Ahmedabad">RRB Ahmedabad (Western Railway)</option>
+                <option value="RRB Bhopal">RRB Bhopal (West Central Railway)</option>
+                <option value="RRB Ajmer">RRB Ajmer (North Western Railway)</option>
+                <option value="All RRBs (National)">All RRBs (National Ranking)</option>
+              </select>
+            </div>
+            <div>
+              <label style="font-size: 0.8rem; font-weight: 700; color: #334155; display: block; margin-bottom: 4px;">Reservation Category</label>
+              <select id="prof-input-category" style="width: 100%; padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.95rem; background: #fff;">
+                <option value="UR / General">UR / General</option>
+                <option value="OBC (Non-Creamy Layer)">OBC (Non-Creamy Layer)</option>
+                <option value="EWS">EWS (Economically Weaker Section)</option>
+                <option value="SC">SC (Scheduled Caste)</option>
+                <option value="ST">ST (Scheduled Tribe)</option>
+                <option value="PwBD / Ex-SM">PwBD / Ex-Serviceman</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer" style="display: flex; justify-content: flex-end; gap: 10px;">
+          <button class="btn btn-clear" onclick="closeProfileModal()">Cancel</button>
+          <button class="btn btn-save-next" onclick="saveProfileFromModal()">Save Profile</button>
         </div>
       </div>
     </div>

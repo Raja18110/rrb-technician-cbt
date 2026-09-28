@@ -30,6 +30,107 @@
     { name: "General Awareness", range: [91, 100], total: 10 }
   ];
 
+  const PROFILE_STORAGE_KEY = "rrb_cbt_profile_v1";
+
+  function getCandidateProfile() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(PROFILE_STORAGE_KEY));
+      if (saved && saved.name) return saved;
+    } catch (e) {}
+    return {
+      name: "Rohit Kumar",
+      rollNo: "2602025001",
+      zone: "RRB Mumbai",
+      category: "UR / General"
+    };
+  }
+
+  function saveCandidateProfile(prof) {
+    localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(prof));
+    updateCandidateUI();
+  }
+
+  function updateCandidateUI() {
+    const prof = getCandidateProfile();
+    const topName = document.getElementById("top-candidate-name");
+    const topMeta = document.getElementById("top-candidate-meta");
+    const sideName = document.getElementById("side-candidate-name");
+    const sideRoll = document.getElementById("side-candidate-roll");
+    const sideZone = document.getElementById("side-candidate-zone");
+
+    if (topName) topName.innerText = prof.name;
+    if (topMeta) topMeta.innerText = `Roll: ${prof.rollNo} · ${prof.zone} ⚙️`;
+    if (sideName) sideName.innerText = prof.name;
+    if (sideRoll) sideRoll.innerText = `Roll No: ${prof.rollNo}`;
+    if (sideZone) sideZone.innerText = `Zone: ${prof.zone} (${prof.category})`;
+  }
+
+  window.openProfileModal = function () {
+    const prof = getCandidateProfile();
+    const nameInp = document.getElementById("prof-input-name");
+    const rollInp = document.getElementById("prof-input-roll");
+    const zoneInp = document.getElementById("prof-input-zone");
+    const catInp = document.getElementById("prof-input-category");
+
+    if (nameInp) nameInp.value = prof.name;
+    if (rollInp) rollInp.value = prof.rollNo;
+    if (zoneInp) zoneInp.value = prof.zone;
+    if (catInp) catInp.value = prof.category;
+
+    const modal = document.getElementById("profile-modal");
+    if (modal) modal.style.display = "flex";
+  };
+
+  window.closeProfileModal = function () {
+    const modal = document.getElementById("profile-modal");
+    if (modal) modal.style.display = "none";
+  };
+
+  window.saveProfileFromModal = function () {
+    const name = (document.getElementById("prof-input-name").value || "").trim() || "Candidate";
+    const rollNo = (document.getElementById("prof-input-roll").value || "").trim() || "2602025001";
+    const zone = document.getElementById("prof-input-zone").value;
+    const category = document.getElementById("prof-input-category").value;
+
+    saveCandidateProfile({ name, rollNo, zone, category });
+    closeProfileModal();
+
+    if (APP_STATE.activeHubTab === "tests") renderShiftsList();
+    else if (APP_STATE.activeHubTab === "analytics") renderAnalyticsDashboard();
+  };
+
+  let autoSaveDebounce = null;
+  function triggerRealtimeAutoSave(immediate = false) {
+    if (APP_STATE.view !== "exam") return;
+    if (!API_BASE) return;
+    if (APP_STATE.isCustomQuiz) return;
+
+    const doSave = async () => {
+      try {
+        const prof = getCandidateProfile();
+        await fetch(`${API_BASE}/tests/${APP_STATE.currentSetId}/session`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            candidateId: prof.name,
+            currentQIndex: APP_STATE.currentQIndex,
+            timeRemaining: APP_STATE.timerRemaining,
+            responses: APP_STATE.responses,
+            isCustomQuiz: false,
+            quizData: null
+          })
+        });
+      } catch (err) {}
+    };
+
+    clearTimeout(autoSaveDebounce);
+    if (immediate) {
+      doSave();
+    } else {
+      autoSaveDebounce = setTimeout(doSave, 350);
+    }
+  }
+
   const STORAGE_KEY = "rrb_tech_cbt_history";
   function getLocalHistory() {
     try {
@@ -45,6 +146,7 @@
   }
 
   window.initCBTApp = async function () {
+    updateCandidateUI();
     setupGlobalEvents();
     await loadInitialData();
     switchHubTab("tests");
@@ -128,10 +230,11 @@
     const container = document.getElementById("shifts-grid");
     container.innerHTML = "<p style='color:#64748b;'>Loading shift papers...</p>";
 
+    const prof = getCandidateProfile();
     let sets = [];
     if (API_BASE) {
       try {
-        const res = await fetch(`${API_BASE}/tests`);
+        const res = await fetch(`${API_BASE}/tests?candidateId=${encodeURIComponent(prof.name)}`);
         const json = await res.json();
         if (json.success) sets = json.data;
       } catch (e) {}
@@ -158,9 +261,47 @@
     }
 
     sets.forEach((meta) => {
-      const score = meta.latest_score !== undefined ? meta.latest_score : (localHist[meta.id] ? localHist[meta.id].score : null);
+      const score = meta.latest_score !== undefined && meta.latest_score !== null ? meta.latest_score : (localHist[meta.id] ? localHist[meta.id].score : null);
       const isDone = score !== null;
+      const isInProgress = meta.active_time_remaining !== null && meta.active_time_remaining !== undefined;
       const seriesLabel = meta.series || (meta.id <= 9 ? "CEN 02/2025" : "CEN 02/2024");
+
+      let statusPill = "";
+      if (isInProgress) {
+        const remMins = Math.floor(meta.active_time_remaining / 60);
+        statusPill = `<span class="shift-status-pill" style="background:#dcfce7; color:#15803d; border:1px solid #86efac; font-weight:700;">🟢 In Progress · Q${(meta.active_q_index || 0) + 1}/100 (${remMins}m left)</span>`;
+      } else if (isDone) {
+        statusPill = `<span class="shift-status-pill status-completed">Score: ${parseFloat(score).toFixed(2)} / 100 (${parseFloat(meta.latest_accuracy || 0).toFixed(1)}%)</span>`;
+      } else {
+        statusPill = `<span class="shift-status-pill status-pending">Not Attempted</span>`;
+      }
+
+      let actionButtons = "";
+      if (isInProgress) {
+        actionButtons = `
+          <button class="btn-start-test" style="background:#2563eb; color:#fff;" onclick="resumeTest(${meta.id})">
+            ▶ Resume Test
+          </button>
+          <button class="btn-clear" style="padding:10px 14px; font-size:0.85rem;" onclick="discardSession(${meta.id})">
+            Restart Fresh
+          </button>
+        `;
+      } else if (isDone) {
+        actionButtons = `
+          <button class="btn-start-test" onclick="startTest(${meta.id})">
+            Re-attempt Mock Test
+          </button>
+          <button class="btn-view-score" onclick="viewSavedResult(${meta.id})">
+            Review Analysis
+          </button>
+        `;
+      } else {
+        actionButtons = `
+          <button class="btn-start-test" onclick="startTest(${meta.id})">
+            Start Mock Test
+          </button>
+        `;
+      }
 
       const card = document.createElement("div");
       card.className = "shift-card";
@@ -168,9 +309,7 @@
         <div>
           <div class="shift-badge-row">
             <span class="shift-tag">${seriesLabel} · Set ${meta.id}</span>
-            <span class="shift-status-pill ${isDone ? "status-completed" : "status-pending"}">
-              ${isDone ? `Score: ${parseFloat(score).toFixed(2)} / 100` : "Not Attempted"}
-            </span>
+            ${statusPill}
           </div>
           <h3 class="shift-title">${meta.title}</h3>
           <div class="shift-time">📅 ${meta.datetime || `${meta.date_str} (${meta.time_str})`}</div>
@@ -183,10 +322,7 @@
           </table>
         </div>
         <div class="shift-actions">
-          <button class="btn-start-test" onclick="startTest(${meta.id})">
-            ${isDone ? "Re-attempt Mock Test" : "Start Mock Test"}
-          </button>
-          ${isDone ? `<button class="btn-view-score" onclick="viewSavedResult(${meta.id})">Review Analysis</button>` : ""}
+          ${actionButtons}
         </div>
       `;
       container.appendChild(card);
@@ -235,12 +371,18 @@
             </button>
           </div>
         </div>
-        <div style="font-size:0.95rem; font-weight:500; margin-bottom:10px;">${escapeHtml(m.question_text || "")}</div>
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:6px; font-size:0.85rem; color:#334155; margin-bottom:8px;">
-          <div>A: ${escapeHtml(m.option_a || "")}</div>
-          <div>B: ${escapeHtml(m.option_b || "")}</div>
-          <div>C: ${escapeHtml(m.option_c || "")}</div>
-          <div>D: ${escapeHtml(m.option_d || "")}</div>
+        ${m.stem_img ? `
+          <div style="margin: 8px 0; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; text-align: left;">
+            <img src="${m.stem_img}" alt="Q${m.qnum}" style="max-width: 100%; height: auto; display: block; border-radius: 4px;">
+          </div>
+        ` : (m.question_text ? `
+          <div style="font-size:0.95rem; font-weight:500; margin-bottom:10px;">${escapeHtml(m.question_text || "")}</div>
+        ` : '')}
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; font-size:0.85rem; color:#334155; margin-bottom:8px;">
+          <div style="display:flex; align-items:center; gap:6px;"><strong>(1)</strong> ${m.opt1_img ? `<img src="${m.opt1_img}" style="max-height:36px; max-width:100%;">` : escapeHtml(m.option_a || "Option 1")}</div>
+          <div style="display:flex; align-items:center; gap:6px;"><strong>(2)</strong> ${m.opt2_img ? `<img src="${m.opt2_img}" style="max-height:36px; max-width:100%;">` : escapeHtml(m.option_b || "Option 2")}</div>
+          <div style="display:flex; align-items:center; gap:6px;"><strong>(3)</strong> ${m.opt3_img ? `<img src="${m.opt3_img}" style="max-height:36px; max-width:100%;">` : escapeHtml(m.option_c || "Option 3")}</div>
+          <div style="display:flex; align-items:center; gap:6px;"><strong>(4)</strong> ${m.opt4_img ? `<img src="${m.opt4_img}" style="max-height:36px; max-width:100%;">` : escapeHtml(m.option_d || "Option 4")}</div>
         </div>
         <div style="font-size:0.85rem; font-weight:700; color:#15803d;">Official Answer: Option (${m.correct_option})</div>
       `;
@@ -367,45 +509,43 @@
 
   async function renderAnalyticsDashboard() {
     let stats = null;
+    const prof = getCandidateProfile();
+
     if (API_BASE) {
       try {
-        const res = await fetch(`${API_BASE}/analytics/summary`);
+        const res = await fetch(`${API_BASE}/analytics/summary?candidateId=${encodeURIComponent(prof.name)}`);
         const json = await res.json();
         if (json.success) stats = json.data;
       } catch (e) {}
     }
 
-    if (!stats) {
-      const hist = getLocalHistory();
-      const keys = Object.keys(hist);
-      const scores = keys.map((k) => hist[k].score);
-      stats = {
-        overall: {
-          total_tests_taken: keys.length,
-          average_score: keys.length ? (scores.reduce((a, b) => a + b, 0) / keys.length).toFixed(2) : 0,
-          highest_score: keys.length ? Math.max(...scores).toFixed(2) : 0,
-          average_accuracy: keys.length ? (keys.reduce((a, b) => a + hist[b].accuracy, 0) / keys.length).toFixed(1) : 0
-        },
-        section_performance: [
-          { section: "General Science", accuracy: 82.5 },
-          { section: "Mathematics", accuracy: 78.0 },
-          { section: "General Intelligence & Reasoning", accuracy: 88.0 },
-          { section: "General Awareness", accuracy: 65.0 }
-        ],
-        score_trend: keys.map((k) => ({
-          id: k,
-          title: `Set ${k}`,
-          score: hist[k].score,
-          accuracy: hist[k].accuracy,
-          submitted_at: hist[k].submittedAt
-        }))
-      };
+    if (!stats || !stats.overall || stats.overall.total_tests_taken === 0) {
+      // Empty state for this candidate
+      document.getElementById("an-tests-taken").innerText = "0";
+      document.getElementById("an-avg-score").innerText = "0.00";
+      document.getElementById("an-best-score").innerText = "0.00";
+      document.getElementById("an-avg-accuracy").innerText = "0%";
+
+      const barContainer = document.getElementById("analytics-subject-bars");
+      barContainer.innerHTML = `
+        <div style="text-align:center; padding: 32px 20px; color: #64748b;">
+          <div style="font-size: 2.2rem; margin-bottom: 10px;">📊</div>
+          <div style="font-weight: 700; color: #1e293b; font-size: 1.05rem; margin-bottom: 6px;">No Attempts Yet for ${escapeHtml(prof.name)}</div>
+          <div style="font-size: 0.85rem; max-width: 480px; margin: 0 auto; line-height: 1.5;">
+            Start practicing from any of the 32 Shift Papers. Your real-time marks, speed, accuracy, and subject mastery breakdown will update here automatically.
+          </div>
+        </div>
+      `;
+
+      const tbody = document.getElementById("analytics-history-tbody");
+      tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; color:#64748b; padding:24px;">No test attempts recorded yet. Attempt a shift paper to see your live analysis!</td></tr>`;
+      return;
     }
 
     document.getElementById("an-tests-taken").innerText = stats.overall.total_tests_taken;
-    document.getElementById("an-avg-score").innerText = stats.overall.average_score;
-    document.getElementById("an-best-score").innerText = stats.overall.highest_score;
-    document.getElementById("an-avg-accuracy").innerText = `${stats.overall.average_accuracy}%`;
+    document.getElementById("an-avg-score").innerText = parseFloat(stats.overall.average_score).toFixed(2);
+    document.getElementById("an-best-score").innerText = parseFloat(stats.overall.highest_score).toFixed(2);
+    document.getElementById("an-avg-accuracy").innerText = `${parseFloat(stats.overall.average_accuracy).toFixed(1)}%`;
 
     const barContainer = document.getElementById("analytics-subject-bars");
     barContainer.innerHTML = "";
@@ -416,39 +556,146 @@
       "General Awareness": "#f59e0b"
     };
 
-    (stats.section_performance || []).forEach((sp) => {
-      const col = colorMap[sp.section] || "#3b82f6";
-      const div = document.createElement("div");
-      div.className = "acc-bar-item";
-      div.innerHTML = `
-        <div class="acc-bar-meta">
-          <span>${sp.section}</span>
-          <span style="color:${col};">${sp.accuracy}%</span>
-        </div>
-        <div class="acc-bar-track">
-          <div class="acc-bar-fill" style="width: ${sp.accuracy}%; background: ${col};"></div>
-        </div>
-      `;
-      barContainer.appendChild(div);
-    });
+    if (stats.section_performance && stats.section_performance.length > 0) {
+      stats.section_performance.forEach((sp) => {
+        const col = colorMap[sp.section] || "#3b82f6";
+        const div = document.createElement("div");
+        div.className = "acc-bar-item";
+        div.innerHTML = `
+          <div class="acc-bar-meta">
+            <span><strong>${sp.section}</strong> <small style="color:#64748b;">(${sp.total_correct || 0}/${sp.total_attempted || 0} correct)</small></span>
+            <span style="color:${col}; font-weight:700;">${sp.accuracy}%</span>
+          </div>
+          <div class="acc-bar-track">
+            <div class="acc-bar-fill" style="width: ${sp.accuracy}%; background: ${col};"></div>
+          </div>
+        `;
+        barContainer.appendChild(div);
+      });
+    } else {
+      barContainer.innerHTML = `<p style="color:#64748b; padding:10px;">Subject data will populate after your first test submission.</p>`;
+    }
 
     const tbody = document.getElementById("analytics-history-tbody");
     tbody.innerHTML = "";
     (stats.score_trend || []).forEach((item) => {
       const tr = document.createElement("tr");
+      const dt = item.submitted_at ? new Date(item.submitted_at).toLocaleDateString() : "Recent";
       tr.innerHTML = `
-        <td>#${item.id || "1"}</td>
-        <td>${item.title}</td>
-        <td>${item.submitted_at ? item.submitted_at.split("T")[0] : "Recent"}</td>
+        <td><strong>#${item.id}</strong></td>
+        <td>${item.title || `Set ${item.set_id}`}</td>
+        <td>${dt}</td>
         <td style="font-weight:700; color:#1e3a8a;">${parseFloat(item.score).toFixed(2)}</td>
-        <td>${item.accuracy}%</td>
-        <td><button class="btn btn-clear" style="padding:2px 8px; font-size:0.75rem;" onclick="viewSavedResult(${item.set_id || 1})">Review</button></td>
+        <td><span style="color:${item.accuracy >= 65 ? '#15803d' : '#b91c1c'}; font-weight:700;">${parseFloat(item.accuracy).toFixed(1)}%</span></td>
+        <td><button class="btn btn-clear" style="padding:4px 10px; font-size:0.75rem; border:1px solid #cbd5e1;" onclick="viewSavedResult(${item.set_id})">View Result</button></td>
       `;
       tbody.appendChild(tr);
     });
   }
 
+  window.resumeTest = async function (setId) {
+    let sessionData = null;
+    if (API_BASE) {
+      try {
+        const res = await fetch(`${API_BASE}/tests/${setId}/session`);
+        const json = await res.json();
+        if (json.success && json.has_session) {
+          sessionData = json.data;
+        }
+      } catch (e) {}
+    }
+
+    let testData = null;
+    if (API_BASE) {
+      try {
+        const res = await fetch(`${API_BASE}/tests/${setId}`);
+        const json = await res.json();
+        if (json.success) {
+          testData = {
+            title: json.data.test.title,
+            questions: json.data.questions,
+            duration_minutes: json.data.test.duration_minutes || 90
+          };
+        }
+      } catch (e) {}
+    }
+
+    if (!testData) {
+      const meta = (window.SETS_METADATA || []).find((m) => m.id === setId);
+      const dataVar = window[`SET_${setId}_DATA`];
+      testData = {
+        title: meta ? meta.title : `Set ${setId}`,
+        questions: dataVar || [],
+        duration_minutes: 90
+      };
+    }
+
+    APP_STATE.isCustomQuiz = sessionData ? !!sessionData.is_custom_quiz : false;
+    APP_STATE.currentSetId = setId;
+    APP_STATE.currentTestTitle = testData.title;
+    APP_STATE.questions = testData.questions;
+    APP_STATE.currentQIndex = sessionData && sessionData.current_q_index !== undefined ? sessionData.current_q_index : 0;
+    APP_STATE.timerRemaining = sessionData && sessionData.time_remaining !== undefined ? sessionData.time_remaining : testData.duration_minutes * 60;
+    APP_STATE.showSnapshot = false;
+
+    APP_STATE.responses = sessionData && sessionData.responses ? sessionData.responses : {};
+    APP_STATE.questions.forEach((q) => {
+      if (!APP_STATE.responses[q.id]) {
+        APP_STATE.responses[q.id] = { option: null, status: "not-visited", timeSpent: 0 };
+      }
+    });
+
+    document.getElementById("home-view").style.display = "none";
+    document.getElementById("mistakes-view").style.display = "none";
+    document.getElementById("quiz-view").style.display = "none";
+    document.getElementById("analytics-view").style.display = "none";
+    document.getElementById("hub-nav").style.display = "none";
+    document.getElementById("result-view").style.display = "none";
+    document.getElementById("timer-container").style.display = "flex";
+    document.getElementById("exam-view").style.display = "flex";
+    APP_STATE.view = "exam";
+
+    document.getElementById("exam-header-title").innerText = testData.title;
+    document.getElementById("palette-total-title").innerText = `Question Palette (${testData.questions.length})`;
+
+    startTimer();
+    renderSectionsBar();
+    renderCurrentQuestion();
+    renderPalette();
+  };
+
+  window.discardSession = async function (setId) {
+    if (!confirm("Are you sure you want to discard your in-progress attempt for this shift and restart fresh?")) {
+      return;
+    }
+    if (API_BASE) {
+      try {
+        await fetch(`${API_BASE}/tests/${setId}/session`, { method: "DELETE" });
+      } catch (e) {}
+    }
+    renderShiftsList();
+  };
+
+  window.exitExamToHub = async function () {
+    if (confirm("Pause and save your test progress in real time? You can resume anytime from the Shift Papers list.")) {
+      clearInterval(APP_STATE.timerInterval);
+      await triggerRealtimeAutoSave(true);
+      switchHubTab("tests");
+    }
+  };
+
   window.startTest = async function (setId) {
+    // If an active session exists in backend, automatically resume it
+    if (API_BASE) {
+      try {
+        const sRes = await fetch(`${API_BASE}/tests/${setId}/session`);
+        const sJson = await sRes.json();
+        if (sJson.success && sJson.has_session) {
+          return resumeTest(setId);
+        }
+      } catch (e) {}
+    }
+
     let testData = null;
 
     if (API_BASE) {
@@ -538,6 +785,11 @@
       if (m < 5) timerElem.parentElement.className = "timer-box timer-critical";
       else if (m < 15) timerElem.parentElement.className = "timer-box timer-warning";
       else timerElem.parentElement.className = "timer-box";
+
+      // Real-time auto-save every 5 seconds
+      if (APP_STATE.timerRemaining % 5 === 0) {
+        triggerRealtimeAutoSave();
+      }
     }
 
     updateTimer();
@@ -591,60 +843,51 @@
 
     const resp = APP_STATE.responses[q.id] || { option: null };
 
-    const hasTextStem = q.question && q.question.trim().length > 0;
-    const shouldShowCard = q.card_img && (!hasTextStem || APP_STATE.showSnapshot);
-    const seriesTitle = APP_STATE.currentTest && APP_STATE.currentTest.series 
-      ? APP_STATE.currentTest.series 
-      : (APP_STATE.currentTestId <= 9 ? "CEN 02/2025" : "CEN 02/2024");
-
-    // Manage snapshot toggle button visibility & text
-    const snapshotBtn = document.querySelector(".toggle-snapshot-btn");
-    const snapshotText = document.getElementById("toggle-snapshot-text");
-    if (snapshotBtn) {
-      if (q.card_img && hasTextStem) {
-        snapshotBtn.style.display = "inline-flex";
-        if (snapshotText) {
-          snapshotText.innerText = APP_STATE.showSnapshot ? "Hide Paper Snapshot" : "View Paper Snapshot";
-        }
-      } else {
-        snapshotBtn.style.display = "none";
-      }
-    }
-
     let html = "";
-    if (shouldShowCard) {
+    if (q.stem_img) {
       html += `
-        <div class="q-snapshot-card" style="margin-bottom: 16px; border: 1px solid #cbd5e1; border-radius: 6px; overflow: hidden; background: #ffffff;">
-          <div style="background: #f1f5f9; padding: 6px 12px; font-size: 0.8rem; font-weight: 600; color: #475569; border-bottom: 1px solid #e2e8f0; display:flex; justify-content:space-between; align-items:center;">
-            <span>Official Question Paper (${seriesTitle})</span>
-            <span style="font-size:0.75rem; color:#64748b; font-weight:normal;">Candidate Practice View</span>
-          </div>
-          <img src="${q.card_img}" alt="Official Question Card" style="display:block; max-width:100%; height:auto;">
+        <div class="cbt-question-card" style="margin-bottom: 20px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); text-align: left;">
+          <img src="${q.stem_img}" alt="Question ${q.id}" style="max-width: 100%; height: auto; display: block; border-radius: 4px;">
         </div>
       `;
-    }
-
-    if (hasTextStem) {
-      html += `<div class="q-text-body" style="font-size: ${getFontSizeStyle()}">${escapeHtml(q.question)}</div>`;
-    }
-
-    if (q.has_diagram && q.diagram_img) {
-      html += `<div class="q-diagram-container"><img src="${q.diagram_img}" alt="Diagram"></div>`;
+    } else if (q.card_img && (!q.question || q.question.trim().length === 0)) {
+      html += `
+        <div class="cbt-question-card" style="margin-bottom: 20px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); text-align: left;">
+          <img src="${q.card_img}" alt="Question ${q.id}" style="max-width: 100%; height: auto; display: block; border-radius: 4px;">
+        </div>
+      `;
+    } else {
+      const stemText = q.question && q.question.trim().length > 0 ? q.question : "";
+      if (stemText) {
+        html += `<div class="q-text-body" style="font-size: ${getFontSizeStyle()}; margin-bottom: 18px; line-height: 1.6; color: #0f172a; font-weight: 500;">${escapeHtml(stemText)}</div>`;
+      }
+      if (q.has_diagram && q.diagram_img) {
+        html += `<div class="q-diagram-container" style="margin-bottom: 18px;"><img src="${q.diagram_img}" alt="Diagram" style="max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;"></div>`;
+      }
     }
 
     html += `<div class="options-list">`;
-    ["A", "B", "C", "D"].forEach((letter, idx) => {
-      let optText = q.options && q.options[letter] ? q.options[letter] : "";
-      optText = optText.replace(/\(See Question Card\)/gi, "").trim();
-      if (!optText) {
-        optText = `Option ${idx + 1}`;
-      }
+    const letterMap = ["A", "B", "C", "D"];
+    letterMap.forEach((letter, idx) => {
+      const numLabel = idx + 1;
+      const optText = q.options && q.options[letter] ? q.options[letter] : "";
+      const optImg = q.options_img && q.options_img[letter] ? q.options_img[letter] : null;
       const isSelected = resp.option === letter;
+
+      let displayHtml = "";
+      if (optImg) {
+        displayHtml = `<span class="opt-text" style="display: inline-flex; align-items: center; width: 100%;"><img src="${optImg}" alt="Option ${numLabel}" style="max-height: 52px; max-width: 100%; height: auto; vertical-align: middle; border-radius: 3px;"></span>`;
+      } else if (optText && !optText.toLowerCase().startsWith("option ") && !optText.includes("See Question Card")) {
+        displayHtml = `<span class="opt-text" style="font-size: ${getFontSizeStyle()};">${escapeHtml(optText)}</span>`;
+      } else {
+        displayHtml = `<span class="opt-text" style="font-weight: 600; color: #1e293b; font-size: 1rem;">Option ${numLabel}</span>`;
+      }
+
       html += `
         <div class="option-item ${isSelected ? "selected" : ""}" onclick="selectOption('${letter}')">
           <input type="radio" name="cbt_opt" value="${letter}" ${isSelected ? "checked" : ""} class="option-radio">
-          <span class="opt-letter-badge">${letter}.</span>
-          <span class="opt-text">${escapeHtml(optText)}</span>
+          <span class="opt-letter-badge">${numLabel}</span>
+          ${displayHtml}
         </div>
       `;
     });
@@ -690,12 +933,15 @@
         item.classList.remove("selected");
       }
     });
+
+    triggerRealtimeAutoSave();
   };
 
   window.handleSaveNext = function () {
     const q = APP_STATE.questions[APP_STATE.currentQIndex];
     const resp = APP_STATE.responses[q.id];
     resp.status = resp.option ? "answered" : "not-answered";
+    triggerRealtimeAutoSave();
     advanceNext();
   };
 
@@ -703,6 +949,7 @@
     const q = APP_STATE.questions[APP_STATE.currentQIndex];
     const resp = APP_STATE.responses[q.id];
     resp.status = resp.option ? "ans-marked" : "marked";
+    triggerRealtimeAutoSave();
     advanceNext();
   };
 
@@ -711,6 +958,7 @@
     const resp = APP_STATE.responses[q.id];
     resp.option = null;
     resp.status = "not-answered";
+    triggerRealtimeAutoSave();
     renderCurrentQuestion();
     renderPalette();
   };
@@ -869,6 +1117,7 @@
   async function submitExam(forced) {
     clearInterval(APP_STATE.timerInterval);
     const timeSpent = (APP_STATE.isCustomQuiz ? 25 * 60 : 90 * 60) - APP_STATE.timerRemaining;
+    const prof = getCandidateProfile();
 
     let evalResult = null;
 
@@ -880,7 +1129,7 @@
           body: JSON.stringify({
             responses: APP_STATE.responses,
             timeSpentSeconds: timeSpent,
-            candidateId: "Candidate #2602"
+            candidateId: prof.name
           })
         });
         const json = await res.json();
@@ -937,17 +1186,73 @@
       }
     }
 
+    await loadInitialData();
     renderResultView(evalResult);
   }
 
   window.viewSavedResult = async function (setId) {
+    const prof = getCandidateProfile();
+    let attemptData = null;
+
     if (API_BASE) {
       try {
-        const res = await fetch(`${API_BASE}/tests/${setId}`);
-        const json = await res.json();
-        if (json.success) {
-          APP_STATE.questions = json.data.questions;
+        const [testRes, attemptRes] = await Promise.all([
+          fetch(`${API_BASE}/tests/${setId}`),
+          fetch(`${API_BASE}/tests/${setId}/latest-attempt?candidateId=${encodeURIComponent(prof.name)}`)
+        ]);
+        const testJson = await testRes.json();
+        const attemptJson = await attemptRes.json();
+
+        if (testJson.success) {
+          APP_STATE.questions = testJson.data.questions;
           APP_STATE.currentSetId = setId;
+        }
+
+        if (attemptJson.success && attemptJson.has_attempt) {
+          const at = attemptJson.data.attempt;
+          const respList = attemptJson.data.responses || [];
+
+          APP_STATE.responses = {};
+          respList.forEach((r) => {
+            APP_STATE.responses[r.qnum] = {
+              option: r.selected_option,
+              status: r.status,
+              timeSpent: r.time_spent
+            };
+          });
+
+          let secStats = {
+            "General Science": { correct: 0, wrong: 0, unattempted: 0, score: 0 },
+            "Mathematics": { correct: 0, wrong: 0, unattempted: 0, score: 0 },
+            "General Intelligence & Reasoning": { correct: 0, wrong: 0, unattempted: 0, score: 0 },
+            "General Awareness": { correct: 0, wrong: 0, unattempted: 0, score: 0 }
+          };
+
+          respList.forEach((r) => {
+            const sec = r.section;
+            if (!secStats[sec]) secStats[sec] = { correct: 0, wrong: 0, unattempted: 0, score: 0 };
+            if (r.selected_option) {
+              if (r.is_correct) {
+                secStats[sec].correct++;
+                secStats[sec].score += 1.0;
+              } else {
+                secStats[sec].wrong++;
+                secStats[sec].score -= 0.3333;
+              }
+            } else {
+              secStats[sec].unattempted++;
+            }
+          });
+
+          attemptData = {
+            score: at.score,
+            correct_count: at.correct_count,
+            wrong_count: at.wrong_count,
+            unattempted_count: at.unattempted_count,
+            accuracy: at.accuracy,
+            timeSpent: at.time_spent_seconds,
+            section_breakdown: secStats
+          };
         }
       } catch (e) {}
     }
@@ -957,17 +1262,20 @@
       APP_STATE.currentSetId = setId;
     }
 
-    const hist = getLocalHistory()[setId] || {
-      score: 0,
-      correct_count: 0,
-      wrong_count: 0,
-      unattempted_count: 100,
-      accuracy: 0,
-      timeSpent: 5400,
-      section_breakdown: {}
-    };
+    if (!attemptData) {
+      const hist = getLocalHistory()[setId] || {
+        score: 0,
+        correct_count: 0,
+        wrong_count: 0,
+        unattempted_count: 100,
+        accuracy: 0,
+        timeSpent: 5400,
+        section_breakdown: {}
+      };
+      attemptData = hist;
+    }
 
-    renderResultView(hist);
+    renderResultView(attemptData);
   };
 
   function renderResultView(data) {
@@ -1046,31 +1354,47 @@
         : '<span class="status-tag tag-skipped">○ Unattempted (0.00)</span>';
 
       let optHtml = "";
-      ["A", "B", "C", "D"].forEach((letter) => {
-        const text = q.options[letter] || "";
+      const letterMap = ["A", "B", "C", "D"];
+      letterMap.forEach((letter, idx) => {
+        const numLabel = idx + 1;
+        const text = q.options && q.options[letter] ? q.options[letter] : "";
         const isOfficialCorrect = letter === q.correct;
         const isSelectedByCandidate = letter === userOpt;
 
         let optClass = "review-option";
-        let prefix = `<span class="opt-letter-badge">${letter}.</span>`;
+        let prefix = `<span class="opt-letter-badge">${numLabel}</span>`;
 
         if (isOfficialCorrect) {
           optClass += " is-correct";
-          prefix = `<strong>✓ ${letter}.</strong>`;
+          prefix = `<strong>✓ Option ${numLabel}</strong>`;
         } else if (isSelectedByCandidate && !isOfficialCorrect) {
           optClass += " is-user-wrong";
-          prefix = `<strong>✗ ${letter}.</strong>`;
+          prefix = `<strong>✗ Option ${numLabel}</strong>`;
+        } else {
+          prefix = `<span>Option ${numLabel}</span>`;
+        }
+
+        const optImg = q.options_img && q.options_img[letter] ? q.options_img[letter] : (q[`opt${numLabel}_img`] || null);
+        let displayLabel = "";
+        if (optImg) {
+          displayLabel = `<span style="margin-left: 8px; display: inline-flex; align-items: center;"><img src="${optImg}" alt="Option ${numLabel}" style="max-height: 42px; max-width: 100%; vertical-align: middle; border-radius: 2px;"></span>`;
+        } else if (text && !text.toLowerCase().startsWith("option ") && !text.includes("See Question Card")) {
+          displayLabel = `<span style="margin-left: 8px;">${escapeHtml(text)}</span>`;
+        } else {
+          displayLabel = `<span style="margin-left: 8px; font-weight: 600;">Option ${numLabel}</span>`;
         }
 
         optHtml += `
           <div class="${optClass}">
             ${prefix}
-            <span>${text ? escapeHtml(text) : `(Option ${letter})`}</span>
-            ${isOfficialCorrect ? '<span style="margin-left:auto; font-size:0.75rem; color:#15803d; font-weight:700;">Official Answer</span>' : ""}
+            ${displayLabel}
+            ${isOfficialCorrect ? '<span style="margin-left:auto; font-size:0.75rem; color:#15803d; font-weight:700;">Official Correct</span>' : ""}
             ${isSelectedByCandidate && !isOfficialCorrect ? '<span style="margin-left:auto; font-size:0.75rem; color:#b91c1c; font-weight:700;">Your Response</span>' : ""}
           </div>
         `;
       });
+
+      const correctNum = { A: 1, B: 2, C: 3, D: 4 }[q.correct] || q.correct;
 
       card.innerHTML = `
         <div class="review-q-header">
@@ -1079,13 +1403,23 @@
           </div>
           <div>${statusBadge}</div>
         </div>
-        ${q.card_img ? `<div class="q-snapshot-card" style="margin-bottom:12px; border:1px solid #cbd5e1; border-radius:6px; overflow:hidden;"><img src="${q.card_img}" alt="Official Question Card" style="display:block; max-width:100%; height:auto;"></div>` : ""}
-        ${q.question ? `<div class="q-text-body">${escapeHtml(q.question)}</div>` : ""}
-        ${q.has_diagram && q.diagram_img ? `<div class="q-diagram-container"><img src="${q.diagram_img}" alt="Diagram"></div>` : ""}
+        ${q.stem_img ? `
+          <div style="margin: 12px 0; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px; text-align: left;">
+            <img src="${q.stem_img}" alt="Question ${q.id}" style="max-width: 100%; height: auto; display: block; border-radius: 4px;">
+          </div>
+        ` : (q.card_img && (!q.question || q.question.trim().length === 0)) ? `
+          <div style="margin: 12px 0; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px; text-align: left;">
+            <img src="${q.card_img}" alt="Question ${q.id}" style="max-width: 100%; height: auto; display: block; border-radius: 4px;">
+          </div>
+        ` : `
+          <div class="q-text-body">${escapeHtml(q.question || "")}</div>
+          ${q.has_diagram && q.diagram_img ? `<div class="q-diagram-container"><img src="${q.diagram_img}" alt="Diagram"></div>` : ""}
+        `}
         <div class="review-options-grid">${optHtml}</div>
-        <div class="explanation-box">
-          <strong>Official Solution:</strong> Correct Option is <strong>(${q.correct})</strong>.
-          <div style="margin-top:6px; font-size:0.85rem; color:#475569;">${escapeHtml(q.explanation || `Referenced from official RRB Technician Grade III question paper and answer key.`)}</div>
+        <div class="explanation-box" style="margin-top: 14px; background: #f8fafc; border-left: 4px solid #16a34a; padding: 12px 14px; border-radius: 4px;">
+          <div style="color: #166534; font-weight: 700; margin-bottom: 4px;">Official Solution:</div>
+          <div>Correct Option is <strong>Option ${correctNum}</strong> (Marked as Option ${q.correct} in RRB Key).</div>
+          <div style="color: #64748b; font-size: 0.8rem; margin-top: 4px;">Referenced from official RRB Technician Grade III official examination paper.</div>
         </div>
       `;
 

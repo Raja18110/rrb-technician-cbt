@@ -1,4 +1,4 @@
-﻿const db = require('../config/database');
+const db = require('../config/database');
 
 class MistakeService {
   /**
@@ -35,6 +35,7 @@ class MistakeService {
       SELECT m.question_id, m.set_id, m.error_count, m.last_attempted_at, m.mastery_status,
              q.qnum, q.section, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d,
              q.correct_option, q.has_diagram, q.diagram_img, q.card_img,
+             q.stem_img, q.opt1_img, q.opt2_img, q.opt3_img, q.opt4_img,
              t.title as set_title
       FROM mistakes_notebook m
       JOIN questions q ON m.question_id = q.id

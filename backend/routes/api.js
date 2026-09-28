@@ -10,6 +10,7 @@ const QuizGenerator = require('../services/quizGenerator');
 // --- TESTS & CBT ---
 router.get('/tests', TestController.getAllTests);
 router.get('/tests/:id', TestController.getTestById);
+router.get('/tests/:id/latest-attempt', TestController.getLatestAttemptForSet);
 router.post('/tests/:id/submit', TestController.submitTest);
 router.get('/tests/attempts/:id', TestController.getAttemptResult);
 

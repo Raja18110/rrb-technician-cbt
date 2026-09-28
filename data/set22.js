@@ -3,13 +3,20 @@ window.SET_22_DATA = [
     "id": 1,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q1.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q1_opt1.png",
+      "B": "cards/options/set22_q1_opt2.png",
+      "C": "cards/options/set22_q1_opt3.png",
+      "D": "cards/options/set22_q1_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q1.png"
@@ -18,13 +25,20 @@ window.SET_22_DATA = [
     "id": 2,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q2.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q2_opt1.png",
+      "B": "cards/options/set22_q2_opt2.png",
+      "C": "cards/options/set22_q2_opt3.png",
+      "D": "cards/options/set22_q2_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q2.png"
@@ -33,13 +47,20 @@ window.SET_22_DATA = [
     "id": 3,
     "section": "General Science",
     "question": "In November 2024, which Indian Institutes of Technology (IIT) unveiled a Mechanical Knee Rehabilitation Device, which is a mechanical Completely Mechanical Passive (CPM) machine unlike traditional motorised CPM machines, eliminating the need for electricity, batteries and motors?",
+    "stem_img": "cards/stems/set22_q3.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q3_opt1.png",
+      "B": "cards/options/set22_q3_opt2.png",
+      "C": "cards/options/set22_q3_opt3.png",
+      "D": "cards/options/set22_q3_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q3.png"
@@ -48,13 +69,20 @@ window.SET_22_DATA = [
     "id": 4,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q4.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q4_opt1.png",
+      "B": "cards/options/set22_q4_opt2.png",
+      "C": "cards/options/set22_q4_opt3.png",
+      "D": "cards/options/set22_q4_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q4.png"
@@ -63,11 +91,18 @@ window.SET_22_DATA = [
     "id": 5,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q5.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q5_opt1.png",
+      "B": "cards/options/set22_q5_opt2.png",
+      "C": "cards/options/set22_q5_opt3.png",
+      "D": "cards/options/set22_q5_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -78,13 +113,20 @@ window.SET_22_DATA = [
     "id": 6,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q6.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q6_opt1.png",
+      "B": "cards/options/set22_q6_opt2.png",
+      "C": "cards/options/set22_q6_opt3.png",
+      "D": "cards/options/set22_q6_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q6.png"
@@ -93,13 +135,20 @@ window.SET_22_DATA = [
     "id": 7,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q7.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q7_opt1.png",
+      "B": "cards/options/set22_q7_opt2.png",
+      "C": "cards/options/set22_q7_opt3.png",
+      "D": "cards/options/set22_q7_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q7.png"
@@ -108,13 +157,20 @@ window.SET_22_DATA = [
     "id": 8,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q8.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q8_opt1.png",
+      "B": "cards/options/set22_q8_opt2.png",
+      "C": "cards/options/set22_q8_opt3.png",
+      "D": "cards/options/set22_q8_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q8.png"
@@ -123,13 +179,20 @@ window.SET_22_DATA = [
     "id": 9,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q9.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q9_opt1.png",
+      "B": "cards/options/set22_q9_opt2.png",
+      "C": "cards/options/set22_q9_opt3.png",
+      "D": "cards/options/set22_q9_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q9.png"
@@ -138,13 +201,20 @@ window.SET_22_DATA = [
     "id": 10,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q10.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q10_opt1.png",
+      "B": "cards/options/set22_q10_opt2.png",
+      "C": "cards/options/set22_q10_opt3.png",
+      "D": "cards/options/set22_q10_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q10.png"
@@ -153,13 +223,20 @@ window.SET_22_DATA = [
     "id": 11,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q11.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q11_opt1.png",
+      "B": "cards/options/set22_q11_opt2.png",
+      "C": "cards/options/set22_q11_opt3.png",
+      "D": "cards/options/set22_q11_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q11.png"
@@ -168,13 +245,20 @@ window.SET_22_DATA = [
     "id": 12,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q12.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q12_opt1.png",
+      "B": "cards/options/set22_q12_opt2.png",
+      "C": "cards/options/set22_q12_opt3.png",
+      "D": "cards/options/set22_q12_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q12.png"
@@ -183,13 +267,20 @@ window.SET_22_DATA = [
     "id": 13,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q13.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q13_opt1.png",
+      "B": "cards/options/set22_q13_opt2.png",
+      "C": "cards/options/set22_q13_opt3.png",
+      "D": "cards/options/set22_q13_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q13.png"
@@ -198,13 +289,20 @@ window.SET_22_DATA = [
     "id": 14,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q14.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q14_opt1.png",
+      "B": "cards/options/set22_q14_opt2.png",
+      "C": "cards/options/set22_q14_opt3.png",
+      "D": "cards/options/set22_q14_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q14.png"
@@ -213,13 +311,20 @@ window.SET_22_DATA = [
     "id": 15,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q15.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q15_opt1.png",
+      "B": "cards/options/set22_q15_opt2.png",
+      "C": "cards/options/set22_q15_opt3.png",
+      "D": "cards/options/set22_q15_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q15.png"
@@ -228,11 +333,18 @@ window.SET_22_DATA = [
     "id": 16,
     "section": "General Science",
     "question": "The Union Budget 2024-25 introduced the Prime Minister’s package, comprising how many schemes and initiatives, aimed at providing employment, skilling, and other opportunities to 4.1 crore youth over a five-year period?",
+    "stem_img": "cards/stems/set22_q16.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q16_opt1.png",
+      "B": "cards/options/set22_q16_opt2.png",
+      "C": "cards/options/set22_q16_opt3.png",
+      "D": "cards/options/set22_q16_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -243,13 +355,20 @@ window.SET_22_DATA = [
     "id": 17,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q17.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q17_opt1.png",
+      "B": "cards/options/set22_q17_opt2.png",
+      "C": "cards/options/set22_q17_opt3.png",
+      "D": "cards/options/set22_q17_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q17.png"
@@ -258,13 +377,20 @@ window.SET_22_DATA = [
     "id": 18,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q18.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q18_opt1.png",
+      "B": "cards/options/set22_q18_opt2.png",
+      "C": "cards/options/set22_q18_opt3.png",
+      "D": "cards/options/set22_q18_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q18.png"
@@ -273,13 +399,20 @@ window.SET_22_DATA = [
     "id": 19,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q19.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q19_opt1.png",
+      "B": "cards/options/set22_q19_opt2.png",
+      "C": "cards/options/set22_q19_opt3.png",
+      "D": "cards/options/set22_q19_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q19.png"
@@ -288,13 +421,20 @@ window.SET_22_DATA = [
     "id": 20,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q20.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q20_opt1.png",
+      "B": "cards/options/set22_q20_opt2.png",
+      "C": "cards/options/set22_q20_opt3.png",
+      "D": "cards/options/set22_q20_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q20.png"
@@ -303,13 +443,20 @@ window.SET_22_DATA = [
     "id": 21,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q21.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q21_opt1.png",
+      "B": "cards/options/set22_q21_opt2.png",
+      "C": "cards/options/set22_q21_opt3.png",
+      "D": "cards/options/set22_q21_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q21.png"
@@ -318,11 +465,18 @@ window.SET_22_DATA = [
     "id": 22,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q22.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q22_opt1.png",
+      "B": "cards/options/set22_q22_opt2.png",
+      "C": "cards/options/set22_q22_opt3.png",
+      "D": "cards/options/set22_q22_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -333,13 +487,20 @@ window.SET_22_DATA = [
     "id": 23,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q23.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q23_opt1.png",
+      "B": "cards/options/set22_q23_opt2.png",
+      "C": "cards/options/set22_q23_opt3.png",
+      "D": "cards/options/set22_q23_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q23.png"
@@ -348,13 +509,20 @@ window.SET_22_DATA = [
     "id": 24,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q24.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q24_opt1.png",
+      "B": "cards/options/set22_q24_opt2.png",
+      "C": "cards/options/set22_q24_opt3.png",
+      "D": "cards/options/set22_q24_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q24.png"
@@ -363,13 +531,20 @@ window.SET_22_DATA = [
     "id": 25,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q25.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q25_opt1.png",
+      "B": "cards/options/set22_q25_opt2.png",
+      "C": "cards/options/set22_q25_opt3.png",
+      "D": "cards/options/set22_q25_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q25.png"
@@ -378,11 +553,18 @@ window.SET_22_DATA = [
     "id": 26,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q26.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q26_opt1.png",
+      "B": "cards/options/set22_q26_opt2.png",
+      "C": "cards/options/set22_q26_opt3.png",
+      "D": "cards/options/set22_q26_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -393,13 +575,20 @@ window.SET_22_DATA = [
     "id": 27,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q27.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q27_opt1.png",
+      "B": "cards/options/set22_q27_opt2.png",
+      "C": "cards/options/set22_q27_opt3.png",
+      "D": "cards/options/set22_q27_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q27.png"
@@ -408,11 +597,18 @@ window.SET_22_DATA = [
     "id": 28,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q28.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q28_opt1.png",
+      "B": "cards/options/set22_q28_opt2.png",
+      "C": "cards/options/set22_q28_opt3.png",
+      "D": "cards/options/set22_q28_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -423,13 +619,20 @@ window.SET_22_DATA = [
     "id": 29,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q29.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q29_opt1.png",
+      "B": "cards/options/set22_q29_opt2.png",
+      "C": "cards/options/set22_q29_opt3.png",
+      "D": "cards/options/set22_q29_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q29.png"
@@ -438,13 +641,20 @@ window.SET_22_DATA = [
     "id": 30,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q30.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q30_opt1.png",
+      "B": "cards/options/set22_q30_opt2.png",
+      "C": "cards/options/set22_q30_opt3.png",
+      "D": "cards/options/set22_q30_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q30.png"
@@ -453,13 +663,20 @@ window.SET_22_DATA = [
     "id": 31,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q31.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q31_opt1.png",
+      "B": "cards/options/set22_q31_opt2.png",
+      "C": "cards/options/set22_q31_opt3.png",
+      "D": "cards/options/set22_q31_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q31.png"
@@ -468,13 +685,20 @@ window.SET_22_DATA = [
     "id": 32,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q32.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q32_opt1.png",
+      "B": "cards/options/set22_q32_opt2.png",
+      "C": "cards/options/set22_q32_opt3.png",
+      "D": "cards/options/set22_q32_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q32.png"
@@ -483,13 +707,20 @@ window.SET_22_DATA = [
     "id": 33,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q33.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q33_opt1.png",
+      "B": "cards/options/set22_q33_opt2.png",
+      "C": "cards/options/set22_q33_opt3.png",
+      "D": "cards/options/set22_q33_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q33.png"
@@ -498,13 +729,20 @@ window.SET_22_DATA = [
     "id": 34,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q34.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q34_opt1.png",
+      "B": "cards/options/set22_q34_opt2.png",
+      "C": "cards/options/set22_q34_opt3.png",
+      "D": "cards/options/set22_q34_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q34.png"
@@ -513,13 +751,20 @@ window.SET_22_DATA = [
     "id": 35,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q35.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q35_opt1.png",
+      "B": "cards/options/set22_q35_opt2.png",
+      "C": "cards/options/set22_q35_opt3.png",
+      "D": "cards/options/set22_q35_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q35.png"
@@ -528,13 +773,20 @@ window.SET_22_DATA = [
     "id": 36,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q36.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q36_opt1.png",
+      "B": "cards/options/set22_q36_opt2.png",
+      "C": "cards/options/set22_q36_opt3.png",
+      "D": "cards/options/set22_q36_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q36.png"
@@ -543,13 +795,20 @@ window.SET_22_DATA = [
     "id": 37,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q37.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q37_opt1.png",
+      "B": "cards/options/set22_q37_opt2.png",
+      "C": "cards/options/set22_q37_opt3.png",
+      "D": "cards/options/set22_q37_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q37.png"
@@ -558,13 +817,20 @@ window.SET_22_DATA = [
     "id": 38,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q38.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q38_opt1.png",
+      "B": "cards/options/set22_q38_opt2.png",
+      "C": "cards/options/set22_q38_opt3.png",
+      "D": "cards/options/set22_q38_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q38.png"
@@ -573,13 +839,20 @@ window.SET_22_DATA = [
     "id": 39,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q39.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q39_opt1.png",
+      "B": "cards/options/set22_q39_opt2.png",
+      "C": "cards/options/set22_q39_opt3.png",
+      "D": "cards/options/set22_q39_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q39.png"
@@ -588,13 +861,20 @@ window.SET_22_DATA = [
     "id": 40,
     "section": "General Science",
     "question": "",
+    "stem_img": "cards/stems/set22_q40.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q40_opt1.png",
+      "B": "cards/options/set22_q40_opt2.png",
+      "C": "cards/options/set22_q40_opt3.png",
+      "D": "cards/options/set22_q40_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q40.png"
@@ -603,13 +883,20 @@ window.SET_22_DATA = [
     "id": 41,
     "section": "Mathematics",
     "question": "Which of the following Indian languages were given the status of classical languages of India in October 2024?",
+    "stem_img": "cards/stems/set22_q41.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q41_opt1.png",
+      "B": "cards/options/set22_q41_opt2.png",
+      "C": "cards/options/set22_q41_opt3.png",
+      "D": "cards/options/set22_q41_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q41.png"
@@ -618,11 +905,18 @@ window.SET_22_DATA = [
     "id": 42,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q42.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q42_opt1.png",
+      "B": "cards/options/set22_q42_opt2.png",
+      "C": "cards/options/set22_q42_opt3.png",
+      "D": "cards/options/set22_q42_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -633,11 +927,17 @@ window.SET_22_DATA = [
     "id": 43,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q43.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q43_opt1.png",
+      "B": "cards/options/set22_q43_opt2.png",
+      "C": "cards/options/set22_q43_opt3.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -648,13 +948,20 @@ window.SET_22_DATA = [
     "id": 44,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q44.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q44_opt1.png",
+      "B": "cards/options/set22_q44_opt2.png",
+      "C": "cards/options/set22_q44_opt3.png",
+      "D": "cards/options/set22_q44_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q44.png"
@@ -663,11 +970,18 @@ window.SET_22_DATA = [
     "id": 45,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q45.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q45_opt1.png",
+      "B": "cards/options/set22_q45_opt2.png",
+      "C": "cards/options/set22_q45_opt3.png",
+      "D": "cards/options/set22_q45_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -678,13 +992,20 @@ window.SET_22_DATA = [
     "id": 46,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q46.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q46_opt1.png",
+      "B": "cards/options/set22_q46_opt2.png",
+      "C": "cards/options/set22_q46_opt3.png",
+      "D": "cards/options/set22_q46_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q46.png"
@@ -693,13 +1014,20 @@ window.SET_22_DATA = [
     "id": 47,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q47.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q47_opt1.png",
+      "B": "cards/options/set22_q47_opt2.png",
+      "C": "cards/options/set22_q47_opt3.png",
+      "D": "cards/options/set22_q47_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q47.png"
@@ -708,13 +1036,20 @@ window.SET_22_DATA = [
     "id": 48,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q48.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q48_opt1.png",
+      "B": "cards/options/set22_q48_opt2.png",
+      "C": "cards/options/set22_q48_opt3.png",
+      "D": "cards/options/set22_q48_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q48.png"
@@ -723,13 +1058,20 @@ window.SET_22_DATA = [
     "id": 49,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q49.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q49_opt1.png",
+      "B": "cards/options/set22_q49_opt2.png",
+      "C": "cards/options/set22_q49_opt3.png",
+      "D": "cards/options/set22_q49_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q49.png"
@@ -738,13 +1080,20 @@ window.SET_22_DATA = [
     "id": 50,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q50.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q50_opt1.png",
+      "B": "cards/options/set22_q50_opt2.png",
+      "C": "cards/options/set22_q50_opt3.png",
+      "D": "cards/options/set22_q50_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q50.png"
@@ -753,11 +1102,18 @@ window.SET_22_DATA = [
     "id": 51,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q51.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q51_opt1.png",
+      "B": "cards/options/set22_q51_opt2.png",
+      "C": "cards/options/set22_q51_opt3.png",
+      "D": "cards/options/set22_q51_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -768,13 +1124,20 @@ window.SET_22_DATA = [
     "id": 52,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q52.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q52_opt1.png",
+      "B": "cards/options/set22_q52_opt2.png",
+      "C": "cards/options/set22_q52_opt3.png",
+      "D": "cards/options/set22_q52_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q52.png"
@@ -783,13 +1146,20 @@ window.SET_22_DATA = [
     "id": 53,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q53.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q53_opt1.png",
+      "B": "cards/options/set22_q53_opt2.png",
+      "C": "cards/options/set22_q53_opt3.png",
+      "D": "cards/options/set22_q53_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q53.png"
@@ -798,13 +1168,20 @@ window.SET_22_DATA = [
     "id": 54,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q54.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q54_opt1.png",
+      "B": "cards/options/set22_q54_opt2.png",
+      "C": "cards/options/set22_q54_opt3.png",
+      "D": "cards/options/set22_q54_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q54.png"
@@ -813,13 +1190,20 @@ window.SET_22_DATA = [
     "id": 55,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q55.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q55_opt1.png",
+      "B": "cards/options/set22_q55_opt2.png",
+      "C": "cards/options/set22_q55_opt3.png",
+      "D": "cards/options/set22_q55_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q55.png"
@@ -828,13 +1212,20 @@ window.SET_22_DATA = [
     "id": 56,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q56.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q56_opt1.png",
+      "B": "cards/options/set22_q56_opt2.png",
+      "C": "cards/options/set22_q56_opt3.png",
+      "D": "cards/options/set22_q56_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q56.png"
@@ -843,13 +1234,20 @@ window.SET_22_DATA = [
     "id": 57,
     "section": "Mathematics",
     "question": "Which state's Governor launched the book titled 'Sri Rama in Tamilagam – An Inseparable Bond' in September 2024?",
+    "stem_img": "cards/stems/set22_q57.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q57_opt1.png",
+      "B": "cards/options/set22_q57_opt2.png",
+      "C": "cards/options/set22_q57_opt3.png",
+      "D": "cards/options/set22_q57_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q57.png"
@@ -858,13 +1256,20 @@ window.SET_22_DATA = [
     "id": 58,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q58.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q58_opt1.png",
+      "B": "cards/options/set22_q58_opt2.png",
+      "C": "cards/options/set22_q58_opt3.png",
+      "D": "cards/options/set22_q58_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q58.png"
@@ -873,13 +1278,20 @@ window.SET_22_DATA = [
     "id": 59,
     "section": "Mathematics",
     "question": "Which of the following was a significant outcome of the informal meeting between Xi Jinping and Narendra Modi at the 2023 BRICS summit?",
+    "stem_img": "cards/stems/set22_q59.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q59_opt1.png",
+      "B": "cards/options/set22_q59_opt2.png",
+      "C": "cards/options/set22_q59_opt3.png",
+      "D": "cards/options/set22_q59_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q59.png"
@@ -888,13 +1300,20 @@ window.SET_22_DATA = [
     "id": 60,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q60.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q60_opt1.png",
+      "B": "cards/options/set22_q60_opt2.png",
+      "C": "cards/options/set22_q60_opt3.png",
+      "D": "cards/options/set22_q60_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q60.png"
@@ -903,13 +1322,20 @@ window.SET_22_DATA = [
     "id": 61,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q61.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q61_opt1.png",
+      "B": "cards/options/set22_q61_opt2.png",
+      "C": "cards/options/set22_q61_opt3.png",
+      "D": "cards/options/set22_q61_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q61.png"
@@ -918,13 +1344,20 @@ window.SET_22_DATA = [
     "id": 62,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q62.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q62_opt1.png",
+      "B": "cards/options/set22_q62_opt2.png",
+      "C": "cards/options/set22_q62_opt3.png",
+      "D": "cards/options/set22_q62_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q62.png"
@@ -933,13 +1366,20 @@ window.SET_22_DATA = [
     "id": 63,
     "section": "Mathematics",
     "question": "",
+    "stem_img": "cards/stems/set22_q63.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q63_opt1.png",
+      "B": "cards/options/set22_q63_opt2.png",
+      "C": "cards/options/set22_q63_opt3.png",
+      "D": "cards/options/set22_q63_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q63.png"
@@ -948,13 +1388,20 @@ window.SET_22_DATA = [
     "id": 64,
     "section": "Mathematics",
     "question": "Where was the first leg of the 2024 Khelo India Winter Games held?",
+    "stem_img": "cards/stems/set22_q64.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q64_opt1.png",
+      "B": "cards/options/set22_q64_opt2.png",
+      "C": "cards/options/set22_q64_opt3.png",
+      "D": "cards/options/set22_q64_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q64.png"
@@ -963,13 +1410,20 @@ window.SET_22_DATA = [
     "id": 65,
     "section": "Mathematics",
     "question": "Bihar state has what percentage of poor population of the country as per Economic Survey of India 2023-24?",
+    "stem_img": "cards/stems/set22_q65.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q65_opt1.png",
+      "B": "cards/options/set22_q65_opt2.png",
+      "C": "cards/options/set22_q65_opt3.png",
+      "D": "cards/options/set22_q65_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q65.png"
@@ -978,13 +1432,20 @@ window.SET_22_DATA = [
     "id": 66,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q66.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q66_opt1.png",
+      "B": "cards/options/set22_q66_opt2.png",
+      "C": "cards/options/set22_q66_opt3.png",
+      "D": "cards/options/set22_q66_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q66.png"
@@ -993,13 +1454,20 @@ window.SET_22_DATA = [
     "id": 67,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q67.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q67_opt1.png",
+      "B": "cards/options/set22_q67_opt2.png",
+      "C": "cards/options/set22_q67_opt3.png",
+      "D": "cards/options/set22_q67_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q67.png"
@@ -1008,13 +1476,20 @@ window.SET_22_DATA = [
     "id": 68,
     "section": "General Intelligence & Reasoning",
     "question": "A pipe can fill a tank in 8 hours. Another pipe can empty the filled tank in 72 hours. If both the pipes are opened simultaneously, then the time (in hours) in which the tank will be one-third filled, is:",
+    "stem_img": "cards/stems/set22_q68.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q68_opt1.png",
+      "B": "cards/options/set22_q68_opt2.png",
+      "C": "cards/options/set22_q68_opt3.png",
+      "D": "cards/options/set22_q68_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q68.png"
@@ -1023,13 +1498,20 @@ window.SET_22_DATA = [
     "id": 69,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q69.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q69_opt1.png",
+      "B": "cards/options/set22_q69_opt2.png",
+      "C": "cards/options/set22_q69_opt3.png",
+      "D": "cards/options/set22_q69_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q69.png"
@@ -1038,13 +1520,20 @@ window.SET_22_DATA = [
     "id": 70,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q70.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q70_opt1.png",
+      "B": "cards/options/set22_q70_opt2.png",
+      "C": "cards/options/set22_q70_opt3.png",
+      "D": "cards/options/set22_q70_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q70.png"
@@ -1053,11 +1542,18 @@ window.SET_22_DATA = [
     "id": 71,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q71.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q71_opt1.png",
+      "B": "cards/options/set22_q71_opt2.png",
+      "C": "cards/options/set22_q71_opt3.png",
+      "D": "cards/options/set22_q71_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -1068,13 +1564,20 @@ window.SET_22_DATA = [
     "id": 72,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q72.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q72_opt1.png",
+      "B": "cards/options/set22_q72_opt2.png",
+      "C": "cards/options/set22_q72_opt3.png",
+      "D": "cards/options/set22_q72_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q72.png"
@@ -1083,13 +1586,20 @@ window.SET_22_DATA = [
     "id": 73,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q73.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q73_opt1.png",
+      "B": "cards/options/set22_q73_opt2.png",
+      "C": "cards/options/set22_q73_opt3.png",
+      "D": "cards/options/set22_q73_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q73.png"
@@ -1098,11 +1608,18 @@ window.SET_22_DATA = [
     "id": 74,
     "section": "General Intelligence & Reasoning",
     "question": "Which institute hosted International Chess Federation (FIDE)-rated Rapid Chess Tournament in March 2024?",
+    "stem_img": "cards/stems/set22_q74.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q74_opt1.png",
+      "B": "cards/options/set22_q74_opt2.png",
+      "C": "cards/options/set22_q74_opt3.png",
+      "D": "cards/options/set22_q74_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -1113,13 +1630,20 @@ window.SET_22_DATA = [
     "id": 75,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q75.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q75_opt1.png",
+      "B": "cards/options/set22_q75_opt2.png",
+      "C": "cards/options/set22_q75_opt3.png",
+      "D": "cards/options/set22_q75_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q75.png"
@@ -1128,13 +1652,20 @@ window.SET_22_DATA = [
     "id": 76,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q76.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q76_opt1.png",
+      "B": "cards/options/set22_q76_opt2.png",
+      "C": "cards/options/set22_q76_opt3.png",
+      "D": "cards/options/set22_q76_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q76.png"
@@ -1143,11 +1674,18 @@ window.SET_22_DATA = [
     "id": 77,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q77.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q77_opt1.png",
+      "B": "cards/options/set22_q77_opt2.png",
+      "C": "cards/options/set22_q77_opt3.png",
+      "D": "cards/options/set22_q77_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -1158,11 +1696,18 @@ window.SET_22_DATA = [
     "id": 78,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q78.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q78_opt1.png",
+      "B": "cards/options/set22_q78_opt2.png",
+      "C": "cards/options/set22_q78_opt3.png",
+      "D": "cards/options/set22_q78_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -1173,13 +1718,20 @@ window.SET_22_DATA = [
     "id": 79,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q79.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q79_opt1.png",
+      "B": "cards/options/set22_q79_opt2.png",
+      "C": "cards/options/set22_q79_opt3.png",
+      "D": "cards/options/set22_q79_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q79.png"
@@ -1188,13 +1740,20 @@ window.SET_22_DATA = [
     "id": 80,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q80.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q80_opt1.png",
+      "B": "cards/options/set22_q80_opt2.png",
+      "C": "cards/options/set22_q80_opt3.png",
+      "D": "cards/options/set22_q80_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q80.png"
@@ -1203,13 +1762,20 @@ window.SET_22_DATA = [
     "id": 81,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q81.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q81_opt1.png",
+      "B": "cards/options/set22_q81_opt2.png",
+      "C": "cards/options/set22_q81_opt3.png",
+      "D": "cards/options/set22_q81_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q81.png"
@@ -1218,13 +1784,20 @@ window.SET_22_DATA = [
     "id": 82,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q82.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q82_opt1.png",
+      "B": "cards/options/set22_q82_opt2.png",
+      "C": "cards/options/set22_q82_opt3.png",
+      "D": "cards/options/set22_q82_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q82.png"
@@ -1233,11 +1806,18 @@ window.SET_22_DATA = [
     "id": 83,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q83.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q83_opt1.png",
+      "B": "cards/options/set22_q83_opt2.png",
+      "C": "cards/options/set22_q83_opt3.png",
+      "D": "cards/options/set22_q83_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -1248,13 +1828,20 @@ window.SET_22_DATA = [
     "id": 84,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q84.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q84_opt1.png",
+      "B": "cards/options/set22_q84_opt2.png",
+      "C": "cards/options/set22_q84_opt3.png",
+      "D": "cards/options/set22_q84_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q84.png"
@@ -1263,13 +1850,20 @@ window.SET_22_DATA = [
     "id": 85,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q85.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q85_opt1.png",
+      "B": "cards/options/set22_q85_opt2.png",
+      "C": "cards/options/set22_q85_opt3.png",
+      "D": "cards/options/set22_q85_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q85.png"
@@ -1278,13 +1872,20 @@ window.SET_22_DATA = [
     "id": 86,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q86.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q86_opt1.png",
+      "B": "cards/options/set22_q86_opt2.png",
+      "C": "cards/options/set22_q86_opt3.png",
+      "D": "cards/options/set22_q86_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q86.png"
@@ -1293,13 +1894,20 @@ window.SET_22_DATA = [
     "id": 87,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q87.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q87_opt1.png",
+      "B": "cards/options/set22_q87_opt2.png",
+      "C": "cards/options/set22_q87_opt3.png",
+      "D": "cards/options/set22_q87_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q87.png"
@@ -1308,13 +1916,20 @@ window.SET_22_DATA = [
     "id": 88,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q88.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q88_opt1.png",
+      "B": "cards/options/set22_q88_opt2.png",
+      "C": "cards/options/set22_q88_opt3.png",
+      "D": "cards/options/set22_q88_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q88.png"
@@ -1323,13 +1938,20 @@ window.SET_22_DATA = [
     "id": 89,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q89.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q89_opt1.png",
+      "B": "cards/options/set22_q89_opt2.png",
+      "C": "cards/options/set22_q89_opt3.png",
+      "D": "cards/options/set22_q89_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q89.png"
@@ -1338,11 +1960,18 @@ window.SET_22_DATA = [
     "id": 90,
     "section": "General Intelligence & Reasoning",
     "question": "",
+    "stem_img": "cards/stems/set22_q90.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q90_opt1.png",
+      "B": "cards/options/set22_q90_opt2.png",
+      "C": "cards/options/set22_q90_opt3.png",
+      "D": "cards/options/set22_q90_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -1353,13 +1982,20 @@ window.SET_22_DATA = [
     "id": 91,
     "section": "General Awareness",
     "question": "",
+    "stem_img": "cards/stems/set22_q91.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q91_opt1.png",
+      "B": "cards/options/set22_q91_opt2.png",
+      "C": "cards/options/set22_q91_opt3.png",
+      "D": "cards/options/set22_q91_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q91.png"
@@ -1368,13 +2004,20 @@ window.SET_22_DATA = [
     "id": 92,
     "section": "General Awareness",
     "question": "",
+    "stem_img": "cards/stems/set22_q92.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q92_opt1.png",
+      "B": "cards/options/set22_q92_opt2.png",
+      "C": "cards/options/set22_q92_opt3.png",
+      "D": "cards/options/set22_q92_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q92.png"
@@ -1383,11 +2026,18 @@ window.SET_22_DATA = [
     "id": 93,
     "section": "General Awareness",
     "question": "",
+    "stem_img": "cards/stems/set22_q93.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q93_opt1.png",
+      "B": "cards/options/set22_q93_opt2.png",
+      "C": "cards/options/set22_q93_opt3.png",
+      "D": "cards/options/set22_q93_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -1398,11 +2048,18 @@ window.SET_22_DATA = [
     "id": 94,
     "section": "General Awareness",
     "question": "",
+    "stem_img": "cards/stems/set22_q94.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q94_opt1.png",
+      "B": "cards/options/set22_q94_opt2.png",
+      "C": "cards/options/set22_q94_opt3.png",
+      "D": "cards/options/set22_q94_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -1413,13 +2070,20 @@ window.SET_22_DATA = [
     "id": 95,
     "section": "General Awareness",
     "question": "",
+    "stem_img": "cards/stems/set22_q95.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q95_opt1.png",
+      "B": "cards/options/set22_q95_opt2.png",
+      "C": "cards/options/set22_q95_opt3.png",
+      "D": "cards/options/set22_q95_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q95.png"
@@ -1428,13 +2092,20 @@ window.SET_22_DATA = [
     "id": 96,
     "section": "General Awareness",
     "question": "What is the key objective of the Swachh Diwali Shubh Diwali campaign 2024?",
+    "stem_img": "cards/stems/set22_q96.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q96_opt1.png",
+      "B": "cards/options/set22_q96_opt2.png",
+      "C": "cards/options/set22_q96_opt3.png",
+      "D": "cards/options/set22_q96_opt4.png"
+    },
+    "correct": "B",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q96.png"
@@ -1443,13 +2114,20 @@ window.SET_22_DATA = [
     "id": 97,
     "section": "General Awareness",
     "question": "Match the UNESCO World Heritage Sites of India (declared between 2021 and 2024) in List I with their location states in List II and select the correct answer. List I (UNESCO World Heritage Sites) List II (States) (1) Kakatiya Rudreshwara (Ramappa) Temple (A) Telangana (2) Santiniketan, India (B) West Bengal (3) Sacred Ensemble of Hoysalas (C) Karnataka (4) Charaideo Moidam (D) Assam",
+    "stem_img": "cards/stems/set22_q97.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q97_opt1.png",
+      "B": "cards/options/set22_q97_opt2.png",
+      "C": "cards/options/set22_q97_opt3.png",
+      "D": "cards/options/set22_q97_opt4.png"
+    },
+    "correct": "C",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q97.png"
@@ -1458,11 +2136,18 @@ window.SET_22_DATA = [
     "id": 98,
     "section": "General Awareness",
     "question": "",
+    "stem_img": "cards/stems/set22_q98.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q98_opt1.png",
+      "B": "cards/options/set22_q98_opt2.png",
+      "C": "cards/options/set22_q98_opt3.png",
+      "D": "cards/options/set22_q98_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -1473,11 +2158,18 @@ window.SET_22_DATA = [
     "id": 99,
     "section": "General Awareness",
     "question": "",
+    "stem_img": "cards/stems/set22_q99.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
+    },
+    "options_img": {
+      "A": "cards/options/set22_q99_opt1.png",
+      "B": "cards/options/set22_q99_opt2.png",
+      "C": "cards/options/set22_q99_opt3.png",
+      "D": "cards/options/set22_q99_opt4.png"
     },
     "correct": "A",
     "has_diagram": true,
@@ -1488,13 +2180,20 @@ window.SET_22_DATA = [
     "id": 100,
     "section": "General Awareness",
     "question": "",
+    "stem_img": "cards/stems/set22_q100.png",
     "options": {
       "A": "Option 1",
       "B": "Option 2",
       "C": "Option 3",
       "D": "Option 4"
     },
-    "correct": "A",
+    "options_img": {
+      "A": "cards/options/set22_q100_opt1.png",
+      "B": "cards/options/set22_q100_opt2.png",
+      "C": "cards/options/set22_q100_opt3.png",
+      "D": "cards/options/set22_q100_opt4.png"
+    },
+    "correct": "D",
     "has_diagram": true,
     "diagram_img": null,
     "card_img": "cards/set22_q100.png"

@@ -1,4 +1,4 @@
-﻿const db = require('../config/database');
+const db = require('../config/database');
 
 class QuizGenerator {
   /**
@@ -16,6 +16,7 @@ class QuizGenerator {
         SELECT q.id, q.set_id, q.qnum, q.section, q.question_text, 
                q.option_a, q.option_b, q.option_c, q.option_d, 
                q.correct_option, q.has_diagram, q.diagram_img, q.card_img,
+               q.stem_img, q.opt1_img, q.opt2_img, q.opt3_img, q.opt4_img,
                m.error_count
         FROM mistakes_notebook m
         JOIN questions q ON m.question_id = q.id
@@ -28,7 +29,8 @@ class QuizGenerator {
       sql = `
         SELECT id, set_id, qnum, section, question_text, 
                option_a, option_b, option_c, option_d, 
-               correct_option, has_diagram, diagram_img, card_img
+               correct_option, has_diagram, diagram_img, card_img,
+               stem_img, opt1_img, opt2_img, opt3_img, opt4_img
         FROM questions
         WHERE section = ?
         ORDER BY RANDOM()
@@ -40,7 +42,8 @@ class QuizGenerator {
       sql = `
         SELECT id, set_id, qnum, section, question_text, 
                option_a, option_b, option_c, option_d, 
-               correct_option, has_diagram, diagram_img, card_img
+               correct_option, has_diagram, diagram_img, card_img,
+               stem_img, opt1_img, opt2_img, opt3_img, opt4_img
         FROM questions
         ORDER BY RANDOM()
         LIMIT ?
@@ -57,11 +60,18 @@ class QuizGenerator {
       set_id: r.set_id,
       section: r.section,
       question: r.question_text,
+      stem_img: r.stem_img || null,
       options: {
         A: r.option_a,
         B: r.option_b,
         C: r.option_c,
         D: r.option_d
+      },
+      options_img: {
+        A: r.opt1_img || null,
+        B: r.opt2_img || null,
+        C: r.opt3_img || null,
+        D: r.opt4_img || null
       },
       correct: r.correct_option,
       has_diagram: !!r.has_diagram,

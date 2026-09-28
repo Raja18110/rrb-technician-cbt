@@ -6,14 +6,20 @@ class TestController {
   // GET /api/tests
   static async getAllTests(req, res, next) {
     try {
+      const candidateId = req.query.candidateId || null;
+      const cond = candidateId ? 'AND candidate_id = ?' : '';
+      const params = candidateId ? [candidateId, candidateId, candidateId, candidateId, candidateId] : [];
+
       const tests = await db.all(`
         SELECT t.*, 
-               (SELECT score FROM attempts WHERE set_id = t.id ORDER BY id DESC LIMIT 1) as latest_score,
-               (SELECT accuracy FROM attempts WHERE set_id = t.id ORDER BY id DESC LIMIT 1) as latest_accuracy,
-               (SELECT COUNT(*) FROM attempts WHERE set_id = t.id) as attempt_count
+               (SELECT score FROM attempts WHERE set_id = t.id ${cond} ORDER BY id DESC LIMIT 1) as latest_score,
+               (SELECT accuracy FROM attempts WHERE set_id = t.id ${cond} ORDER BY id DESC LIMIT 1) as latest_accuracy,
+               (SELECT COUNT(*) FROM attempts WHERE set_id = t.id ${cond}) as attempt_count,
+               (SELECT current_q_index FROM active_sessions WHERE set_id = t.id ${cond}) as active_q_index,
+               (SELECT time_remaining FROM active_sessions WHERE set_id = t.id ${cond}) as active_time_remaining
         FROM test_sets t
         ORDER BY t.id ASC
-      `);
+      `, params);
 
       res.json({ success: true, data: tests });
     } catch (err) {
@@ -33,7 +39,8 @@ class TestController {
       const questions = await db.all(`
         SELECT id, set_id, qnum, section, question_text, 
                option_a, option_b, option_c, option_d, 
-               correct_option, has_diagram, diagram_img, card_img
+               correct_option, has_diagram, diagram_img, card_img,
+               stem_img, opt1_img, opt2_img, opt3_img, opt4_img
         FROM questions
         WHERE set_id = ?
         ORDER BY qnum ASC
@@ -45,11 +52,18 @@ class TestController {
         db_id: q.id,
         section: q.section,
         question: q.question_text,
+        stem_img: q.stem_img || null,
         options: {
           A: q.option_a,
           B: q.option_b,
           C: q.option_c,
           D: q.option_d
+        },
+        options_img: {
+          A: q.opt1_img || null,
+          B: q.opt2_img || null,
+          C: q.opt3_img || null,
+          D: q.opt4_img || null
         },
         correct: q.correct_option,
         has_diagram: !!q.has_diagram,
@@ -142,6 +156,47 @@ class TestController {
     }
   }
 
+  // GET /api/tests/:id/latest-attempt
+  static async getLatestAttemptForSet(req, res, next) {
+    try {
+      const setId = parseInt(req.params.id, 10);
+      const candidateId = req.query.candidateId || null;
+
+      let sql = `
+        SELECT * FROM attempts 
+        WHERE set_id = ? ${candidateId ? 'AND candidate_id = ?' : ''}
+        ORDER BY id DESC LIMIT 1
+      `;
+      const params = candidateId ? [setId, candidateId] : [setId];
+      const attempt = await db.get(sql, params);
+
+      if (!attempt) {
+        return res.json({ success: true, has_attempt: false });
+      }
+
+      const responses = await db.all(`
+        SELECT ar.*, q.qnum, q.section, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d,
+               q.correct_option, q.has_diagram, q.diagram_img, q.card_img,
+               q.stem_img, q.opt1_img, q.opt2_img, q.opt3_img, q.opt4_img
+        FROM attempt_responses ar
+        JOIN questions q ON ar.question_id = q.id
+        WHERE ar.attempt_id = ?
+        ORDER BY q.qnum ASC
+      `, [attempt.id]);
+
+      res.json({
+        success: true,
+        has_attempt: true,
+        data: {
+          attempt,
+          responses
+        }
+      });
+    } catch (err) {
+      next(err);
+    }
+  }
+
   // GET /api/tests/attempts/:id
   static async getAttemptResult(req, res, next) {
     try {
@@ -159,7 +214,8 @@ class TestController {
 
       const responses = await db.all(`
         SELECT ar.*, q.qnum, q.section, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d,
-               q.correct_option, q.has_diagram, q.diagram_img, q.card_img
+               q.correct_option, q.has_diagram, q.diagram_img, q.card_img,
+               q.stem_img, q.opt1_img, q.opt2_img, q.opt3_img, q.opt4_img
         FROM attempt_responses ar
         JOIN questions q ON ar.question_id = q.id
         WHERE ar.attempt_id = ?
@@ -189,6 +245,7 @@ class TestController {
         (set_id, candidate_id, current_q_index, time_remaining, responses_json, is_custom_quiz, quiz_data_json, updated_at)
         VALUES (?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
         ON CONFLICT(set_id) DO UPDATE SET
+          candidate_id = excluded.candidate_id,
           current_q_index = excluded.current_q_index,
           time_remaining = excluded.time_remaining,
           responses_json = excluded.responses_json,
@@ -215,7 +272,14 @@ class TestController {
   static async getSession(req, res, next) {
     try {
       const setId = parseInt(req.params.id, 10);
-      const session = await db.get(`SELECT * FROM active_sessions WHERE set_id = ?`, [setId]);
+      const candidateId = req.query.candidateId || null;
+      let sql = 'SELECT * FROM active_sessions WHERE set_id = ?';
+      const params = [setId];
+      if (candidateId) {
+        sql += ' AND candidate_id = ?';
+        params.push(candidateId);
+      }
+      const session = await db.get(sql, params);
 
       if (!session) {
         return res.json({ success: true, has_session: false });
@@ -244,7 +308,14 @@ class TestController {
   static async clearSession(req, res, next) {
     try {
       const setId = parseInt(req.params.id, 10);
-      await db.run(`DELETE FROM active_sessions WHERE set_id = ?`, [setId]);
+      const candidateId = req.query.candidateId || null;
+      let sql = 'DELETE FROM active_sessions WHERE set_id = ?';
+      const params = [setId];
+      if (candidateId) {
+        sql += ' AND candidate_id = ?';
+        params.push(candidateId);
+      }
+      await db.run(sql, params);
       res.json({ success: true, message: 'Session cleared' });
     } catch (err) {
       next(err);
