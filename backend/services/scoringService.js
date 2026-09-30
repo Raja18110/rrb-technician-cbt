@@ -1,9 +1,10 @@
-﻿// Scoring Engine adhering strictly to official RRB Railway Examination Scheme
+// Scoring Engine adhering strictly to official RRB Railway Examination Scheme
 class ScoringService {
   static evaluate(questions, responses) {
     let totalCorrect = 0;
     let totalWrong = 0;
     let totalUnattempted = 0;
+    const evaluatedResponses = [];
 
     const sectionBreakdown = {
       "General Science": { total: 40, correct: 0, wrong: 0, unattempted: 0, score: 0 },
@@ -12,12 +13,52 @@ class ScoringService {
       "General Awareness": { total: 10, correct: 0, wrong: 0, unattempted: 0, score: 0 }
     };
 
-    const evaluatedResponses = [];
+    // Normalize responses into a lookup map by question id and qnum
+    const responseMap = {};
+    if (Array.isArray(responses)) {
+      responses.forEach((r) => {
+        if (!r) return;
+        if (r.question_id !== undefined) responseMap[r.question_id] = r;
+        if (r.qnum !== undefined) responseMap[r.qnum] = r;
+        if (r.id !== undefined) responseMap[r.id] = r;
+      });
+    } else if (responses && typeof responses === 'object') {
+      Object.keys(responses).forEach((k) => {
+        responseMap[k] = responses[k];
+      });
+    }
 
     questions.forEach((q) => {
-      const resp = responses[q.qnum] || responses[q.id] || null;
-      const userOpt = resp && resp.option ? resp.option.toUpperCase() : null;
-      const officialCorrect = q.correct_option ? q.correct_option.toUpperCase() : null;
+      const resp = responseMap[q.qnum] !== undefined ? responseMap[q.qnum] : (responseMap[q.id] !== undefined ? responseMap[q.id] : null);
+      let rawOpt = null;
+      let respStatus = 'not-visited';
+      let timeSpent = 0;
+
+      if (resp) {
+        if (typeof resp === 'string') {
+          rawOpt = resp;
+          respStatus = 'answered';
+        } else if (typeof resp === 'object') {
+          rawOpt = resp.option || resp.selected_option || resp.selectedOption || null;
+          respStatus = resp.status || (rawOpt ? 'answered' : 'not-answered');
+          timeSpent = resp.timeSpent || resp.time_spent || 0;
+        }
+      }
+
+      // Normalize option to A, B, C, D
+      let userOpt = null;
+      if (rawOpt) {
+        const s = String(rawOpt).trim().toUpperCase();
+        if (['A', 'B', 'C', 'D'].includes(s)) {
+          userOpt = s;
+        } else if (['1', '2', '3', '4'].includes(s)) {
+          userOpt = { '1': 'A', '2': 'B', '3': 'C', '4': 'D' }[s];
+        } else {
+          userOpt = s;
+        }
+      }
+
+      const officialCorrect = q.correct_option ? String(q.correct_option).trim().toUpperCase() : null;
       const sec = q.section;
 
       let isCorrect = false;
@@ -52,8 +93,8 @@ class ScoringService {
         correct_option: officialCorrect,
         is_correct: isCorrect ? 1 : 0,
         is_wrong: isWrong ? 1 : 0,
-        status: resp ? resp.status : 'not-visited',
-        time_spent: resp ? resp.timeSpent || 0 : 0
+        status: respStatus,
+        time_spent: timeSpent
       });
     });
 

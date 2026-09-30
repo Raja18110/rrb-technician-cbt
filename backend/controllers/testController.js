@@ -15,8 +15,8 @@ class TestController {
                (SELECT score FROM attempts WHERE set_id = t.id ${cond} ORDER BY id DESC LIMIT 1) as latest_score,
                (SELECT accuracy FROM attempts WHERE set_id = t.id ${cond} ORDER BY id DESC LIMIT 1) as latest_accuracy,
                (SELECT COUNT(*) FROM attempts WHERE set_id = t.id ${cond}) as attempt_count,
-               (SELECT current_q_index FROM active_sessions WHERE set_id = t.id ${cond}) as active_q_index,
-               (SELECT time_remaining FROM active_sessions WHERE set_id = t.id ${cond}) as active_time_remaining
+               (SELECT current_q_index FROM active_sessions WHERE set_id = t.id ${cond} ORDER BY updated_at DESC LIMIT 1) as active_q_index,
+               (SELECT time_remaining FROM active_sessions WHERE set_id = t.id ${cond} ORDER BY updated_at DESC LIMIT 1) as active_time_remaining
         FROM test_sets t
         ORDER BY t.id ASC
       `, params);
@@ -111,7 +111,7 @@ class TestController {
         VALUES (?, ?, datetime('now', '-90 minutes'), CURRENT_TIMESTAMP, ?, ?, ?, ?, ?, ?)
       `, [
         setId,
-        candidateId || 'Candidate #2602',
+        candidateId || 'Rohit Kumar',
         evaluation.score,
         evaluation.correct_count,
         evaluation.wrong_count,
@@ -138,10 +138,14 @@ class TestController {
       }
 
       // 5. Automatically sync mistakes into Mistakes Notebook
-      await MistakeService.syncMistakes(evaluation.evaluated_responses, setId);
+      await MistakeService.syncMistakes(evaluation.evaluated_responses, setId, candidateId || 'Rohit Kumar');
 
       // 6. Remove active in-progress session if any
-      await db.run(`DELETE FROM active_sessions WHERE set_id = ?`, [setId]);
+      if (candidateId) {
+        await db.run(`DELETE FROM active_sessions WHERE set_id = ? AND candidate_id = ?`, [setId, candidateId]);
+      } else {
+        await db.run(`DELETE FROM active_sessions WHERE set_id = ?`, [setId]);
+      }
 
       res.json({
         success: true,

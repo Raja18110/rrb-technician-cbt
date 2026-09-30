@@ -170,7 +170,9 @@
   async function loadInitialData() {
     if (API_BASE) {
       try {
-        const res = await fetch(`${API_BASE}/mistakes`);
+        const prof = getCandidateProfile();
+        const candidateQuery = prof && prof.name ? `?candidateId=${encodeURIComponent(prof.name)}` : '';
+        const res = await fetch(`${API_BASE}/mistakes${candidateQuery}`);
         const json = await res.json();
         if (json.success) {
           APP_STATE.cachedMistakes = json.data;
@@ -336,7 +338,9 @@
     let mistakes = [];
     if (API_BASE) {
       try {
-        const res = await fetch(`${API_BASE}/mistakes?status=${APP_STATE.mistakesFilter === "all" ? "" : APP_STATE.mistakesFilter}`);
+        const prof = getCandidateProfile();
+        const candidateQuery = prof && prof.name ? `&candidateId=${encodeURIComponent(prof.name)}` : '';
+        const res = await fetch(`${API_BASE}/mistakes?status=${APP_STATE.mistakesFilter === "all" ? "" : APP_STATE.mistakesFilter}${candidateQuery}`);
         const json = await res.json();
         if (json.success) mistakes = json.data;
       } catch (e) {}
@@ -409,10 +413,11 @@
   window.startMistakesQuiz = async function () {
     if (API_BASE) {
       try {
+        const prof = getCandidateProfile();
         const res = await fetch(`${API_BASE}/quiz/custom`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ mode: "mistakes", count: 25 })
+          body: JSON.stringify({ mode: "mistakes", count: 25, candidateId: prof.name })
         });
         const json = await res.json();
         if (json.success && json.data.questions.length > 0) {
@@ -435,13 +440,14 @@
     const mode = document.getElementById("quiz-mode").value;
     const section = document.getElementById("quiz-section").value;
     const count = document.querySelector('input[name="quiz_count"]:checked').value;
+    const prof = getCandidateProfile();
 
     if (API_BASE) {
       try {
         const res = await fetch(`${API_BASE}/quiz/custom`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ mode, section, count })
+          body: JSON.stringify({ mode, section, count, candidateId: prof.name })
         });
         const json = await res.json();
         if (json.success && json.data.questions.length > 0) {
@@ -595,9 +601,10 @@
 
   window.resumeTest = async function (setId) {
     let sessionData = null;
+    const prof = getCandidateProfile();
     if (API_BASE) {
       try {
-        const res = await fetch(`${API_BASE}/tests/${setId}/session`);
+        const res = await fetch(`${API_BASE}/tests/${setId}/session?candidateId=${encodeURIComponent(prof.name)}`);
         const json = await res.json();
         if (json.success && json.has_session) {
           sessionData = json.data;
@@ -668,9 +675,10 @@
     if (!confirm("Are you sure you want to discard your in-progress attempt for this shift and restart fresh?")) {
       return;
     }
+    const prof = getCandidateProfile();
     if (API_BASE) {
       try {
-        await fetch(`${API_BASE}/tests/${setId}/session`, { method: "DELETE" });
+        await fetch(`${API_BASE}/tests/${setId}/session?candidateId=${encodeURIComponent(prof.name)}`, { method: "DELETE" });
       } catch (e) {}
     }
     renderShiftsList();
@@ -685,10 +693,11 @@
   };
 
   window.startTest = async function (setId) {
-    // If an active session exists in backend, automatically resume it
+    const prof = getCandidateProfile();
+    // If an active session exists in backend for this candidate, automatically resume it
     if (API_BASE) {
       try {
-        const sRes = await fetch(`${API_BASE}/tests/${setId}/session`);
+        const sRes = await fetch(`${API_BASE}/tests/${setId}/session?candidateId=${encodeURIComponent(prof.name)}`);
         const sJson = await sRes.json();
         if (sJson.success && sJson.has_session) {
           return resumeTest(setId);
@@ -757,6 +766,7 @@
     renderSectionsBar();
     renderCurrentQuestion();
     renderPalette();
+    triggerRealtimeAutoSave(true);
   };
 
   function startTimer() {
@@ -1180,10 +1190,10 @@
         section_breakdown: secStats,
         timeSpent: timeSpent
       };
+    }
 
-      if (!APP_STATE.isCustomQuiz) {
-        saveLocalResult(APP_STATE.currentSetId, evalResult);
-      }
+    if (evalResult && !APP_STATE.isCustomQuiz) {
+      saveLocalResult(APP_STATE.currentSetId, evalResult);
     }
 
     await loadInitialData();

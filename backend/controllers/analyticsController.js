@@ -57,13 +57,19 @@ class AnalyticsController {
       const scoreTrend = await db.all(trendSql, trendParams);
 
       // Mistakes notebook count
-      const mistakesStats = await db.get(`
+      let mistakeSql = `
         SELECT 
           COUNT(*) as total_mistakes,
           SUM(CASE WHEN mastery_status = 'NEEDS_PRACTICE' THEN 1 ELSE 0 END) as pending_review,
           SUM(CASE WHEN mastery_status = 'MASTERED' THEN 1 ELSE 0 END) as mastered
         FROM mistakes_notebook
-      `);
+      `;
+      const mistakeParams = [];
+      if (candidateId) {
+        mistakeSql += ` WHERE candidate_id = ?`;
+        mistakeParams.push(candidateId);
+      }
+      const mistakesStats = await db.get(mistakeSql, mistakeParams);
 
       res.json({
         success: true,

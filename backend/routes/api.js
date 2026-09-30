@@ -26,7 +26,7 @@ router.get('/analytics/summary', AnalyticsController.getSummary);
 // --- MISTAKES NOTEBOOK ---
 router.get('/mistakes', async (req, res, next) => {
   try {
-    const list = await MistakeService.getMistakesList(req.query.status);
+    const list = await MistakeService.getMistakesList(req.query.status, req.query.candidateId);
     res.json({ success: true, count: list.length, data: list });
   } catch (err) {
     next(err);
@@ -47,11 +47,12 @@ router.put('/mistakes/:id', async (req, res, next) => {
 // --- CUSTOM QUIZ GENERATOR ---
 router.post('/quiz/custom', async (req, res, next) => {
   try {
-    const { mode, section, count } = req.body;
+    const { mode, section, count, candidateId } = req.body;
     const questions = await QuizGenerator.generateQuiz({
       mode: mode || 'section',
       section: section || null,
-      count: parseInt(count, 10) || 25
+      count: parseInt(count, 10) || 25,
+      candidateId: candidateId || null
     });
     res.json({
       success: true,

@@ -7,7 +7,7 @@ class QuizGenerator {
    * section: 'General Science' | 'Mathematics' | etc.
    * count: 10 | 25 | 50
    */
-  static async generateQuiz({ mode = 'mistakes', section = null, count = 25 }) {
+  static async generateQuiz({ mode = 'mistakes', section = null, count = 25, candidateId = null }) {
     let sql = '';
     let params = [];
 
@@ -20,11 +20,11 @@ class QuizGenerator {
                m.error_count
         FROM mistakes_notebook m
         JOIN questions q ON m.question_id = q.id
-        WHERE m.mastery_status != 'MASTERED'
+        WHERE m.mastery_status != 'MASTERED' ${candidateId ? 'AND m.candidate_id = ?' : ''}
         ORDER BY RANDOM()
         LIMIT ?
       `;
-      params = [count];
+      params = candidateId ? [candidateId, count] : [count];
     } else if (mode === 'section' && section) {
       sql = `
         SELECT id, set_id, qnum, section, question_text, 

@@ -112,7 +112,15 @@ async function runTests() {
     console.log(`[PASS] GET /api/mistakes -> Mistake Count: ${resMistakes.body.count}`);
     if (resMistakes.body.count < 1) throw new Error('Expected mistake logged');
 
-    // 10. Test POST /api/quiz/custom across the 3,200 questions pool
+    // 10. Test PUT /api/mistakes/:id (Update mastery status)
+    if (resMistakes.body.data && resMistakes.body.data.length > 0) {
+      const mistakeId = resMistakes.body.data[0].question_id;
+      const resUpdateMistake = await request('PUT', `/api/mistakes/${mistakeId}`, { status: 'MASTERED' });
+      console.log(`[PASS] PUT /api/mistakes/${mistakeId} -> Status ${resUpdateMistake.status}, Message: ${resUpdateMistake.body.message}`);
+      if (!resUpdateMistake.body.success) throw new Error('Failed to update mistake status');
+    }
+
+    // 11. Test POST /api/quiz/custom across the 3,200 questions pool
     const resQuiz = await request('POST', '/api/quiz/custom', {
       mode: 'section',
       section: 'Mathematics',
@@ -121,7 +129,7 @@ async function runTests() {
     console.log(`[PASS] POST /api/quiz/custom -> Generated ${resQuiz.body.data.questions.length} questions from 3,200 question pool`);
     if (resQuiz.body.data.questions.length !== 25) throw new Error('Expected 25 custom questions');
 
-    console.log('\n🎉 ALL 10 BACKEND & SERVICE INTEGRATION TESTS PASSED SUCCESSFULLY!');
+    console.log('\n🎉 ALL 11 BACKEND & SERVICE INTEGRATION TESTS PASSED SUCCESSFULLY!');
   } finally {
     server.close();
   }
