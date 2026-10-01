@@ -178,9 +178,44 @@
           APP_STATE.cachedMistakes = json.data;
           updateMistakesBadge(json.count);
         }
+
+        // Live check: if candidate has 0 tests recorded in database, purge stale client cache
+        const anRes = await fetch(`${API_BASE}/analytics/summary${candidateQuery}`);
+        const anJson = await anRes.json();
+        if (anJson.success && anJson.data && anJson.data.overall) {
+          if (anJson.data.overall.total_tests_taken === 0) {
+            localStorage.removeItem(STORAGE_KEY);
+          }
+        }
       } catch (err) {}
     }
   }
+
+  window.resetAllPracticeData = async function () {
+    if (!confirm("Are you sure you want to reset all practice data? This will clear all test attempts, timers, and mistakes notebook to start with a fresh slate.")) {
+      return;
+    }
+    const prof = getCandidateProfile();
+    try {
+      if (API_BASE) {
+        await fetch(`${API_BASE}/user/reset`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ candidateId: prof.name })
+        });
+      }
+      localStorage.removeItem(STORAGE_KEY);
+      alert("All practice data has been reset to zero successfully!");
+      if (APP_STATE.activeHubTab === "tests") renderShiftsList();
+      else if (APP_STATE.activeHubTab === "analytics") renderAnalyticsDashboard();
+      else if (APP_STATE.activeHubTab === "mistakes") renderMistakesNotebook();
+      await loadInitialData();
+    } catch (e) {
+      localStorage.removeItem(STORAGE_KEY);
+      alert("Practice data reset locally.");
+      renderShiftsList();
+    }
+  };
 
   function updateMistakesBadge(count) {
     const b = document.getElementById("mistakes-nav-badge");
@@ -234,11 +269,15 @@
 
     const prof = getCandidateProfile();
     let sets = [];
+    let isLiveFromBackend = false;
     if (API_BASE) {
       try {
         const res = await fetch(`${API_BASE}/tests?candidateId=${encodeURIComponent(prof.name)}`);
         const json = await res.json();
-        if (json.success) sets = json.data;
+        if (json.success && Array.isArray(json.data)) {
+          sets = json.data;
+          isLiveFromBackend = true;
+        }
       } catch (e) {}
     }
 
@@ -255,6 +294,20 @@
     }
 
     const localHist = getLocalHistory();
+    // When connected to the real-time backend database, clean any stale cached scores for sets with no attempt in DB
+    if (isLiveFromBackend) {
+      let cleaned = false;
+      sets.forEach((meta) => {
+        if ((meta.latest_score === null || meta.latest_score === undefined) && localHist[meta.id]) {
+          delete localHist[meta.id];
+          cleaned = true;
+        }
+      });
+      if (cleaned) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(localHist));
+      }
+    }
+
     container.innerHTML = "";
 
     if (!sets.length) {
@@ -263,19 +316,24 @@
     }
 
     sets.forEach((meta) => {
-      const score = meta.latest_score !== undefined && meta.latest_score !== null ? meta.latest_score : (localHist[meta.id] ? localHist[meta.id].score : null);
+      // Prioritize database score. Only if running completely offline/disconnected fallback to localHist.
+      const score = isLiveFromBackend
+        ? (meta.latest_score !== undefined && meta.latest_score !== null ? meta.latest_score : null)
+        : (localHist[meta.id] ? localHist[meta.id].score : null);
       const isDone = score !== null;
       const isInProgress = meta.active_time_remaining !== null && meta.active_time_remaining !== undefined;
       const seriesLabel = meta.series || (meta.id <= 9 ? "CEN 02/2025" : "CEN 02/2024");
 
       let statusPill = "";
+      let newBadge = "";
       if (isInProgress) {
         const remMins = Math.floor(meta.active_time_remaining / 60);
         statusPill = `<span class="shift-status-pill" style="background:#dcfce7; color:#15803d; border:1px solid #86efac; font-weight:700;">🟢 In Progress · Q${(meta.active_q_index || 0) + 1}/100 (${remMins}m left)</span>`;
       } else if (isDone) {
         statusPill = `<span class="shift-status-pill status-completed">Score: ${parseFloat(score).toFixed(2)} / 100 (${parseFloat(meta.latest_accuracy || 0).toFixed(1)}%)</span>`;
       } else {
-        statusPill = `<span class="shift-status-pill status-pending">Not Attempted</span>`;
+        statusPill = `<span class="shift-status-pill status-pending" style="background:#f0fdf4; color:#166534; border:1px solid #bbf7d0; font-weight:700;">🆕 New Mock · Ready</span>`;
+        newBadge = `<span style="background:#fef3c7; color:#b45309; border:1px solid #fde68a; font-size:0.75rem; font-weight:800; padding:2px 7px; border-radius:4px; margin-left:6px;">✨ NEW</span>`;
       }
 
       let actionButtons = "";
@@ -300,7 +358,7 @@
       } else {
         actionButtons = `
           <button class="btn-start-test" onclick="startTest(${meta.id})">
-            Start Mock Test
+            🚀 Start Mock Test
           </button>
         `;
       }
@@ -310,7 +368,10 @@
       card.innerHTML = `
         <div>
           <div class="shift-badge-row">
-            <span class="shift-tag">${seriesLabel} · Set ${meta.id}</span>
+            <div style="display:flex; align-items:center;">
+              <span class="shift-tag">${seriesLabel} · Set ${meta.id}</span>
+              ${newBadge}
+            </div>
             ${statusPill}
           </div>
           <h3 class="shift-title">${meta.title}</h3>
@@ -854,26 +915,23 @@
     const resp = APP_STATE.responses[q.id] || { option: null };
 
     let html = "";
-    if (q.stem_img) {
+    const stemText = q.question && q.question.trim().length > 0 ? q.question.trim() : "";
+    if (stemText) {
+      html += `<div class="q-text-body" style="font-size: ${getFontSizeStyle()}; margin-bottom: 18px; line-height: 1.6; color: #0f172a; font-weight: 500;">${escapeHtml(stemText)}</div>`;
+    }
+
+    if (q.stem_img && (!stemText || q.has_diagram)) {
       html += `
         <div class="cbt-question-card" style="margin-bottom: 20px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); text-align: left;">
           <img src="${q.stem_img}" alt="Question ${q.id}" style="max-width: 100%; height: auto; display: block; border-radius: 4px;">
         </div>
       `;
-    } else if (q.card_img && (!q.question || q.question.trim().length === 0)) {
-      html += `
-        <div class="cbt-question-card" style="margin-bottom: 20px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); text-align: left;">
-          <img src="${q.card_img}" alt="Question ${q.id}" style="max-width: 100%; height: auto; display: block; border-radius: 4px;">
-        </div>
-      `;
-    } else {
-      const stemText = q.question && q.question.trim().length > 0 ? q.question : "";
-      if (stemText) {
-        html += `<div class="q-text-body" style="font-size: ${getFontSizeStyle()}; margin-bottom: 18px; line-height: 1.6; color: #0f172a; font-weight: 500;">${escapeHtml(stemText)}</div>`;
-      }
-      if (q.has_diagram && q.diagram_img) {
-        html += `<div class="q-diagram-container" style="margin-bottom: 18px;"><img src="${q.diagram_img}" alt="Diagram" style="max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;"></div>`;
-      }
+    } else if (!stemText && !q.stem_img) {
+      html += `<div class="q-text-body" style="font-size: ${getFontSizeStyle()}; margin-bottom: 18px; line-height: 1.6; color: #0f172a; font-weight: 500;">Question ${q.id}</div>`;
+    }
+
+    if (q.has_diagram && q.diagram_img) {
+      html += `<div class="q-diagram-container" style="margin-bottom: 18px;"><img src="${q.diagram_img}" alt="Diagram" style="max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;"></div>`;
     }
 
     html += `<div class="options-list">`;
@@ -886,9 +944,9 @@
 
       let displayHtml = "";
       if (optImg) {
-        displayHtml = `<span class="opt-text" style="display: inline-flex; align-items: center; width: 100%;"><img src="${optImg}" alt="Option ${numLabel}" style="max-height: 52px; max-width: 100%; height: auto; vertical-align: middle; border-radius: 3px;"></span>`;
+        displayHtml = `<span class="opt-text" style="display: inline-flex; align-items: center; width: 100%;"><img src="${optImg}" alt="Option ${numLabel}" class="cbt-option-img" style="max-height: 52px; max-width: 100%; height: auto; vertical-align: middle; border-radius: 3px;"></span>`;
       } else if (optText && !optText.toLowerCase().startsWith("option ") && !optText.includes("See Question Card")) {
-        displayHtml = `<span class="opt-text" style="font-size: ${getFontSizeStyle()};">${escapeHtml(optText)}</span>`;
+        displayHtml = `<span class="opt-text" style="font-size: ${getFontSizeStyle()}; font-weight: 500; color: #1e293b;">${escapeHtml(optText)}</span>`;
       } else {
         displayHtml = `<span class="opt-text" style="font-weight: 600; color: #1e293b; font-size: 1rem;">Option ${numLabel}</span>`;
       }

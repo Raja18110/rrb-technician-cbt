@@ -23,6 +23,9 @@ router.delete('/tests/:id/session', TestController.clearSession);
 // --- ANALYTICS ---
 router.get('/analytics/summary', AnalyticsController.getSummary);
 
+// --- USER DATA & RESET ---
+router.post('/user/reset', TestController.resetHistory);
+
 // --- MISTAKES NOTEBOOK ---
 router.get('/mistakes', async (req, res, next) => {
   try {

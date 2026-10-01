@@ -1,0 +1,314 @@
+[
+  {
+    "id": "SYS-001",
+    "module": "System Architecture",
+    "feature": "Static HTML Entry & Meta Tags",
+    "type": "Structural",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "SYS-002",
+    "module": "Assets",
+    "feature": "CEN 02/2024 Question Stem Cards Existence",
+    "type": "Data/Asset",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "SYS-003",
+    "module": "Assets",
+    "feature": "CEN 02/2024 Option Cards Existence",
+    "type": "Data/Asset",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "SYS-004",
+    "module": "Assets",
+    "feature": "Offline Fallback JS Data Sets (1-32)",
+    "type": "Data/Asset",
+    "priority": "Medium",
+    "status": "Tested"
+  },
+  {
+    "id": "API-001",
+    "module": "Shift Papers API",
+    "feature": "GET /api/tests Listing",
+    "type": "API",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "API-002",
+    "module": "Shift Papers API",
+    "feature": "GET /api/tests/:id Detailed Retrieval",
+    "type": "API",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "API-003",
+    "module": "Shift Papers API",
+    "feature": "Candidate Scoping in GET /api/tests",
+    "type": "API",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "SES-001",
+    "module": "Session Engine",
+    "feature": "Auto-Save In-Progress State",
+    "type": "Functional",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "SES-002",
+    "module": "Session Engine",
+    "feature": "Resume In-Progress State",
+    "type": "Functional",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "SES-003",
+    "module": "Session Engine",
+    "feature": "Discard / Clear In-Progress State",
+    "type": "Functional",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "EV-001",
+    "module": "Scoring Engine",
+    "feature": "Official RRB Scheme (+1 / -0.3333)",
+    "type": "Algorithm",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "EV-002",
+    "module": "Scoring Engine",
+    "feature": "Sectional Breakdown Aggregation",
+    "type": "Algorithm",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "EV-003",
+    "module": "Test Submission",
+    "feature": "Submission Persistence & Session Deletion",
+    "type": "Functional",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "MST-001",
+    "module": "Mistakes Notebook",
+    "feature": "Auto-Logging Incorrect Questions",
+    "type": "Functional",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "MST-002",
+    "module": "Mistakes Notebook",
+    "feature": "Mastery Status Progression",
+    "type": "Functional",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "MST-003",
+    "module": "Mistakes Notebook",
+    "feature": "Candidate Filter Isolation",
+    "type": "Security",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "QZ-001",
+    "module": "Custom Quiz",
+    "feature": "Subject-Specific Practice Drill",
+    "type": "Functional",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "QZ-002",
+    "module": "Custom Quiz",
+    "feature": "Mistakes Notebook Weakness Drill",
+    "type": "Functional",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "QZ-003",
+    "module": "Custom Quiz",
+    "feature": "Full Mixed PYQ Drill",
+    "type": "Functional",
+    "priority": "Medium",
+    "status": "Tested"
+  },
+  {
+    "id": "AN-001",
+    "module": "Analytics Engine",
+    "feature": "Candidate-Scoped Summary Metrics",
+    "type": "Functional",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "AN-002",
+    "module": "Analytics Engine",
+    "feature": "Subject-Wise Performance Radar",
+    "type": "Functional",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "AN-003",
+    "module": "Analytics Engine",
+    "feature": "Score Progression Trend",
+    "type": "Functional",
+    "priority": "Medium",
+    "status": "Tested"
+  },
+  {
+    "id": "BK-001",
+    "module": "Bookmarks",
+    "feature": "Toggle Question Bookmark",
+    "type": "Functional",
+    "priority": "Medium",
+    "status": "Tested"
+  },
+  {
+    "id": "BK-002",
+    "module": "Bookmarks",
+    "feature": "Save Custom Note on Bookmarked Question",
+    "type": "Functional",
+    "priority": "Medium",
+    "status": "Tested"
+  },
+  {
+    "id": "NEG-001",
+    "module": "Error Handling",
+    "feature": "Non-Existent Test Set ID (404/400)",
+    "type": "Negative",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "NEG-002",
+    "module": "Error Handling",
+    "feature": "Invalid Param Types (NaN ID)",
+    "type": "Negative",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "NEG-003",
+    "module": "Error Handling",
+    "feature": "Empty / Null Submission Body",
+    "type": "Boundary",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "NEG-004",
+    "module": "Error Handling",
+    "feature": "Negative Countdown Time Session",
+    "type": "Boundary",
+    "priority": "Medium",
+    "status": "Tested"
+  },
+  {
+    "id": "NEG-005",
+    "module": "Error Handling",
+    "feature": "Extreme Count in Custom Quiz Generator",
+    "type": "Boundary",
+    "priority": "Medium",
+    "status": "Tested"
+  },
+  {
+    "id": "SEC-001",
+    "module": "Security",
+    "feature": "SQL Injection Resistance in Param/Query",
+    "type": "Security",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "SEC-002",
+    "module": "Security",
+    "feature": "Stored XSS Vector Resistance in Text/Notes",
+    "type": "Security",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "SEC-003",
+    "module": "Security",
+    "feature": "Candidate ID Isolation (IDOR Resistance)",
+    "type": "Security",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "SEC-004",
+    "module": "Security",
+    "feature": "CORS Policy & Headers Hygiene",
+    "type": "Security",
+    "priority": "Medium",
+    "status": "Tested"
+  },
+  {
+    "id": "DB-001",
+    "module": "Database",
+    "feature": "Foreign Key Enforcement (PRAGMA foreign_keys = ON)",
+    "type": "Database",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "DB-002",
+    "module": "Database",
+    "feature": "Unique Constraint on (set_id, qnum)",
+    "type": "Database",
+    "priority": "Critical",
+    "status": "Tested"
+  },
+  {
+    "id": "DB-003",
+    "module": "Database",
+    "feature": "Cascade Deletion on Attempt Responses",
+    "type": "Database",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "PERF-001",
+    "module": "Performance",
+    "feature": "Full Question Set Fetch Latency (<50ms)",
+    "type": "Performance",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "PERF-002",
+    "module": "Performance",
+    "feature": "Real-Time Auto-Save Latency (<20ms)",
+    "type": "Performance",
+    "priority": "High",
+    "status": "Tested"
+  },
+  {
+    "id": "PERF-003",
+    "module": "Performance",
+    "feature": "Scoring & Submission Latency (<100ms)",
+    "type": "Performance",
+    "priority": "High",
+    "status": "Tested"
+  }
+]

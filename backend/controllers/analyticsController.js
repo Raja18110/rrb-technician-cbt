@@ -4,7 +4,7 @@ class AnalyticsController {
   // GET /api/analytics/summary
   static async getSummary(req, res, next) {
     try {
-      const candidateId = req.query.candidateId || null;
+      const candidateId = (req.query.candidateId && req.query.candidateId.trim()) || 'Rohit Kumar';
 
       let overallSql = `
         SELECT 

@@ -6,7 +6,7 @@ class TestController {
   // GET /api/tests
   static async getAllTests(req, res, next) {
     try {
-      const candidateId = req.query.candidateId || null;
+      const candidateId = (req.query.candidateId && req.query.candidateId.trim()) || 'Rohit Kumar';
       const cond = candidateId ? 'AND candidate_id = ?' : '';
       const params = candidateId ? [candidateId, candidateId, candidateId, candidateId, candidateId] : [];
 
@@ -164,15 +164,14 @@ class TestController {
   static async getLatestAttemptForSet(req, res, next) {
     try {
       const setId = parseInt(req.params.id, 10);
-      const candidateId = req.query.candidateId || null;
+      const candidateId = (req.query.candidateId && req.query.candidateId.trim()) || 'Rohit Kumar';
 
       let sql = `
         SELECT * FROM attempts 
-        WHERE set_id = ? ${candidateId ? 'AND candidate_id = ?' : ''}
+        WHERE set_id = ? AND candidate_id = ?
         ORDER BY id DESC LIMIT 1
       `;
-      const params = candidateId ? [setId, candidateId] : [setId];
-      const attempt = await db.get(sql, params);
+      const attempt = await db.get(sql, [setId, candidateId]);
 
       if (!attempt) {
         return res.json({ success: true, has_attempt: false });
@@ -243,6 +242,7 @@ class TestController {
     try {
       const setId = parseInt(req.params.id, 10);
       const { currentQIndex, timeRemaining, responses, candidateId, isCustomQuiz, quizData } = req.body;
+      const cId = (candidateId && candidateId.trim()) || 'Rohit Kumar';
 
       await db.run(`
         INSERT INTO active_sessions 
@@ -258,7 +258,7 @@ class TestController {
           updated_at = CURRENT_TIMESTAMP
       `, [
         setId,
-        candidateId || 'Candidate #2602',
+        cId,
         currentQIndex || 0,
         timeRemaining !== undefined ? timeRemaining : 5400,
         JSON.stringify(responses || {}),
@@ -276,14 +276,9 @@ class TestController {
   static async getSession(req, res, next) {
     try {
       const setId = parseInt(req.params.id, 10);
-      const candidateId = req.query.candidateId || null;
-      let sql = 'SELECT * FROM active_sessions WHERE set_id = ?';
-      const params = [setId];
-      if (candidateId) {
-        sql += ' AND candidate_id = ?';
-        params.push(candidateId);
-      }
-      const session = await db.get(sql, params);
+      const candidateId = (req.query.candidateId && req.query.candidateId.trim()) || 'Rohit Kumar';
+      let sql = 'SELECT * FROM active_sessions WHERE set_id = ? AND candidate_id = ?';
+      const session = await db.get(sql, [setId, candidateId]);
 
       if (!session) {
         return res.json({ success: true, has_session: false });
@@ -312,31 +307,48 @@ class TestController {
   static async clearSession(req, res, next) {
     try {
       const setId = parseInt(req.params.id, 10);
-      const candidateId = req.query.candidateId || null;
-      let sql = 'DELETE FROM active_sessions WHERE set_id = ?';
-      const params = [setId];
-      if (candidateId) {
-        sql += ' AND candidate_id = ?';
-        params.push(candidateId);
-      }
-      await db.run(sql, params);
+      const candidateId = (req.query.candidateId && req.query.candidateId.trim()) || 'Rohit Kumar';
+      let sql = 'DELETE FROM active_sessions WHERE set_id = ? AND candidate_id = ?';
+      await db.run(sql, [setId, candidateId]);
       res.json({ success: true, message: 'Session cleared' });
     } catch (err) {
       next(err);
     }
   }
 
-  // GET /api/sessions (All active sessions for dashboard indicators)
+  // GET /api/sessions (All active sessions for candidate)
   static async getAllSessions(req, res, next) {
     try {
-      const sessions = await db.all(`
+      const candidateId = (req.query.candidateId && req.query.candidateId.trim()) || 'Rohit Kumar';
+      let sql = `
         SELECT s.set_id, s.current_q_index, s.time_remaining, s.updated_at, s.is_custom_quiz,
                t.title as set_title
         FROM active_sessions s
         LEFT JOIN test_sets t ON s.set_id = t.id
+        WHERE s.candidate_id = ?
         ORDER BY s.updated_at DESC
-      `);
+      `;
+      const sessions = await db.all(sql, [candidateId]);
       res.json({ success: true, data: sessions });
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  // POST /api/user/reset (Reset candidate practice data completely)
+  static async resetHistory(req, res, next) {
+    try {
+      const candidateId = (req.body.candidateId || req.query.candidateId || 'Rohit Kumar').trim();
+      await db.run(`DELETE FROM attempt_responses WHERE attempt_id IN (SELECT id FROM attempts WHERE candidate_id = ?)`, [candidateId]);
+      await db.run(`DELETE FROM attempts WHERE candidate_id = ?`, [candidateId]);
+      await db.run(`DELETE FROM active_sessions WHERE candidate_id = ?`, [candidateId]);
+      await db.run(`DELETE FROM mistakes_notebook WHERE candidate_id = ?`, [candidateId]);
+      await db.run(`DELETE FROM bookmarks`);
+
+      res.json({
+        success: true,
+        message: `All practice data has been reset to zero for candidate "${candidateId}".`
+      });
     } catch (err) {
       next(err);
     }

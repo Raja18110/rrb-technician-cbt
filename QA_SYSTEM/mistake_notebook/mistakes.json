@@ -1,0 +1,73 @@
+[
+  {
+    "mistakeId": "MST-001",
+    "date": "2026-10-01",
+    "category": "Backend",
+    "module": "Scoring Engine",
+    "whatWentWrong": "ReferenceError: evaluatedResponses was not defined during test submission evaluation",
+    "expectedBehavior": "ScoringService.evaluate initializes evaluatedResponses array before question iteration and pushes evaluated response objects",
+    "actualBehavior": "Server crashed with HTTP 500 error when submitting mock test answers",
+    "whyItHappened": "Variable declaration was accidentally omitted during response normalization refactoring",
+    "rootCause": "Missing declaration `const evaluatedResponses = [];` at the start of `ScoringService.evaluate`",
+    "correctApproach": "Always declare accumulator arrays before iteration blocks and run automated unit tests immediately after refactoring",
+    "fix": "Declared `const evaluatedResponses = [];` on line 7 of scoringService.js",
+    "whatIShouldRemember": "Never assume refactored functions work without executing an automated submission verification test",
+    "relatedConcepts": [
+      "Scope",
+      "Variable Hoisting",
+      "Unit Testing",
+      "Scoring Engines"
+    ],
+    "relatedBugs": [
+      "BUG-SCORE-001"
+    ],
+    "status": "ACTIVE_KNOWLEDGE"
+  },
+  {
+    "mistakeId": "MST-002",
+    "date": "2026-10-01",
+    "category": "Database",
+    "module": "Active Sessions & Subqueries",
+    "whatWentWrong": "Subqueries without LIMIT 1 in SELECT statements risk crashing if multiple active sessions match set_id",
+    "expectedBehavior": "Correlated subqueries in `getAllTests` must always guarantee a scalar return value by using `ORDER BY updated_at DESC LIMIT 1`",
+    "actualBehavior": "Potential SQLite error \"more than one row returned by a subquery used as an expression\"",
+    "whyItHappened": "Subquery assumed 1-to-1 relationship without explicit scalar guarantee in SQLite query syntax",
+    "rootCause": "Missing `ORDER BY updated_at DESC LIMIT 1` clause in correlated subquery",
+    "correctApproach": "Always enforce `LIMIT 1` on correlated scalar subqueries",
+    "fix": "Added `ORDER BY updated_at DESC LIMIT 1` to active_sessions subqueries in `getAllTests`",
+    "whatIShouldRemember": "Correlated subqueries in column lists must always be guaranteed single-row",
+    "relatedConcepts": [
+      "Correlated Subqueries",
+      "Scalar Expressions",
+      "SQL Constraints"
+    ],
+    "relatedBugs": [
+      "BUG-DB-002"
+    ],
+    "status": "ACTIVE_KNOWLEDGE"
+  },
+  {
+    "mistakeId": "MST-003",
+    "date": "2026-10-01",
+    "category": "UX",
+    "module": "2024 Shift Papers",
+    "whatWentWrong": "2024 answer keys with green ticks and red crosses were visible in test cards, leaking answers during practice",
+    "expectedBehavior": "Authentic CBT format where questions are unadulterated stems and options are clean interactive cards without answer markings",
+    "actualBehavior": "User saw official checkmarks and crosses before answering",
+    "whyItHappened": "Initial PDF extraction captured full snapshot cards containing TCS answer status banners and checkmarks",
+    "rootCause": "Card rendering pipeline was using raw PDF crop strips instead of separating stem from options at x >= 86 coordinate boundary",
+    "correctApproach": "Split question card into stem image and individual option images cropped to exclude answer marks and watermarks",
+    "fix": "Rebuilt 2024 questions using bounding-box crop (x >= 86) and zeroed watermark Form XObjects in PDF streams",
+    "whatIShouldRemember": "A mock test platform must never leak the official answer in the live exam view",
+    "relatedConcepts": [
+      "Exam Security",
+      "Bounding Box Cropping",
+      "PDF Stream Manipulation",
+      "TCS-iON Architecture"
+    ],
+    "relatedBugs": [
+      "BUG-UI-003"
+    ],
+    "status": "ACTIVE_KNOWLEDGE"
+  }
+]

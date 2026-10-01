@@ -32,7 +32,8 @@ class MistakeService {
     }
   }
 
-  static async getMistakesList(filterStatus = null, candidateId = null) {
+  static async getMistakesList(filterStatus = null, candidateId = 'Rohit Kumar') {
+    const cId = (candidateId && candidateId.trim()) || 'Rohit Kumar';
     let sql = `
       SELECT m.question_id, m.set_id, m.candidate_id, m.error_count, m.last_attempted_at, m.mastery_status,
              q.qnum, q.section, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d,
@@ -49,9 +50,9 @@ class MistakeService {
       conditions.push('m.mastery_status = ?');
       params.push(filterStatus);
     }
-    if (candidateId) {
+    if (cId) {
       conditions.push('m.candidate_id = ?');
-      params.push(candidateId);
+      params.push(cId);
     }
     if (conditions.length > 0) {
       sql += ' WHERE ' + conditions.join(' AND ');

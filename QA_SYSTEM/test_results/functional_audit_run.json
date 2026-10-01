@@ -1,0 +1,1810 @@
+{
+  "test_run_id": "RUN-1790828812159",
+  "timestamp": "2026-10-01T04:26:52.159Z",
+  "total_functions_audited": 34,
+  "passed": 34,
+  "failed": 0,
+  "pass_rate": "100%",
+  "details": [
+    {
+      "function_id": "FN-001",
+      "name": "Candidate Profile Modal Exists in DOM",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.809Z"
+    },
+    {
+      "function_id": "FN-002",
+      "name": "Candidate Profile Inputs & Save Button",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.811Z"
+    },
+    {
+      "function_id": "FN-003",
+      "name": "Shift Papers Tab Trigger",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.811Z"
+    },
+    {
+      "function_id": "FN-004",
+      "name": "Mistakes Notebook Tab & Live Badge",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.811Z"
+    },
+    {
+      "function_id": "FN-005",
+      "name": "Custom Quiz Tab Trigger",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.811Z"
+    },
+    {
+      "function_id": "FN-006",
+      "name": "Analytics Tab Trigger",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.811Z"
+    },
+    {
+      "function_id": "FN-007",
+      "name": "Series Filter Buttons in DOM",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.811Z"
+    },
+    {
+      "function_id": "FN-008",
+      "name": "Start Mock Test Hydration (Set 1)",
+      "status": "PASS",
+      "evidence": {
+        "questionCount": 100
+      },
+      "duration_ms": 25,
+      "timestamp": "2026-10-01T04:26:51.837Z"
+    },
+    {
+      "function_id": "FN-009",
+      "name": "Resume Mock Test Session State",
+      "status": "PASS",
+      "evidence": {
+        "success": true,
+        "has_session": true,
+        "data": {
+          "set_id": 8,
+          "candidate_id": "QA_TEST_1790828811808",
+          "current_q_index": 15,
+          "time_remaining": 4900,
+          "responses": {
+            "1": {
+              "option": "A",
+              "status": "answered",
+              "timeSpent": 20
+            },
+            "2": {
+              "option": null,
+              "status": "marked",
+              "timeSpent": 10
+            }
+          },
+          "is_custom_quiz": false,
+          "quiz_data": null,
+          "updated_at": "2026-10-01 04:26:51"
+        }
+      },
+      "duration_ms": 3,
+      "timestamp": "2026-10-01T04:26:51.916Z"
+    },
+    {
+      "function_id": "FN-010",
+      "name": "Discard / Clear Active Session",
+      "status": "PASS",
+      "evidence": {
+        "success": true,
+        "has_session": false
+      },
+      "duration_ms": 4,
+      "timestamp": "2026-10-01T04:26:51.924Z"
+    },
+    {
+      "function_id": "FN-011",
+      "name": "Instructions Modal in DOM",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.924Z"
+    },
+    {
+      "function_id": "FN-012",
+      "name": "Section Switching Navigation Logic",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.925Z"
+    },
+    {
+      "function_id": "FN-013",
+      "name": "Option Selection Handlers (A, B, C, D & 1, 2, 3, 4)",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.925Z"
+    },
+    {
+      "function_id": "FN-014",
+      "name": "Save & Next Action Implementation",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.925Z"
+    },
+    {
+      "function_id": "FN-015",
+      "name": "Mark for Review & Next Implementation",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.925Z"
+    },
+    {
+      "function_id": "FN-016",
+      "name": "Clear Response Implementation",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.925Z"
+    },
+    {
+      "function_id": "FN-017",
+      "name": "Previous Question Handler",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.925Z"
+    },
+    {
+      "function_id": "FN-018",
+      "name": "Palette Jump Implementation",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.925Z"
+    },
+    {
+      "function_id": "FN-019",
+      "name": "Font Size Resizer Implementation",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.925Z"
+    },
+    {
+      "function_id": "FN-020",
+      "name": "Real-Time Auto-Save Debounced Sync",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.925Z"
+    },
+    {
+      "function_id": "FN-021",
+      "name": "Pause & Save Exam Action",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.925Z"
+    },
+    {
+      "function_id": "FN-022",
+      "name": "Submit Exam Prompt & Section Breakdown Modal",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:51.925Z"
+    },
+    {
+      "function_id": "FN-023",
+      "name": "Final Test Submission & RRB Scoring Engine",
+      "status": "PASS",
+      "evidence": {
+        "success": true,
+        "data": {
+          "attempt_id": 26,
+          "set_id": 3,
+          "score": 1.67,
+          "total_attempted": 3,
+          "correct_count": 2,
+          "wrong_count": 1,
+          "unattempted_count": 97,
+          "accuracy": 66.7,
+          "section_breakdown": {
+            "General Science": {
+              "total": 40,
+              "correct": 2,
+              "wrong": 1,
+              "unattempted": 37,
+              "score": 1.6666666666666667
+            },
+            "Mathematics": {
+              "total": 25,
+              "correct": 0,
+              "wrong": 0,
+              "unattempted": 25,
+              "score": 0
+            },
+            "General Intelligence & Reasoning": {
+              "total": 25,
+              "correct": 0,
+              "wrong": 0,
+              "unattempted": 25,
+              "score": 0
+            },
+            "General Awareness": {
+              "total": 10,
+              "correct": 0,
+              "wrong": 0,
+              "unattempted": 10,
+              "score": 0
+            }
+          },
+          "evaluated_responses": [
+            {
+              "question_id": 201,
+              "qnum": 1,
+              "section": "General Science",
+              "selected_option": "D",
+              "correct_option": "D",
+              "is_correct": 1,
+              "is_wrong": 0,
+              "status": "answered",
+              "time_spent": 25
+            },
+            {
+              "question_id": 202,
+              "qnum": 2,
+              "section": "General Science",
+              "selected_option": "A",
+              "correct_option": "A",
+              "is_correct": 1,
+              "is_wrong": 0,
+              "status": "answered",
+              "time_spent": 20
+            },
+            {
+              "question_id": 203,
+              "qnum": 3,
+              "section": "General Science",
+              "selected_option": "A",
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 1,
+              "status": "answered",
+              "time_spent": 15
+            },
+            {
+              "question_id": 204,
+              "qnum": 4,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 205,
+              "qnum": 5,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 206,
+              "qnum": 6,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 207,
+              "qnum": 7,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 208,
+              "qnum": 8,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 209,
+              "qnum": 9,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 210,
+              "qnum": 10,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 211,
+              "qnum": 11,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 212,
+              "qnum": 12,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 213,
+              "qnum": 13,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 214,
+              "qnum": 14,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 215,
+              "qnum": 15,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 216,
+              "qnum": 16,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 217,
+              "qnum": 17,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 218,
+              "qnum": 18,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 219,
+              "qnum": 19,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 220,
+              "qnum": 20,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 221,
+              "qnum": 21,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 222,
+              "qnum": 22,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 223,
+              "qnum": 23,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 224,
+              "qnum": 24,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 225,
+              "qnum": 25,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 226,
+              "qnum": 26,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 227,
+              "qnum": 27,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 228,
+              "qnum": 28,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 229,
+              "qnum": 29,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 230,
+              "qnum": 30,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 231,
+              "qnum": 31,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 232,
+              "qnum": 32,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 233,
+              "qnum": 33,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 234,
+              "qnum": 34,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 235,
+              "qnum": 35,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 236,
+              "qnum": 36,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 237,
+              "qnum": 37,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 238,
+              "qnum": 38,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 239,
+              "qnum": 39,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 240,
+              "qnum": 40,
+              "section": "General Science",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 241,
+              "qnum": 41,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 242,
+              "qnum": 42,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 243,
+              "qnum": 43,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 244,
+              "qnum": 44,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 245,
+              "qnum": 45,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 246,
+              "qnum": 46,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 247,
+              "qnum": 47,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 248,
+              "qnum": 48,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 249,
+              "qnum": 49,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 250,
+              "qnum": 50,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 251,
+              "qnum": 51,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 252,
+              "qnum": 52,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 253,
+              "qnum": 53,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 254,
+              "qnum": 54,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 255,
+              "qnum": 55,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 256,
+              "qnum": 56,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 257,
+              "qnum": 57,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 258,
+              "qnum": 58,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 259,
+              "qnum": 59,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 260,
+              "qnum": 60,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 261,
+              "qnum": 61,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 262,
+              "qnum": 62,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 263,
+              "qnum": 63,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 264,
+              "qnum": 64,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 265,
+              "qnum": 65,
+              "section": "Mathematics",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 266,
+              "qnum": 66,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 267,
+              "qnum": 67,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 268,
+              "qnum": 68,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 269,
+              "qnum": 69,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 270,
+              "qnum": 70,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 271,
+              "qnum": 71,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 272,
+              "qnum": 72,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 273,
+              "qnum": 73,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 274,
+              "qnum": 74,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 275,
+              "qnum": 75,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 276,
+              "qnum": 76,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 277,
+              "qnum": 77,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 278,
+              "qnum": 78,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 279,
+              "qnum": 79,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 280,
+              "qnum": 80,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 281,
+              "qnum": 81,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 282,
+              "qnum": 82,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 283,
+              "qnum": 83,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 284,
+              "qnum": 84,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 285,
+              "qnum": 85,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 286,
+              "qnum": 86,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 287,
+              "qnum": 87,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 288,
+              "qnum": 88,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 289,
+              "qnum": 89,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 290,
+              "qnum": 90,
+              "section": "General Intelligence & Reasoning",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 291,
+              "qnum": 91,
+              "section": "General Awareness",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 292,
+              "qnum": 92,
+              "section": "General Awareness",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 293,
+              "qnum": 93,
+              "section": "General Awareness",
+              "selected_option": null,
+              "correct_option": "C",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 294,
+              "qnum": 94,
+              "section": "General Awareness",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 295,
+              "qnum": 95,
+              "section": "General Awareness",
+              "selected_option": null,
+              "correct_option": "D",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 296,
+              "qnum": 96,
+              "section": "General Awareness",
+              "selected_option": null,
+              "correct_option": "A",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 297,
+              "qnum": 97,
+              "section": "General Awareness",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 298,
+              "qnum": 98,
+              "section": "General Awareness",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 299,
+              "qnum": 99,
+              "section": "General Awareness",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            },
+            {
+              "question_id": 300,
+              "qnum": 100,
+              "section": "General Awareness",
+              "selected_option": null,
+              "correct_option": "B",
+              "is_correct": 0,
+              "is_wrong": 0,
+              "status": "not-visited",
+              "time_spent": 0
+            }
+          ]
+        }
+      },
+      "duration_ms": 186,
+      "timestamp": "2026-10-01T04:26:52.112Z"
+    },
+    {
+      "function_id": "FN-024",
+      "name": "Scorecard Display Elements in Result View",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:52.112Z"
+    },
+    {
+      "function_id": "FN-025",
+      "name": "Section Breakdown Table in Result View",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:52.112Z"
+    },
+    {
+      "function_id": "FN-026",
+      "name": "Solutions Review Retrieval (Stems & Options)",
+      "status": "PASS",
+      "evidence": {
+        "attemptId": 26
+      },
+      "duration_ms": 7,
+      "timestamp": "2026-10-01T04:26:52.120Z"
+    },
+    {
+      "function_id": "FN-027",
+      "name": "Review Filter Button Logic",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:52.121Z"
+    },
+    {
+      "function_id": "FN-028",
+      "name": "Mistakes Notebook Listing for Candidate",
+      "status": "PASS",
+      "evidence": {
+        "success": true,
+        "count": 1,
+        "data": [
+          {
+            "question_id": 203,
+            "set_id": 3,
+            "candidate_id": "QA_TEST_1790828811808",
+            "error_count": 1,
+            "last_attempted_at": "2026-10-01 04:26:51",
+            "mastery_status": "NEEDS_PRACTICE",
+            "qnum": 3,
+            "section": "General Science",
+            "question_text": "Choose a term to complete the analogy. Skeletal Muscle : Voluntary :: Cardiac Muscle : _______________",
+            "option_a": "Striated",
+            "option_b": "Multinucleate",
+            "option_c": "Unbranched",
+            "option_d": "Involuntary",
+            "correct_option": "D",
+            "has_diagram": 0,
+            "diagram_img": null,
+            "card_img": null,
+            "stem_img": null,
+            "opt1_img": null,
+            "opt2_img": null,
+            "opt3_img": null,
+            "opt4_img": null,
+            "set_title": "RRB Tech III - 06 Mar 2026 Shift 3"
+          }
+        ]
+      },
+      "duration_ms": 2,
+      "timestamp": "2026-10-01T04:26:52.123Z"
+    },
+    {
+      "function_id": "FN-029",
+      "name": "Mistakes Mastery Status Toggle (MASTERED)",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:52.129Z"
+    },
+    {
+      "function_id": "FN-030",
+      "name": "Practice Mistakes Quiz Trigger",
+      "status": "PASS",
+      "evidence": null,
+      "duration_ms": 0,
+      "timestamp": "2026-10-01T04:26:52.130Z"
+    },
+    {
+      "function_id": "FN-031",
+      "name": "Custom Quiz Generator (General Science, 10 Qs)",
+      "status": "PASS",
+      "evidence": {
+        "success": true,
+        "data": {
+          "title": "Custom Practice Quiz (General Science)",
+          "attempt_number": 1,
+          "max_attempts": 3,
+          "total_questions": 10,
+          "duration_minutes": 9,
+          "questions": [
+            {
+              "id": 1,
+              "original_question_id": 8129,
+              "set_id": 26,
+              "section": "General Science",
+              "question": "",
+              "stem_img": "cards/stems/set26_q29.png",
+              "options": {
+                "A": "Option 1",
+                "B": "Option 2",
+                "C": "Option 3",
+                "D": "Option 4"
+              },
+              "options_img": {
+                "A": "cards/options/set26_q29_opt1.png",
+                "B": "cards/options/set26_q29_opt2.png",
+                "C": "cards/options/set26_q29_opt3.png",
+                "D": "cards/options/set26_q29_opt4.png"
+              },
+              "correct": "C",
+              "has_diagram": true,
+              "diagram_img": null,
+              "card_img": "cards/set26_q29.png"
+            },
+            {
+              "id": 2,
+              "original_question_id": 5104,
+              "set_id": 11,
+              "section": "General Science",
+              "question": "",
+              "stem_img": "cards/stems/set11_q4.png",
+              "options": {
+                "A": "Option 1",
+                "B": "Option 2",
+                "C": "Option 3",
+                "D": "Option 4"
+              },
+              "options_img": {
+                "A": "cards/options/set11_q4_opt1.png",
+                "B": "cards/options/set11_q4_opt2.png",
+                "C": "cards/options/set11_q4_opt3.png",
+                "D": "cards/options/set11_q4_opt4.png"
+              },
+              "correct": "D",
+              "has_diagram": true,
+              "diagram_img": null,
+              "card_img": "cards/set11_q4.png"
+            },
+            {
+              "id": 3,
+              "original_question_id": 535,
+              "set_id": 6,
+              "section": "General Science",
+              "question": "Which of the following describes a key function of lysosomal enzymes?",
+              "stem_img": null,
+              "options": {
+                "A": "Storing genetic material",
+                "B": "Breaking down proteins, lipids, and carbohydrates",
+                "C": "Transporting molecules across the membrane",
+                "D": "Creating new proteins for the cell"
+              },
+              "options_img": {
+                "A": null,
+                "B": null,
+                "C": null,
+                "D": null
+              },
+              "correct": "B",
+              "has_diagram": false,
+              "diagram_img": null,
+              "card_img": null
+            },
+            {
+              "id": 4,
+              "original_question_id": 5528,
+              "set_id": 15,
+              "section": "General Science",
+              "question": "",
+              "stem_img": "cards/stems/set15_q28.png",
+              "options": {
+                "A": "Option 1",
+                "B": "Option 2",
+                "C": "Option 3",
+                "D": "Option 4"
+              },
+              "options_img": {
+                "A": "cards/options/set15_q28_opt1.png",
+                "B": "cards/options/set15_q28_opt2.png",
+                "C": "cards/options/set15_q28_opt3.png",
+                "D": "cards/options/set15_q28_opt4.png"
+              },
+              "correct": "B",
+              "has_diagram": true,
+              "diagram_img": null,
+              "card_img": "cards/set15_q28.png"
+            },
+            {
+              "id": 5,
+              "original_question_id": 5017,
+              "set_id": 10,
+              "section": "General Science",
+              "question": "",
+              "stem_img": "cards/stems/set10_q17.png",
+              "options": {
+                "A": "Option 1",
+                "B": "Option 2",
+                "C": "Option 3",
+                "D": "Option 4"
+              },
+              "options_img": {
+                "A": "cards/options/set10_q17_opt1.png",
+                "B": "cards/options/set10_q17_opt2.png",
+                "C": "cards/options/set10_q17_opt3.png",
+                "D": "cards/options/set10_q17_opt4.png"
+              },
+              "correct": "C",
+              "has_diagram": true,
+              "diagram_img": null,
+              "card_img": "cards/set10_q17.png"
+            },
+            {
+              "id": 6,
+              "original_question_id": 7802,
+              "set_id": 23,
+              "section": "General Science",
+              "question": "",
+              "stem_img": "cards/stems/set23_q2.png",
+              "options": {
+                "A": "Option 1",
+                "B": "Option 2",
+                "C": "Option 3",
+                "D": "Option 4"
+              },
+              "options_img": {
+                "A": "cards/options/set23_q2_opt1.png",
+                "B": "cards/options/set23_q2_opt2.png",
+                "C": "cards/options/set23_q2_opt3.png",
+                "D": "cards/options/set23_q2_opt4.png"
+              },
+              "correct": "B",
+              "has_diagram": true,
+              "diagram_img": null,
+              "card_img": "cards/set23_q2.png"
+            },
+            {
+              "id": 7,
+              "original_question_id": 5520,
+              "set_id": 15,
+              "section": "General Science",
+              "question": "",
+              "stem_img": "cards/stems/set15_q20.png",
+              "options": {
+                "A": "Option 1",
+                "B": "Option 2",
+                "C": "Option 3",
+                "D": "Option 4"
+              },
+              "options_img": {
+                "A": "cards/options/set15_q20_opt1.png",
+                "B": "cards/options/set15_q20_opt2.png",
+                "C": "cards/options/set15_q20_opt3.png",
+                "D": "cards/options/set15_q20_opt4.png"
+              },
+              "correct": "A",
+              "has_diagram": true,
+              "diagram_img": null,
+              "card_img": "cards/set15_q20.png"
+            },
+            {
+              "id": 8,
+              "original_question_id": 8116,
+              "set_id": 26,
+              "section": "General Science",
+              "question": "",
+              "stem_img": "cards/stems/set26_q16.png",
+              "options": {
+                "A": "Option 1",
+                "B": "Option 2",
+                "C": "Option 3",
+                "D": "Option 4"
+              },
+              "options_img": {
+                "A": "cards/options/set26_q16_opt1.png",
+                "B": "cards/options/set26_q16_opt2.png",
+                "C": "cards/options/set26_q16_opt3.png",
+                "D": "cards/options/set26_q16_opt4.png"
+              },
+              "correct": "B",
+              "has_diagram": true,
+              "diagram_img": null,
+              "card_img": "cards/set26_q16.png"
+            },
+            {
+              "id": 9,
+              "original_question_id": 8204,
+              "set_id": 27,
+              "section": "General Science",
+              "question": "",
+              "stem_img": "cards/stems/set27_q4.png",
+              "options": {
+                "A": "Option 1",
+                "B": "Option 2",
+                "C": "Option 3",
+                "D": "Option 4"
+              },
+              "options_img": {
+                "A": "cards/options/set27_q4_opt1.png",
+                "B": "cards/options/set27_q4_opt2.png",
+                "C": "cards/options/set27_q4_opt3.png",
+                "D": "cards/options/set27_q4_opt4.png"
+              },
+              "correct": "B",
+              "has_diagram": true,
+              "diagram_img": null,
+              "card_img": "cards/set27_q4.png"
+            },
+            {
+              "id": 10,
+              "original_question_id": 7637,
+              "set_id": 21,
+              "section": "General Science",
+              "question": "",
+              "stem_img": "cards/stems/set21_q37.png",
+              "options": {
+                "A": "Option 1",
+                "B": "Option 2",
+                "C": "Option 3",
+                "D": "Option 4"
+              },
+              "options_img": {
+                "A": "cards/options/set21_q37_opt1.png",
+                "B": "cards/options/set21_q37_opt2.png",
+                "C": "cards/options/set21_q37_opt3.png",
+                "D": "cards/options/set21_q37_opt4.png"
+              },
+              "correct": "C",
+              "has_diagram": true,
+              "diagram_img": null,
+              "card_img": "cards/set21_q37.png"
+            }
+          ]
+        }
+      },
+      "duration_ms": 6,
+      "timestamp": "2026-10-01T04:26:52.137Z"
+    },
+    {
+      "function_id": "FN-032",
+      "name": "Analytics Subject Performance Radar",
+      "status": "PASS",
+      "evidence": {
+        "success": true,
+        "data": {
+          "overall": {
+            "total_tests_taken": 1,
+            "average_score": 1.67,
+            "highest_score": 1.67,
+            "average_accuracy": 66.7,
+            "total_study_time": 600
+          },
+          "section_performance": [
+            {
+              "section": "General Science",
+              "total_attempted": 3,
+              "total_correct": 2,
+              "accuracy": 66.7
+            }
+          ],
+          "score_trend": [
+            {
+              "id": 26,
+              "set_id": 3,
+              "score": 1.67,
+              "accuracy": 66.7,
+              "submitted_at": "2026-10-01 04:26:51",
+              "title": "RRB Tech III - 06 Mar 2026 Shift 3"
+            }
+          ],
+          "mistakes_stats": {
+            "total_mistakes": 1,
+            "pending_review": 0,
+            "mastered": 1
+          }
+        }
+      },
+      "duration_ms": 4,
+      "timestamp": "2026-10-01T04:26:52.141Z"
+    },
+    {
+      "function_id": "FN-033",
+      "name": "Analytics Chronological Score Trend",
+      "status": "PASS",
+      "evidence": {
+        "success": true,
+        "data": {
+          "overall": {
+            "total_tests_taken": 1,
+            "average_score": 1.67,
+            "highest_score": 1.67,
+            "average_accuracy": 66.7,
+            "total_study_time": 600
+          },
+          "section_performance": [
+            {
+              "section": "General Science",
+              "total_attempted": 3,
+              "total_correct": 2,
+              "accuracy": 66.7
+            }
+          ],
+          "score_trend": [
+            {
+              "id": 26,
+              "set_id": 3,
+              "score": 1.67,
+              "accuracy": 66.7,
+              "submitted_at": "2026-10-01 04:26:51",
+              "title": "RRB Tech III - 06 Mar 2026 Shift 3"
+            }
+          ],
+          "mistakes_stats": {
+            "total_mistakes": 1,
+            "pending_review": 0,
+            "mastered": 1
+          }
+        }
+      },
+      "duration_ms": 4,
+      "timestamp": "2026-10-01T04:26:52.141Z"
+    },
+    {
+      "function_id": "POL-001",
+      "name": "Quiz Retake Limit Policy (Max 3 Attempts Enforced)",
+      "status": "PASS",
+      "evidence": {
+        "success": false,
+        "code": "MAX_ATTEMPTS_REACHED",
+        "message": "MAX_ATTEMPTS_REACHED: This quiz has reached its 3-attempt limit for this learning cycle."
+      },
+      "duration_ms": 2,
+      "timestamp": "2026-10-01T04:26:52.152Z"
+    }
+  ]
+}

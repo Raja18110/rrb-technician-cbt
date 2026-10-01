@@ -510,9 +510,12 @@
             </div>
           </div>
         </div>
-        <div class="modal-footer" style="display: flex; justify-content: flex-end; gap: 10px;">
-          <button class="btn btn-clear" onclick="closeProfileModal()">Cancel</button>
-          <button class="btn btn-save-next" onclick="saveProfileFromModal()">Save Profile</button>
+        <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+          <button class="btn btn-clear" style="color: #dc2626; border: 1px solid #fca5a5; font-size: 0.85rem; background: #fff;" onclick="resetAllPracticeData(); closeProfileModal();">🗑️ Reset Practice Data</button>
+          <div style="display: flex; gap: 10px;">
+            <button class="btn btn-clear" onclick="closeProfileModal()">Cancel</button>
+            <button class="btn btn-save-next" onclick="saveProfileFromModal()">Save Profile</button>
+          </div>
         </div>
       </div>
     </div>

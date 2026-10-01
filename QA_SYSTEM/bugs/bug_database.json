@@ -1,0 +1,48 @@
+[
+  {
+    "bugId": "BUG-BK-001",
+    "module": "Bookmarks & Notes",
+    "problem": "Missing max-length validation and sanitization on bookmark tags and user notes allows unbounded text insertion",
+    "severity": "LOW",
+    "status": "OPEN",
+    "rootCause": "NotesController.toggleBookmark and saveNote accept raw req.body strings without checking String.length <= 500.",
+    "fixRecommendation": "Introduce body schema validation limiting user_note to 1,000 characters and tag to 50 characters, trimming leading/trailing whitespace.",
+    "proposedPatch": "// backend/controllers/notesController.js\nconst safeNote = (note || '').trim().slice(0, 1000);\nconst safeTag = (tag || 'Revision').trim().slice(0, 50);",
+    "affectedFiles": [
+      "backend/controllers/notesController.js"
+    ],
+    "regressionRisk": "LOW. Existing valid short notes and tags remain unaffected.",
+    "retestStatus": "PENDING_APPROVAL"
+  },
+  {
+    "bugId": "BUG-QZ-002",
+    "module": "Custom Quiz Generator",
+    "problem": "Unbounded frequency of random question generation queries could cause CPU spikes under automated rapid polling",
+    "severity": "MEDIUM",
+    "status": "OPEN",
+    "rootCause": "Endpoint POST /api/quiz/custom executes ORDER BY RANDOM() LIMIT ? without debounce or rate limiter middleware.",
+    "fixRecommendation": "Add an express-rate-limit middleware (e.g. max 30 quiz generations per minute per candidate) or cache candidate mistake lists in memory.",
+    "proposedPatch": "// backend/middleware/rateLimiter.js\nconst rateLimit = require('express-rate-limit');\nconst quizLimiter = rateLimit({ windowMs: 60 * 1000, max: 30, message: 'Too many quizzes generated, please try again in a minute.' });\nrouter.post('/quiz/custom', quizLimiter, ...);",
+    "affectedFiles": [
+      "backend/routes/api.js"
+    ],
+    "regressionRisk": "LOW. Protects database connection pool from excessive random sampling.",
+    "retestStatus": "PENDING_APPROVAL"
+  },
+  {
+    "bugId": "BUG-AUTH-003",
+    "module": "Authentication & Profile",
+    "problem": "Default candidate fallback varies between \"Candidate #2602\" in active_sessions table schema and \"Rohit Kumar\" in testController submit endpoint",
+    "severity": "LOW",
+    "status": "OPEN",
+    "rootCause": "Legacy default in schema.sql specifies DEFAULT \"Candidate #2602\", whereas recent candidate personalization introduced \"Rohit Kumar\".",
+    "fixRecommendation": "Unify candidate ID default to \"Rohit Kumar\" across schema.sql and all controller default parameters.",
+    "proposedPatch": "// backend/db/schema.sql\ncandidate_id TEXT DEFAULT 'Rohit Kumar'",
+    "affectedFiles": [
+      "backend/db/schema.sql",
+      "backend/controllers/testController.js"
+    ],
+    "regressionRisk": "LOW. Consistency improvement across all candidate queries.",
+    "retestStatus": "PENDING_APPROVAL"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "level": 1,
+    "title": "Level 1: Recall & Core Definitions",
+    "questions": [
+      {
+        "id": "QZ-L1-01",
+        "question": "What is the official RRB Technician Grade III negative marking deduction for an incorrect response?",
+        "options": [
+          "-0.25 Mark",
+          "-0.33 Mark (1/3rd)",
+          "-0.50 Mark",
+          "No negative marking"
+        ],
+        "correct": "B",
+        "explanation": "RRB CBT rules stipulate 1 mark per correct answer and a penalty deduction of 1/3rd (0.3333) mark for every incorrect answer."
+      },
+      {
+        "id": "QZ-L1-02",
+        "question": "Which SQLite PRAGMA must be explicitly enabled on every new database connection to enforce referential integrity?",
+        "options": [
+          "PRAGMA foreign_keys = ON;",
+          "PRAGMA synchronous = FULL;",
+          "PRAGMA integrity_check;",
+          "PRAGMA wal_checkpoint;"
+        ],
+        "correct": "A",
+        "explanation": "SQLite disables foreign keys by default for backwards compatibility; PRAGMA foreign_keys = ON; must be issued on connection initialization."
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "title": "Level 2: Understanding & System Architecture",
+    "questions": [
+      {
+        "id": "QZ-L2-01",
+        "question": "Why does the CBT platform use a dual persistence strategy (SQLite backend + browser localStorage)?",
+        "options": [
+          "To double the database query speed",
+          "To guarantee that exam progress and results are never lost even during sudden client network dropouts or backend restarts",
+          "Because SQLite cannot store JSON strings",
+          "To bypass CORS security requirements"
+        ],
+        "correct": "B",
+        "explanation": "Dual persistence guarantees fault-tolerance: if the network hiccups, localStorage retains responses and test history offline without losing candidate work."
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "title": "Level 3: Application & Scoring Algorithms",
+    "questions": [
+      {
+        "id": "QZ-L3-01",
+        "question": "A candidate attempts 70 questions out of 100: 55 are correct, 15 are wrong, and 30 are unattempted. What is their net score?",
+        "options": [
+          "50.00 Marks",
+          "50.05 Marks",
+          "49.95 Marks",
+          "45.00 Marks"
+        ],
+        "correct": "A",
+        "explanation": "Score = (55 * 1.0) - (15 * 0.33333) = 55 - 5.0 = 50.00 Marks."
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "title": "Level 4: Debugging & Root Cause Analysis",
+    "questions": [
+      {
+        "id": "QZ-L4-01",
+        "question": "When submitting a test, the server throws \"ReferenceError: evaluatedResponses is not defined\". What caused this and how is it prevented?",
+        "options": [
+          "The database connection dropped; restart SQLite.",
+          "The accumulator array was omitted from declaration inside the function scope; resolve by declaring `const evaluatedResponses = [];` before iteration.",
+          "The client sent invalid JSON headers; add cors middleware.",
+          "The question set has more than 100 questions."
+        ],
+        "correct": "B",
+        "explanation": "A variable was referenced in `evaluatedResponses.push(...)` without prior declaration `const evaluatedResponses = [];` in the function scope."
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "title": "Level 5: Advanced Reasoning & SQL Performance",
+    "questions": [
+      {
+        "id": "QZ-L5-01",
+        "question": "In SQLite, why can a correlated subquery in a SELECT column cause \"more than one row returned by a subquery used as an expression\"?",
+        "options": [
+          "Because SQLite does not support subqueries in SELECT clauses.",
+          "Because the subquery lacks `ORDER BY ... LIMIT 1` and matches multiple matching rows in the child table.",
+          "Because WAL mode is disabled.",
+          "Because the table has no primary key."
+        ],
+        "correct": "B",
+        "explanation": "Scalar expressions in SELECT statements require exactly 0 or 1 row. If multiple rows match and no LIMIT 1 is specified, SQLite aborts with a multi-row expression error."
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "title": "Level 6: Real-World Security & Exam Integrity",
+    "questions": [
+      {
+        "id": "QZ-L6-01",
+        "question": "How does the CBT system ensure that official answer checkmarks do not leak to candidates during live mock tests while still supporting post-exam review?",
+        "options": [
+          "By storing answers in plain HTML comments.",
+          "By cropping option images at x >= 86 during card generation to isolate options from answer markings, and serving stem and options separately from the correct_option key until submission.",
+          "By masking answers using CSS display:none on the client side.",
+          "By only showing text questions without images."
+        ],
+        "correct": "B",
+        "explanation": "Client-side CSS masking is vulnerable to devtools inspection. Physical bounding-box crop (x >= 86) permanently strips ticks/crosses from the image asset itself."
+      }
+    ]
+  }
+]

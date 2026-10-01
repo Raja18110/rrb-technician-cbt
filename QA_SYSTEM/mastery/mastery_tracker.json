@@ -1,0 +1,106 @@
+{
+  "Frontend Architecture": {
+    "attempts": 1,
+    "correct": 1,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "Asset Management": {
+    "attempts": 2,
+    "correct": 2,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "REST API": {
+    "attempts": 2,
+    "correct": 2,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "Session Lifecycle": {
+    "attempts": 4,
+    "correct": 4,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "CBT Scoring Engine": {
+    "attempts": 2,
+    "correct": 2,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "Mistakes Notebook": {
+    "attempts": 2,
+    "correct": 2,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "Quiz Engine": {
+    "attempts": 2,
+    "correct": 2,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "Learning Analytics": {
+    "attempts": 1,
+    "correct": 1,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "Full-Stack CRUD": {
+    "attempts": 1,
+    "correct": 1,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "Defensive Coding & Validation": {
+    "attempts": 1,
+    "correct": 1,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "Security Engineering": {
+    "attempts": 1,
+    "correct": 1,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "Database Integrity & SQL": {
+    "attempts": 1,
+    "correct": 1,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  },
+  "Performance & Optimization": {
+    "attempts": 1,
+    "correct": 1,
+    "mistakes": 0,
+    "accuracy": 100,
+    "state": "STRONG",
+    "trend": "↑"
+  }
+}

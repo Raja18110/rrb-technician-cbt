@@ -357,6 +357,19 @@ body {
   color: #1f2937;
 }
 
+.opt-text img {
+  filter: grayscale(100%) contrast(140%);
+  mix-blend-mode: multiply;
+  vertical-align: middle;
+  max-height: 52px;
+  max-width: 100%;
+}
+
+.cbt-option-img {
+  filter: grayscale(100%) contrast(140%);
+  mix-blend-mode: multiply;
+}
+
 /* Question Action Footer */
 .question-footer-bar {
   padding: 12px 24px;

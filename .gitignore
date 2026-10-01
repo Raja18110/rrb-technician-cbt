@@ -23,6 +23,7 @@ __pycache__/
 *.sqlite-wal
 *.sqlite-shm
 *.sqlite-journal
+QA_SYSTEM/sandbox/*.sqlite
 
 # Environment files
 .env

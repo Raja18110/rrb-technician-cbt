@@ -91,10 +91,11 @@ async function runTests() {
       3: { option: 'B', status: 'answered', timeSpent: 40 }  // wrong (-0.3333)
     };
 
+    const testCandidateId = 'Candidate #2602';
     const resSubmit = await request('POST', '/api/tests/1/submit', {
       responses: mockResponses,
       timeSpentSeconds: 95,
-      candidateId: 'Candidate #2602'
+      candidateId: testCandidateId
     });
 
     console.log(`[PASS] POST /api/tests/1/submit -> Status ${resSubmit.status}, Score: ${resSubmit.body.data.score}`);
@@ -104,11 +105,11 @@ async function runTests() {
     }
 
     // 8. Test GET /api/analytics/summary
-    const resAnalytics = await request('GET', '/api/analytics/summary');
+    const resAnalytics = await request('GET', `/api/analytics/summary?candidateId=${encodeURIComponent(testCandidateId)}`);
     console.log(`[PASS] GET /api/analytics/summary -> Total Tests Taken: ${resAnalytics.body.data.overall.total_tests_taken}`);
 
     // 9. Test GET /api/mistakes
-    const resMistakes = await request('GET', '/api/mistakes');
+    const resMistakes = await request('GET', `/api/mistakes?candidateId=${encodeURIComponent(testCandidateId)}`);
     console.log(`[PASS] GET /api/mistakes -> Mistake Count: ${resMistakes.body.count}`);
     if (resMistakes.body.count < 1) throw new Error('Expected mistake logged');
 
